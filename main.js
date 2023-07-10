@@ -7,7 +7,7 @@ class NavBar extends HTMLElement {
                     <div class="collapse navbar-collapse"></div>
                         <ul class="navbar-nav h5">
                             <li class="nav-item px-2">
-                                <a href="../home.html" class="nav-link"> Home </a>
+                                <a href="../index.html" class="nav-link"> Home </a>
                             </li>
 
                             <li class="nav-item px-2">
