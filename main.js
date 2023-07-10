@@ -247,7 +247,7 @@ class SwimLane extends HTMLElement {
 class Title extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <title> The Solar Permit Process </title>
+            <title> Solar Permit Process </title>
         `;
     }
 }
