@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title-></title->
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- JavaScript -->
+    <script src="../main.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav-bar></nav-bar>
+
+    <div class="container">
+        <div class="row">
+          <div class="col"></div>
+
+          <div class="content col-10">
+            <div class="txt mw-5-title"> CPCN for Facilities 5 MW to 100 MW </div>
+            <swim-lane></swim-lane>
+
+            <scc>
+              <div class="scc scc-1"> <i>Best Practice</i><br> Submit NOI as early as possible </div>
+              <div class="scc scc-2"> SCC NOI to Construct an Electric Generating Facility with Rated Capacity of &lt5 </div>
+              <div class="scc scc-3"> Letter to the Director of the Division of Energy Regulation </div>
+              <div class="scc scc-4"> Issuance of Permit </div>
+              
+              <div class="line line-27"></div>
+              <div class="line line-28"></div>
+              <div class="line line-29"></div>
+            </scc>
+
+            <deq>
+              <div class="deq deq-1"> <i>Best Practice</i><br>Informal Sister Review Process <br>before going to localities<br> for applications </div>
+              <div class="deq deq-2"> <b>Courtesy Sister Agency Process</b> </div>
+
+              <div class="deq deq-3"> DOT </div>
+              <div class="deq deq-4"> DHR </div>
+              <div class="deq deq-5"> DCR </div>
+              <div class="deq deq-6"> DWR </div>
+
+              <div class="deq deq-7"> <i>Deadline</i><br>DHR must be submitted no less than 30 days prior to the start date of the project </div>
+              <div class="deq deq-8"> General Construction Stormwater Permit &#40;VPDES, SWPPP, E&S&#41; </div>
+              <div class="line line-26"></div> 
+            </deq>
+
+            <localities>
+              <div class="local local-1"> <i> Best Practice </i><br>Developer notifies<br>the locality before beginning DEQ </div>
+              <div class="local local-2"> 1. Pre-Application Meetings<br>2. Community Meetings<br>3. Public Engagement </div>
+              <div class="local local-3"> Location Certification Process &#40;Zoning, 2232 Review, Sitting Agreement&#41; </div>
+              <div class="local local-4"> Construction Permit and Inspections &#40;Electrical, Land Disturbing, Traffic Planning&#41; </div>
+
+              <div class="line line-25"></div> 
+            </localities>
+            
+            <interconnections>
+              <div class="lane interconnections"> Interconnections </div>
+
+              <button type="button" id="mw-lt20-btn" class="mw-20 btn-1 btn btn-light btn-sm"> &lt20 MW </button>
+              <button type="button" id="mw-gt20-btn" class="mw-20 btn-2 btn btn-light btn-sm"> &gt20 MW </button>  
+
+              <div class="line line-23"></div>
+              <div class="line line-24"></div>
+
+              <div id="mw-lt20-1" class="inter inter-1"> Queue Window </div>
+              <div id="mw-lt20-2" class="inter inter-2"> Scope Meeting </div>
+              <div id="mw-lt20-3" class="inter inter-3"> Feasibility Study </div>
+              <div id="mw-lt20-4" class="inter inter-4"> System Impact<br> Study </div>
+              <div id="mw-lt20-5" class="inter inter-5"> Facilities Study </div>
+              <div id="mw-lt20-6" class="inter inter-6"> Construction Planning Meeting </div>
+              <div id="mw-lt20-7" class="inter inter-7"> Small Generator Interconnection Agreeement</div>
+
+              <div id="mw-lt20-8" class="line line-30"></div>
+              <div id="mw-lt20-9" class="line line-31"></div>
+              <div id="mw-lt20-10" class="line line-32"></div>
+              <div id="mw-lt20-11" class="line line-33"></div>
+
+              <div id="mw-gt20-1" class="inter inter-8"> Queue Window </div>
+              <div id="mw-gt20-2" class="inter inter-9"> Feasibility Study </div>
+              <div id="mw-gt20-3" class="inter inter-10"> System Impact<br> Study </div>
+              <div id="mw-gt20-4" class="inter inter-11"> Facilities Study </div>
+              <div id="mw-gt20-5" class="inter inter-12"> ISA/WMPA Issued<br> to Customer </div>
+              
+
+              <script type="text/javascript"> 
+                $("#mw-gt20-btn").click(function() {
+                  $("#mw-lt20-1").hide();
+                  $("#mw-lt20-2").hide();
+                  $("#mw-lt20-3").hide();
+                  $("#mw-lt20-4").hide();
+                  $("#mw-lt20-5").hide();
+                  $("#mw-lt20-6").hide();
+                  $("#mw-lt20-7").hide();
+                  $("#mw-lt20-8").hide();
+                  $("#mw-lt20-9").hide();
+                  $("#mw-lt20-10").hide();
+                  $("#mw-lt20-11").hide();
+
+                  $("#mw-gt20-1").show();
+                  $("#mw-gt20-2").show();
+                  $("#mw-gt20-3").show();
+                  $("#mw-gt20-4").show();
+                  $("#mw-gt20-5").show();
+                });
+
+                $("#mw-lt20-btn").click(function() {
+                  $("#mw-gt20-1").hide();
+                  $("#mw-gt20-2").hide();
+                  $("#mw-gt20-3").hide();
+                  $("#mw-gt20-4").hide();
+                  $("#mw-gt20-5").hide();
+
+                  $("#mw-lt20-1").show();
+                  $("#mw-lt20-2").show();
+                  $("#mw-lt20-3").show();
+                  $("#mw-lt20-4").show();
+                  $("#mw-lt20-5").show();
+                  $("#mw-lt20-6").show();
+                  $("#mw-lt20-7").show();
+                  $("#mw-lt20-8").show();
+                  $("#mw-lt20-9").show();
+                  $("#mw-lt20-10").show();
+                  $("#mw-lt20-11").show();
+
+                });
+              </script>
+            </interconnections>
+          </div>
+
+          <div class="col"></div>
+        </div>
+    </div>
+
+    <footer-></footer->
+
+</body>
+</html>
