@@ -3,7 +3,7 @@ class NavBar extends HTMLElement {
         this.innerHTML = `
             <nav class="navbar navbar-expand-sm navbar-light bg-light">
                 <div class="container">
-                    <span class="navbar-logo h2"> The Solar Permit Process </span>
+                    <span class="navbar-logo h2"> The Virginia Solar Permit Map </span>
                     <div class="collapse navbar-collapse"></div>
                         <ul class="navbar-nav h5">
                             <li class="nav-item px-2">
@@ -247,7 +247,7 @@ class SwimLane extends HTMLElement {
 class Title extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <title> Solar Permit Process </title>
+            <title> Solar Permit Map </title>
         `;
     }
 }
