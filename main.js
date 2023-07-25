@@ -42,7 +42,7 @@ class NavBar extends HTMLElement {
                                         <li><hr class="dropdown-divider"></li>
                             
                                         <li>
-                                            <a href="#" class="dropdown-item">
+                                            <a href="swim-lanes/deq-pbr.html" class="dropdown-item">
                                                 DEQ Permit by Rule of Full Solar Energy Project 
                                             </a>
                                         </li>
@@ -51,6 +51,79 @@ class NavBar extends HTMLElement {
                             
                                         <li>
                                             <a href="swim-lanes/cpcn-5-mw.html" class="dropdown-item">
+                                                CPCN for Facilities 5 MW to 100 MW
+                                            </a>
+                                        </li>
+
+                                        <li><hr class="dropdown-divider"></li>
+                            
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                CPCN for Facilities &gt100 MW 
+                                            </a>
+                                        </li>
+                                    </ul>
+                            </li>
+                        </ul>
+                </div>
+            </nav>
+            `;
+    }
+}
+
+class SwimLaneNavBar extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <div class="container">
+                    <span class="navbar-logo h2"> The Virginia Solar Permit Map </span>
+                    <div class="collapse navbar-collapse"></div>
+                        <ul class="navbar-nav h5">
+                            <li class="nav-item px-2">
+                                <a href="../index.html" class="nav-link"> Home </a>
+                            </li>
+
+                            <li class="nav-item px-2">
+                                <a href="../about.html" class="nav-link"> About </a>
+                            </li>
+
+                            <li class="nav-item dropdown px-2">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Process Maps </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                Exemption from Section 130 Permit
+                                            </a>
+                                        </li>
+
+                                        <li><hr class="dropdown-divider"></li>
+
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                DEQ Section 130 Permit
+                                            </a>
+                                        </li>
+
+                                        <li><hr class="dropdown-divider"></li>
+                            
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                NOI to Construct an EGF with Rated Capacity of &lt5 MW
+                                            </a>
+                                        </li>
+
+                                        <li><hr class="dropdown-divider"></li>
+                            
+                                        <li>
+                                            <a href="deq-pbr.html" class="dropdown-item">
+                                                DEQ Permit by Rule of Full Solar Energy Project 
+                                            </a>
+                                        </li>
+
+                                        <li><hr class="dropdown-divider"></li>
+                            
+                                        <li>
+                                            <a href="cpcn-5-mw.html" class="dropdown-item">
                                                 CPCN for Facilities 5 MW to 100 MW
                                             </a>
                                         </li>
@@ -171,8 +244,9 @@ class Footer extends HTMLElement {
         this.innerHTML = `
             <footer class="bg-light">
                 <img src="../images/VAEnergyLogo.png" class="va-energy-logo">
-                <br> Updated on June 30th, 2023 <br> 
-                Created by Jaden Wang, Elizabeth Marshall, Katie Treene, Lucy Williams, Dr. Ron Meyers
+                <br> Feedback or Questions? Contact <a href="https://energytransition.coopercenter.org/profile/elizabeth-marshall">Elizabeth Marshall</a> at the Virginia Solar Intiative
+                <br> Updated on June 30th, 2023
+                <br> Created by Jaden Wang, Elizabeth Marshall, Katie Treene, Lucy Williams, and Dr. Ron Meyers
             </footer>
         `;
     }
@@ -253,6 +327,7 @@ class Title extends HTMLElement {
 }
 
 customElements.define('nav-bar', NavBar);
+customElements.define('swim-bar', SwimLaneNavBar);
 customElements.define('abbrev-list', Abbrev);
 customElements.define('footer-', Footer);
 customElements.define('swim-lane', SwimLane);

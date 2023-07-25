@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title-></title->
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- JavaScript -->
+    <script src="../main.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <swim-bar></swim-bar>
+
+    <div class="container">
+        <div class="row">
+          <div class="col"></div>
+
+          <div class="content col-10">
+            <div class="txt deq-pbr-title"> DEQ Permit by Rule of Full Solar Energy Project </div>
+            <div class="txt operational"> Operational Start Date </div>
+
+            <div class="lane localities"> Localities </div>
+            <div class="lane deq-pbr-lane"> DEQ </div>
+            <div class="lane federal"> Federal Reviews </div>
+
+            <div class="line line-17"></div>
+            <div class="line line-18"></div>
+            <div class="line line-19"></div>
+            <div class="line line-20"></div>
+            <div class="line line-21"></div>
+            <div class="line line-22"></div>
+            <div class="arrow-head"> &#9658 </div>
+
+            <button type="button" class="btn btn-light abbrev cpcn-5-mw" data-bs-toggle="modal" data-bs-target="#abbrev-modal">
+              Abbreviations
+            </button>
+
+            <abbrev-list></abbrev-list>
+
+            <button type="button" class="btn btn-light btn-sm reviews army-corps" data-bs-toggle="modal" data-bs-target="#army-corps-modal">
+              United States Army Corps of Engineers &#8594 401 Certification, Section 404
+            </button>
+
+            <button type="button" class="btn btn-light btn-sm reviews fish-wildlife" data-bs-toggle="modal" data-bs-target="#">
+              United States Fish & Wildlife &#8594 New Incidental Take Permit & Supplementary Information for Renewal/Amendment of an Existing Valid Permit
+            </button>
+
+            <button type="button" class="btn btn-light btn-sm reviews species-act" data-bs-toggle="modal" data-bs-target="#">
+              Habitat Conservation Plans under the Endangered Species Act
+            </button>
+
+            <div class="modal fade" id="army-corps-modal" tabindex="-1" role="dialog">
+              <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                  <h5 class="modal-title" id="abbrev-title">  401 Certification, Section 404 </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <div class="modal-body">
+                    <b> Agency</b>: Army Corp of Engineers <br>
+                    <b> Agency Type</b>: Federal/State <br>
+                    <br> Section 401 of the CWA provides states and authorized tribes with an important tool to help protect the water quality
+                    of federally regulated waters within their borders, in collaboration with federal agencies. Section 401 of the CWA requires 
+                    that, for any federally licensed or permitted project that may result in a discharge into waters of the United States, a 
+                    water quality certification be issued to ensure that the discharge complies with applicable water quality requirements. <br>
+                    <br> <b> Prerequisite Permits</b>: None <br>
+                    <b> Permit Requirements</b>: Joint Permit Application Process <br>
+                    <b> Contact Name</b>: Susan Tripp, Guidance & Regulation Coordinator <br>
+                    <b> Contact Email</b>: susan.tripp@deq.virginia.gov<br>
+                    <b> Notices/Public Hearings</b>: DEQ Process <br>
+                    <b> Permit Link</b>: https://www.deq.virginia.gov/water/wetlands-streams <br>
+                    <br>
+                  </div>
+              </div>
+              </div>
+            </div>
+
+            <scc>
+              <div class="scc scc-pbr-1"> <i>Best Practice</i><br> Submit NOI as early as possible </div>
+              <div class="scc scc-pbr-2"> DEQ NOI for Full Solar Energy Project with <br>5 MW to 150 MW </div>
+              <div class="scc scc-pbr-4"> Issuance of Permit </div>
+              
+              <div class="line line-38"></div>
+              <div class="line line-37"></div>
+              <div class="line line-36"></div>
+              <div class="line line-35"></div>
+              <div class="line line-34"></div>
+            </scc>
+
+            <deq>
+              <div class="deq deq-pbr-1"> <i>Best Practice</i><br>Informal Sister Review Process <br>before going to localities<br> for applications </div>
+              <div class="deq deq-pbr-2"> <b>Courtesy Sister Agency Process</b> </div>
+              <div class="deq deq-pbr-7"> <i>Deadline</i><br>DHR must be submitted no less than 30 days prior to the start date of the project </div>
+
+              <div class="deq deq-pbr-3"> DOT </div>
+              <div class="deq deq-pbr-4"> DHR </div>
+              <div class="deq deq-pbr-5"> DCR </div>
+              <div class="deq deq-pbr-6"> DWR </div>
+
+              <div class="deq deq-pbr-8"> General Construction Stormwater Permit &#40;VPDES, SWPPP, E&S&#41; </div>
+              <div class="line line-26"></div> 
+            </deq>
+
+            <localities>
+              <div class="local local-1"> <i> Best Practice </i><br>Developer notifies<br>the locality before beginning DEQ </div>
+              <div class="local local-2"> 1. Pre-Application Meetings<br>2. Community Meetings<br>3. Public Engagement </div>
+              <div class="local local-3"> Location Certification Process &#40;Zoning, 2232 Review, Sitting Agreement&#41; </div>
+              <div class="local local-4"> Construction Permit and Inspections &#40;Electrical, Land Disturbing, Traffic Planning&#41; </div>
+
+              <div class="line line-25"></div> 
+            </localities>
+            
+            <interconnections>
+              <div class="lane interconnections"> Interconnections </div>
+
+              <button type="button" id="mw-lt20-btn" class="mw-20 btn-1 btn btn-light btn-sm"> &lt20 MW </button>
+              <button type="button" id="mw-gt20-btn" class="mw-20 btn-2 btn btn-light btn-sm"> &gt20 MW </button>  
+
+              <div class="line line-23"></div>
+              <div class="line line-24"></div>
+              <div class="line line-39"></div>
+              <div class="line line-40"></div>
+              <div class="line line-41"></div>
+              <div class="line line-42"></div>
+
+              <div id="mw-lt20-1" class="inter inter-1"> Queue Window </div>
+              <div id="mw-lt20-2" class="inter inter-2"> Scope Meeting </div>
+              <div id="mw-lt20-3" class="inter inter-3"> Feasibility Study </div>
+              <div id="mw-lt20-4" class="inter inter-4"> System Impact<br> Study </div>
+              <div id="mw-lt20-5" class="inter inter-5"> Facilities Study </div>
+              <div id="mw-lt20-6" class="inter inter-6"> Construction Planning Meeting </div>
+              <div id="mw-lt20-7" class="inter inter-7"> Small Generator Interconnection Agreeement</div>
+
+              <div id="mw-gt20-1" class="inter inter-8"> Queue Window </div>
+              <div id="mw-gt20-2" class="inter inter-9"> Feasibility Study </div>
+              <div id="mw-gt20-3" class="inter inter-10"> System Impact<br> Study </div>
+              <div id="mw-gt20-4" class="inter inter-11"> Facilities Study </div>
+              <div id="mw-gt20-5" class="inter inter-12"> ISA/WMPA Issued<br> to Customer </div>
+              
+
+              <script type="text/javascript"> 
+                $("#mw-gt20-btn").click(function() {
+                  $("#mw-lt20-1").hide();
+                  $("#mw-lt20-2").hide();
+                  $("#mw-lt20-3").hide();
+                  $("#mw-lt20-4").hide();
+                  $("#mw-lt20-5").hide();
+                  $("#mw-lt20-6").hide();
+                  $("#mw-lt20-7").hide();
+ 
+                  $("#mw-gt20-1").show();
+                  $("#mw-gt20-2").show();
+                  $("#mw-gt20-3").show();
+                  $("#mw-gt20-4").show();
+                  $("#mw-gt20-5").show();
+                });
+
+                $("#mw-lt20-btn").click(function() {
+                  $("#mw-gt20-1").hide();
+                  $("#mw-gt20-2").hide();
+                  $("#mw-gt20-3").hide();
+                  $("#mw-gt20-4").hide();
+                  $("#mw-gt20-5").hide();
+
+                  $("#mw-lt20-1").show();
+                  $("#mw-lt20-2").show();
+                  $("#mw-lt20-3").show();
+                  $("#mw-lt20-4").show();
+                  $("#mw-lt20-5").show();
+                  $("#mw-lt20-6").show();
+                  $("#mw-lt20-7").show();
+                });
+              </script>
+            </interconnections>
+          </div>
+
+          <div class="col"></div>
+        </div>
+    </div>
+
+    <footer-></footer->
+
+</body>
+</html>
