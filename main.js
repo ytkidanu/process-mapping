@@ -34,7 +34,7 @@ class NavBar extends HTMLElement {
                                         <li><hr class="dropdown-divider"></li>
                             
                                         <li>
-                                            <a href="#" class="dropdown-item">
+                                            <a href="swim-lanes/noi-500-kw.html" class="dropdown-item">
                                                 NOI to Construct an EGF with Rated Capacity of &lt5 MW
                                             </a>
                                         </li>
@@ -58,7 +58,7 @@ class NavBar extends HTMLElement {
                                         <li><hr class="dropdown-divider"></li>
                             
                                         <li>
-                                            <a href="#" class="dropdown-item">
+                                            <a href="swim-lanes/cpcn-100-mw.html" class="dropdown-item">
                                                 CPCN for Facilities &gt100 MW 
                                             </a>
                                         </li>
@@ -107,7 +107,7 @@ class SwimLaneNavBar extends HTMLElement {
                                         <li><hr class="dropdown-divider"></li>
                             
                                         <li>
-                                            <a href="#" class="dropdown-item">
+                                            <a href="noi-500-kw.html" class="dropdown-item">
                                                 NOI to Construct an EGF with Rated Capacity of &lt5 MW
                                             </a>
                                         </li>
@@ -131,7 +131,7 @@ class SwimLaneNavBar extends HTMLElement {
                                         <li><hr class="dropdown-divider"></li>
                             
                                         <li>
-                                            <a href="#" class="dropdown-item">
+                                            <a href="cpcn-100-mw.html" class="dropdown-item">
                                                 CPCN for Facilities &gt100 MW 
                                             </a>
                                         </li>
