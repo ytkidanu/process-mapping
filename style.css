@@ -144,6 +144,20 @@
     font-size: 20px;
     font-weight: 500;
 }
+/* exempt-130-permit.html */
+.txt.exempt-permit-title {
+    left: 410px;
+    top: 55px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.txt.operational-exempt {
+    left: 915px;
+    top: 254px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
 
 .line {
     border: 1px solid var(--black-color);
@@ -589,6 +603,52 @@
     z-index: 1;
     transform: rotate(90deg);
 }
+/* exempt-130-permit.html */
+.line.line-59 {
+    width: 104px;
+    left: 125px;
+    top: 176px;
+
+    z-index: 2;
+    border: 0.5px solid var(--black-color);
+
+    transform: rotate(90deg);
+}
+.line.line-60 {
+    width: 25px;
+    left: 180px;
+    top: 175px;
+
+    z-index: 2;
+    transform: rotate(90deg);
+}
+.line.line-61 {
+    width: 25px;
+    left: 500px;
+    top: 175px;
+
+    z-index: 2;
+    transform: rotate(90deg);
+}
+.line.line-62 {
+    width: 320px;
+    left: 192px;
+    top: 175px;
+
+    z-index: 2;
+}
+.line.line-63 {
+    width: 20px;
+    left: 168px;
+    top: 262px;
+
+    transform: rotate(90deg);
+}
+.line.line-64 {
+    width: 720px;
+    left: 177.5px;
+    top: 262px;
+}
 
 .project {
     box-sizing: border-box;
@@ -812,6 +872,17 @@
     font-weight: 500;
     padding: 18px 16px;
 }
+/* exempt-130-permit.html */
+.lane.interconnections-exempt {
+    background: #FFECC8;
+    left: 0px;
+    top: 124px;
+    height: 105px;
+
+    font-size: 14px;
+    font-weight: 500;
+    padding: 35px 16px;
+}
 
 
 .abbrev {
@@ -860,6 +931,13 @@ footer {
     position: absolute;
     left: 873px;
     top: 602.5px;
+
+    font-size: 35px;
+}
+.arrow-head-exempt {
+    position: absolute;
+    left: 874px;
+    top: 234.5px;
 
     font-size: 35px;
 }
@@ -1022,6 +1100,15 @@ footer {
 .inter.inter-13 {
     left: 270px;
     top: 225px;
+
+    width: 145px;
+    height: 58px;
+
+    padding: 18px 8px;
+}
+.inter.inter-14 {
+    left: 270px;
+    top: 148px;
 
     width: 145px;
     height: 58px;

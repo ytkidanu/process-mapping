@@ -18,7 +18,7 @@ class NavBar extends HTMLElement {
                                 <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Process Maps </a>
                                     <ul class="dropdown-menu dropdown-menu-end">
                                         <li>
-                                            <a href="#" class="dropdown-item">
+                                            <a href="swim-lanes/exempt-130-permit.html" class="dropdown-item">
                                                 Exemption from Section 130 Permit
                                             </a>
                                         </li>
@@ -91,7 +91,7 @@ class SwimLaneNavBar extends HTMLElement {
                                 <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Process Maps </a>
                                     <ul class="dropdown-menu dropdown-menu-end">
                                         <li>
-                                            <a href="#" class="dropdown-item">
+                                            <a href="exempt-130-permit.html" class="dropdown-item">
                                                 Exemption from Section 130 Permit
                                             </a>
                                         </li>
