@@ -137,6 +137,13 @@
     font-size: 20px;
     font-weight: 500;
 }
+/* deq-130-permit.html */
+.txt.deq-permit-title {
+    left: 460px;
+    top: 55px;
+    font-size: 20px;
+    font-weight: 500;
+}
 
 .line {
     border: 1px solid var(--black-color);
@@ -348,13 +355,11 @@
 
     z-index: 1;
     transform: rotate(90deg);
-    display: none;
 }
 .line.line-31 {
     width: 212px;
     left: 700px;
     top: 352px;
-    display: none;
 
     z-index: 1;
 }
@@ -365,7 +370,6 @@
 
     z-index: 1;
     transform: rotate(90deg);
-    display: none;
 }
 .line.line-33 {
     width: 200px;
@@ -373,7 +377,6 @@
     top: 453px;
 
     z-index: 1;
-    display: none;
 }
 .line.line-43 {
     width: 100px;
@@ -480,6 +483,40 @@
     z-index: 1;
     transform: rotate(90deg);
 }
+.line.line-54 {
+    width: 106px;
+    left: 860px;
+    top: 300px;
+
+    z-index: 1;
+    transform: rotate(90deg);
+    display: none;
+}
+.line.line-55 {
+    width: 212px;
+    left: 700px;
+    top: 352px;
+
+    display: none;
+    z-index: 1;
+}
+.line.line-56 {
+    width: 200px;
+    left: 650px;
+    top: 452px;
+
+    display: none;
+    z-index: 1;
+    transform: rotate(90deg);
+}
+.line.line-57 {
+    width: 200px;
+    left: 550px;
+    top: 453px;
+
+    display: none;
+    z-index: 1;
+}
 /* cpcn-100-mw.html */
 .line.line-43 {
     width: 500px;
@@ -541,6 +578,16 @@
 
     z-index: 2;
     display: none;
+}
+/* deq-130-permit.html */
+.line.line-58 {
+    width: 100px;
+    left: 750px;
+    top: 402px;
+
+    display: none;
+    z-index: 1;
+    transform: rotate(90deg);
 }
 
 .project {
@@ -1027,6 +1074,28 @@ footer {
     border: 1px solid #000000;
     padding: 13px 15px;
 }
+/* deq-130-permit.html */
+.local.local-permit-2 {
+    left: 350px;
+    top: 315px;
+    width: 150px;
+    height: 76px;
+
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #000000;
+    padding: 16px 16px;
+}
+.local.local-permit-3 {
+    left: 550px;
+    top: 315px;
+    width: 165px;
+    height: 76px;
+
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 20px 12px;
+}
 
 .deq {
     box-sizing: border-box;
@@ -1310,6 +1379,32 @@ footer {
 
     border: 1px solid #000000;
     padding: 8px 12px;
+}
+/* deq-130-permit.html */
+.scc-permit-1 {
+    width: 125px;
+    height: 76px;
+    left: 205px;
+    top: 415px;
+
+    border: 1px solid #000000;
+    padding: 18px 12px;
+    font-size: 12px;
+    background: #B6F2A1;
+}
+.scc-permit-2 {
+    width: 150px;
+    height: 76px;
+    left: 720px;
+    top: 415px;
+
+    font-size: 12px;
+    border: 1px solid #000000;
+    padding: 18px 23px;
+    border-radius: 400px;
+    background: #B6F2A1;
+    text-align: center;
+
 }
 
 .return-btn {

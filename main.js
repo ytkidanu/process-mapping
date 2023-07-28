@@ -26,7 +26,7 @@ class NavBar extends HTMLElement {
                                         <li><hr class="dropdown-divider"></li>
 
                                         <li>
-                                            <a href="#" class="dropdown-item">
+                                            <a href="swim-lanes/deq-130-permit.html" class="dropdown-item">
                                                 DEQ Section 130 Permit
                                             </a>
                                         </li>
@@ -99,7 +99,7 @@ class SwimLaneNavBar extends HTMLElement {
                                         <li><hr class="dropdown-divider"></li>
 
                                         <li>
-                                            <a href="#" class="dropdown-item">
+                                            <a href="deq-130-permit.html" class="dropdown-item">
                                                 DEQ Section 130 Permit
                                             </a>
                                         </li>
