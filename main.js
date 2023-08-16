@@ -14,6 +14,12 @@ class NavBar extends HTMLElement {
                                 <a href="../about.html" class="nav-link"> About </a>
                             </li>
 
+                            <li class="nav-item px-2">
+                                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#abbrev-modal">
+                                    Abbreviations
+                                </a>
+                            </li>
+
                             <li class="nav-item dropdown px-2">
                                 <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Process Maps </a>
                                     <ul class="dropdown-menu dropdown-menu-end">
@@ -85,6 +91,12 @@ class SwimLaneNavBar extends HTMLElement {
 
                             <li class="nav-item px-2">
                                 <a href="../about.html" class="nav-link"> About </a>
+                            </li>
+
+                            <li class="nav-item px-2">
+                                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#abbrev-modal">
+                                    Abbreviations
+                                </a>
                             </li>
 
                             <li class="nav-item dropdown px-2">
@@ -269,10 +281,6 @@ class SwimLane extends HTMLElement {
             <div class="line line-21"></div>
             <div class="line line-22"></div>
             <div class="arrow-head"> &#9658 </div>
-
-            <button type="button" class="btn btn-light abbrev cpcn-5-mw" data-bs-toggle="modal" data-bs-target="#abbrev-modal">
-              Abbreviations
-            </button>
 
             <abbrev-list></abbrev-list>
 

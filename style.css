@@ -884,24 +884,6 @@
     padding: 35px 16px;
 }
 
-
-.abbrev {
-    position: absolute;
-    left: 0px;
-    top: 85px;
-    font-weight: 500;
-
-    padding: 8px 15px;
-}
-.abbrev.base {
-    left: -19px;
-    top: 30px;
-}
-.abbrev.cpcn-5-mw {
-    left: 0px;
-    top: 30px;
-}
-
 footer {
     text-align: center;
     padding: 20px;
