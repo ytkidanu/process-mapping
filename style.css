@@ -45,6 +45,11 @@
     left: 651px;
     top: 457px;
 }
+/* landing.html */
+.decision.best-describe-landing {
+    left: 0px;
+    top: 410px;
+}
 
 .txt {
     z-index: 1;
@@ -157,7 +162,36 @@
     font-size: 15px;
     font-weight: 500;
 }
+/* landing.html */
+.txt.best-describe-landing {
+    width: 83px;
+    height: 46px;
+    left: 1px;
+    top: 430px;
+    font-size: 12px;
+}
+.txt.landing-noi-500-kw {
+    width: 225px;
+    height: 100px;
+    left: 885px;
+    top: 64px;
 
+    text-decoration: none;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+}
+.txt.landing-exemption {
+    width: 225px;
+    height: 100px;
+    left: 885px;
+    top: 172px;
+
+    text-decoration: none;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+}
 
 .line {
     border: 1px solid var(--black-color);
@@ -741,6 +775,46 @@
     font-size: 14px;
 }
 
+.landing-permit {
+    position: absolute;
+    width: 270px;
+    height: 80px;
+    z-index: -1;
+}
+/* landing.html */
+.landing-permit.permit-1 {
+    left: 875px;
+    top: 50px;
+}
+.landing-permit.permit-2 {
+    left: 875px;
+    top: 150px;
+}
+.landing-permit.permit-3 {
+    left: 875px;
+    top: 250px;
+}
+.landing-permit.permit-4 {
+    left: 875px;
+    top: 350px;
+}
+.landing-permit.permit-5 {
+    left: 875px;
+    top: 450px;
+}
+.landing-permit.permit-6 {
+    left: 875px;
+    top: 550px;
+}
+.landing-permit.permit-7 {
+    left: 875px;
+    top: 650px;
+}
+.landing-permit.permit-8 {
+    left: 875px;
+    top: 750px;
+}
+
 .box {
     box-sizing: border-box;
 
@@ -892,6 +966,18 @@ footer {
     position: absolute;
     left: 0px;
     top: 760px;
+
+    width:100%
+}
+
+landing-footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    
+    position: absolute;
+    left: 0px;
+    top: 950px;
 
     width:100%
 }
