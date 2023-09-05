@@ -48,7 +48,7 @@
 /* landing.html */
 .decision.best-describe-landing {
     left: 0px;
-    top: 410px;
+    top: 510px;
 }
 
 .txt {
@@ -167,7 +167,7 @@
     width: 83px;
     height: 46px;
     left: 1px;
-    top: 430px;
+    top: 530px;
     font-size: 12px;
 }
 .txt.landing-noi-500-kw {
@@ -186,6 +186,94 @@
     height: 100px;
     left: 885px;
     top: 172px;
+
+    text-decoration: none;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+}
+.txt.landing-130-permit {
+    width: 225px;
+    height: 100px;
+    left: 890px;
+    top: 280px;
+
+    text-decoration: none;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+}
+.txt.landing-5-100-mw-1 {
+    width: 225px;
+    height: 100px;
+    left: 885px;
+    top: 372px;
+
+    text-decoration: none;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+}
+.txt.landing-pbr-1 {
+    width: 225px;
+    height: 100px;
+    left: 890px;
+    top: 472px;
+
+    text-decoration: none;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+}
+.txt.landing-5-100-mw-2 {
+    width: 225px;
+    height: 100px;
+    left: 885px;
+    top: 572px;
+
+    text-decoration: none;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+}
+.txt.landing-pbr-2 {
+    width: 225px;
+    height: 100px;
+    left: 890px;
+    top: 672px;
+
+    text-decoration: none;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+}
+.txt.landing-pbr-3 {
+    width: 225px;
+    height: 100px;
+    left: 890px;
+    top: 872px;
+
+    text-decoration: none;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+}
+.txt.landing-100-mw-1 {
+    width: 225px;
+    height: 100px;
+    left: 885px;
+    top: 982px;
+
+    text-decoration: none;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+}
+.txt.landing-100-mw-2 {
+    width: 225px;
+    height: 100px;
+    left: 885px;
+    top: 782px;
 
     text-decoration: none;
     line-height: 16px;
@@ -814,6 +902,14 @@
     left: 875px;
     top: 750px;
 }
+.landing-permit.permit-9 {
+    left: 875px;
+    top: 850px;
+}
+.landing-permit.permit-10 {
+    left: 875px;
+    top: 950px;
+}
 
 .box {
     box-sizing: border-box;
@@ -977,7 +1073,7 @@ landing-footer {
     
     position: absolute;
     left: 0px;
-    top: 950px;
+    top: 1150px;
 
     width:100%
 }
