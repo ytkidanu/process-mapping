@@ -275,9 +275,6 @@ class SwimLane extends HTMLElement {
             <div class="lane federal"> Federal Reviews </div>
 
             <div class="line line-17"></div>
-            <div class="line line-18"></div>
-            <div class="line line-19"></div>
-            <div class="line line-20"></div>
             <div class="line line-21"></div>
             <div class="line line-22"></div>
             <div class="arrow-head"> &#9658 </div>
