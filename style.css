@@ -47,11 +47,11 @@
 }
 /* landing.html */
 .decision.landing-best-describe {
-    left: -10px;
+    left: -65px;
     top: 510px;
 }
 .decision.landing-title-56-1 {
-    left: 380px;
+    left: 340px;
     top: 510px;
 }
 .decision.landing-criteria-1 {
@@ -63,21 +63,26 @@
 .decision.landing-criteria-2 {
     width: 98px;
     height: 98px;
-    left: 540px;
-    top: 860px;
+    left: 543px;
+    top: 870px;
 }
 .decision.landing-title-56-2 {
     left: 550px;
-    top: 748px;
+    top: 725px;
 }
 .decision.landing-150-mw {
     left: 405px;
-    top: 748px;
+    top: 725px;
+}
+.decision.landing-exempt {
+    left: 745px;
+    top: 243px;
 }
 
+
 .circle {
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     background-color: #bbb;
     border-radius: 50%;
     opacity: 0.5;
@@ -92,20 +97,28 @@
     top: 424px;
 }
 .circle.circle-2 {
-    left: 105px;
-    top: 536px;
+    left: 62px;
+    top: 538px;
 }
 .circle.circle-3 {
-    left: 353px;
+    left: 309px;
     top: 875px;
+}
+.circle.circle-4 {
+    left: 712px;
+    top: 750px;
+}
+.circle.circle-5 {
+    left: 470px;
+    top: 271px;
 }
 
 .process {
     box-sizing: border-box;
 
     position: absolute;
-    width: 155px;
-    height: 90px;
+    width: 140px;
+    height: 80px;
     z-index: 0;
     line-height: 16px;
     text-align: center;
@@ -116,23 +129,28 @@
 
     padding-right: 12px;
     padding-left: 12px;
-    padding-top: 18px;
+    padding-top: 14px;
 }
 /* landing.html */
 .process.alternative-1 {
     left: 650px;
     top: 620px;
-    font-size: 13px;
+    font-size: 11px;
 }
 .process.alternative-2 {
     left: 650px;
     top: 435px;
-    font-size: 13px;
+    font-size: 11px;
 }
 .process.alternative-3 {
     left: 690px;
-    top: 860px;
-    font-size: 13px;
+    top: 875px;
+    font-size: 11px;
+}
+.process.alternative-4 {
+    left: 315px;
+    top: 250px;
+    font-size: 11px;
 }
 
 .txt {
@@ -250,14 +268,14 @@
 .txt.landing-best-describe{
     width: 83px;
     height: 46px;
-    left: -10px;
+    left: -65px;
     top: 530px;
     font-size: 12px;
 }
 .txt.landing-noi-500-kw {
     width: 225px;
     height: 100px;
-    left: 885px;
+    left: 920px;
     top: 64px;
 
     text-decoration: none;
@@ -268,7 +286,7 @@
 .txt.landing-exemption {
     width: 225px;
     height: 100px;
-    left: 885px;
+    left: 920px;
     top: 172px;
 
     text-decoration: none;
@@ -279,7 +297,7 @@
 .txt.landing-130-permit {
     width: 225px;
     height: 100px;
-    left: 890px;
+    left: 920px;
     top: 280px;
 
     text-decoration: none;
@@ -290,7 +308,7 @@
 .txt.landing-5-100-mw-1 {
     width: 225px;
     height: 100px;
-    left: 885px;
+    left: 920px;
     top: 372px;
 
     text-decoration: none;
@@ -301,7 +319,7 @@
 .txt.landing-pbr-1 {
     width: 225px;
     height: 100px;
-    left: 890px;
+    left: 920px;
     top: 472px;
 
     text-decoration: none;
@@ -312,7 +330,7 @@
 .txt.landing-5-100-mw-2 {
     width: 225px;
     height: 100px;
-    left: 885px;
+    left: 920px;
     top: 572px;
 
     text-decoration: none;
@@ -323,7 +341,7 @@
 .txt.landing-pbr-2 {
     width: 225px;
     height: 100px;
-    left: 890px;
+    left: 920px;
     top: 672px;
 
     text-decoration: none;
@@ -334,7 +352,7 @@
 .txt.landing-pbr-3 {
     width: 225px;
     height: 100px;
-    left: 890px;
+    left: 920px;
     top: 872px;
 
     text-decoration: none;
@@ -345,7 +363,7 @@
 .txt.landing-100-mw-1 {
     width: 225px;
     height: 100px;
-    left: 885px;
+    left: 920px;
     top: 982px;
 
     text-decoration: none;
@@ -356,7 +374,7 @@
 .txt.landing-100-mw-2 {
     width: 225px;
     height: 100px;
-    left: 885px;
+    left: 920px;
     top: 782px;
 
     text-decoration: none;
@@ -367,13 +385,13 @@
 .txt.landing-title-56 {
     width: 225px;
     height: 95px;
-    left: 310px;
+    left: 270px;
     top: 528px;
 
     text-decoration: none;
     line-height: 16px;
     text-align: center;
-    font-size: 11px;
+    font-size: 10px;
 }
 .txt.landing-criteria-1 {
     width: 225px;
@@ -385,6 +403,39 @@
     line-height: 16px;
     text-align: center;
     font-size: 10px;
+}
+.txt.landing-criteria-2 {
+    width: 225px;
+    height: 95px;
+    left: 480px;
+    top: 890px;
+
+    text-decoration: none;
+    line-height: 16px;
+    text-align: center;
+    font-size: 10px;
+}
+.txt.landing-title-56-2 {
+    width: 225px;
+    height: 95px;
+    left: 480px;
+    top: 743px;
+
+    text-decoration: none;
+    line-height: 16px;
+    text-align: center;
+    font-size: 10px;
+}
+.txt.landing-150-mw {
+    width: 225px;
+    height: 96px;
+    left: 334px;
+    top: 752px;
+
+    text-decoration: none;
+    line-height: 16px;
+    text-align: center;
+    font-size: 11px;
 }
 
 .line {
@@ -849,8 +900,8 @@
 }
 /* landing.html */
 .line.landline-1 {
-    width: 300px;
-    left: 85px;
+    width: 275px;
+    left: 35px;
     top: 552px;
 }
 .line.landline-2 {
@@ -899,40 +950,92 @@
 }
 .line.landline-9 {
     width: 725px;
-    left: -240px;
+    left: -285px;
     top: 530px;
 
     transform: rotate(90deg);
 }
 .line.landline-10 {
-    width: 250px;
-    left: 122px;
+    width: 225px;
+    left: 77px;
     top: 892px;
     z-index: 0;
 }
 .line.landline-11 {
-    width: 250px;
-    left: 122px;
+    width: 215.5px;
+    left: 77px;
     top: 168px;
     z-index: 0;
 }
 .line.landline-12 {
-    width: 210px;
-    left: 266px;
-    top: 894.5px;
+    width: 249px;
+    left: 202px;
+    top: 891px;
 
     transform: rotate(90deg);
 }
 .line.landline-13 {
     width: 507px;
     left: 372px;
-    top: 999px;
+    top: 1015px;
     z-index: 0;
 }
 .line.landline-14 {
     width: 508px;
     left: 371.5px;
-    top: 790.2px;
+    top: 767px;
+    z-index: 0;
+}
+.line.landline-15 {
+    width: 100px;
+    left: 542px;
+    top: 840px;
+
+    transform: rotate(90deg);
+}
+.line.landline-16 {
+    width: 229px;
+    left: 650px;
+    top: 918px;
+    z-index: 0;
+}
+.line.landline-17 {
+    width: 200px;
+    left: 348px;
+    top: 895px;
+
+    transform: rotate(90deg);
+}
+.line.landline-18 {
+    width: 430.5px;
+    left: 448px;
+    top: 994.5px;
+    z-index: 0;
+}
+.line.landline-19 {
+    width: 100px;
+    left: 680px;
+    top: 717px;
+
+    transform: rotate(90deg);
+}
+.line.landline-20 {
+    width: 230px;
+    left: 177px;
+    top: 170px;
+
+    transform: rotate(90deg);
+}
+.line.landline-21 {
+    width: 622.5px;
+    left: 291.3px;
+    top: 55px;
+    z-index: 0;
+}
+.line.landline-22 {
+    width: 622px;
+    left: 291px;
+    top: 285px;
     z-index: 0;
 }
 
@@ -976,22 +1079,80 @@
 }
 /* landing.html */
 .project.landing-5-100-mw {
-    left: 160px;
+    width: 140px;
+    left: 118px;
     top: 525px;
     padding: 10px;
-    font-size: 13px;
+    font-size: 11px;
 }
 .project.landing-5-mw {
-    left: 160px;
+    width: 140px;
+    left: 118px;
     top: 140px;
     padding: 10px;
-    font-size: 13px;
+    font-size: 11px;
 }
 .project.landing-100-mw {
-    left: 160px;
+    width: 140px;
+    left: 118px;
     top: 865px;
     padding: 10px;
-    font-size: 13px;
+    font-size: 11px;
+}
+.project.landing-1 {
+    width: 190px;
+    height: 50px;
+
+    left: 515px;
+    top: 80px;
+    padding: 10px;
+    font-size: 11px;
+    padding-top: 8px;
+    background-color: #FFFBD7;
+}
+.project.landing-2 {
+    width: 190px;
+    height: 50px;
+
+    left: 515px;
+    top: 140px;
+    padding: 10px;
+    font-size: 11px;
+    padding-top: 8px;
+    background-color: #FFFBD7;
+}
+.project.landing-3 {
+    width: 190px;
+    height: 50px;
+
+    left: 515px;
+    top: 200px;
+    padding: 3px;
+    font-size: 11px;
+    padding-top: 8px;
+    background-color: #FFFBD7;
+}
+.project.landing-4 {
+    width: 190px;
+    height: 50px;
+
+    left: 515px;
+    top: 260px;
+    padding: 5px;
+    font-size: 10px;
+    padding-top: 8px;
+    background-color: #FFFBD7;
+}
+.project.landing-5 {
+    width: 190px;
+    height: 50px;
+
+    left: 515px;
+    top: 320px;
+    padding: 3px;
+    font-size: 11px;
+    padding-top: 8px;
+    background-color: #FFFBD7;
 }
 
 .permit {
@@ -1054,43 +1215,43 @@
 }
 /* landing.html */
 .landing-permit.permit-1 {
-    left: 875px;
+    left: 910px;
     top: 50px;
 }
 .landing-permit.permit-2 {
-    left: 875px;
+    left: 910px;
     top: 150px;
 }
 .landing-permit.permit-3 {
-    left: 875px;
+    left: 910px;
     top: 250px;
 }
 .landing-permit.permit-4 {
-    left: 875px;
+    left: 910px;
     top: 350px;
 }
 .landing-permit.permit-5 {
-    left: 875px;
+    left: 910px;
     top: 450px;
 }
 .landing-permit.permit-6 {
-    left: 875px;
+    left: 910px;
     top: 550px;
 }
 .landing-permit.permit-7 {
-    left: 875px;
+    left: 910px;
     top: 650px;
 }
 .landing-permit.permit-8 {
-    left: 875px;
+    left: 910px;
     top: 750px;
 }
 .landing-permit.permit-9 {
-    left: 875px;
+    left: 910px;
     top: 850px;
 }
 .landing-permit.permit-10 {
-    left: 875px;
+    left: 910px;
     top: 950px;
 }
 
