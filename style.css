@@ -57,17 +57,17 @@
 .decision.landing-criteria-1 {
     width: 98px;
     height: 98px;
-    left: 495px;
+    left: 470px;
     top: 613px;
 }
 .decision.landing-criteria-2 {
     width: 98px;
     height: 98px;
-    left: 543px;
-    top: 870px;
+    left: 540px;
+    top: 876.4px;
 }
 .decision.landing-title-56-2 {
-    left: 550px;
+    left: 546px;
     top: 725px;
 }
 .decision.landing-150-mw {
@@ -112,6 +112,10 @@
     left: 470px;
     top: 271px;
 }
+.circle.circle-6 {
+    left: 276.5px;
+    top: 155px;
+}
 
 .process {
     box-sizing: border-box;
@@ -143,8 +147,8 @@
     font-size: 11px;
 }
 .process.alternative-3 {
-    left: 690px;
-    top: 875px;
+    left: 725px;
+    top: 885px;
     font-size: 11px;
 }
 .process.alternative-4 {
@@ -396,7 +400,7 @@
 .txt.landing-criteria-1 {
     width: 225px;
     height: 95px;
-    left: 431px;
+    left: 405px;
     top: 633px;
 
     text-decoration: none;
@@ -407,8 +411,8 @@
 .txt.landing-criteria-2 {
     width: 225px;
     height: 95px;
-    left: 480px;
-    top: 890px;
+    left: 477px;
+    top: 896px;
 
     text-decoration: none;
     line-height: 16px;
@@ -418,7 +422,7 @@
 .txt.landing-title-56-2 {
     width: 225px;
     height: 95px;
-    left: 480px;
+    left: 475px;
     top: 743px;
 
     text-decoration: none;
@@ -929,25 +933,25 @@
     z-index: 0;
 }
 .line.landline-4 {
-    width: 360px;
-    left: 523px;
-    top: 592.8px;
+    width: 395px;
+    left: 518.8px;
+    top: 592.95px;
     z-index: 0;
 }
 .line.landline-5 {
-    width: 390.5px;
+    width: 390px;
     left: 522.5px;
     top: 400px;
     z-index: 0;
 }
 .line.landline-6 {
-    width: 390.5px;
+    width: 390.8px;
     left: 522.5px;
     top: 480px;
     z-index: 0;
 }
 .line.landline-7 {
-    width: 80px;
+    width: 80.4px;
     left: 483px;
     top: 440px;
 
@@ -986,41 +990,41 @@
     transform: rotate(90deg);
 }
 .line.landline-13 {
-    width: 611px;
+    width: 611.2px;
     left: 302px;
     top: 1015px;
     z-index: 0;
 }
 .line.landline-14 {
-    width: 611px;
+    width: 611.2px;
     left: 302px;
     top: 767px;
     z-index: 0;
 }
 .line.landline-15 {
     width: 100px;
-    left: 542px;
+    left: 539px;
     top: 840px;
 
     transform: rotate(90deg);
 }
 .line.landline-16 {
-    width: 229px;
+    width: 263.2px;
     left: 650px;
-    top: 918px;
+    top: 925px;
     z-index: 0;
 }
 .line.landline-17 {
-    width: 200px;
-    left: 312.5px;
-    top: 895px;
+    width: 215px;
+    left: 305px;
+    top: 898px;
 
     transform: rotate(90deg);
 }
 .line.landline-18 {
-    width: 501px;
-    left: 412px;
-    top: 994.5px;
+    width: 501.6px;
+    left: 411.65px;
+    top: 1005px;
     z-index: 0;
 }
 .line.landline-19 {
@@ -1031,7 +1035,7 @@
     transform: rotate(90deg);
 }
 .line.landline-20 {
-    width: 230px;
+    width: 230.5px;
     left: 177px;
     top: 170px;
 
@@ -1044,17 +1048,69 @@
     z-index: 0;
 }
 .line.landline-22 {
-    width: 622px;
-    left: 291px;
+    width: 622.2px;
+    left: 291.3px;
     top: 285px;
     z-index: 0;
 }
 .line.landline-23 {
-    width: 250px;
-    left: 360px;
-    top: 225px;
+    width: 244.4px;
+    left: 363px;
+    top: 222px;
 
     transform: rotate(90deg);
+}
+.line.landline-24 {
+    width: 250px;
+    left: 485px;
+    top: 223px;
+    z-index: 0;
+}
+.line.landline-25 {
+    width: 429px;
+    left: 485px;
+    top: 165px;
+    z-index: 0;
+}
+.line.landline-26 {
+    width: 250px;
+    left: 485px;
+    top: 100.5px;
+    z-index: 0;
+}
+.line.landline-27 {
+    width: 123.5px;
+    left: 672.5px;
+    top: 162px;
+    z-index: 0;
+
+    transform: rotate(90deg);
+}
+.line.landline-28 {
+    width: 302.5px;
+    left: 484.3px;
+    top: 344px;
+    z-index: 0;
+}
+.line.landline-29 {
+    width: 50px;
+    left: 762.5px;
+    top: 230px;
+    z-index: 0;
+
+    transform: rotate(90deg);
+}
+.line.landline-30 {
+    width: 126.3px;
+    left: 787px;
+    top: 205.55px;
+    z-index: 0;
+}
+.line.landline-31 {
+    width: 324.2px;
+    left: 589px;
+    top: 993px;
+    z-index: 0;
 }
 
 .project {
@@ -1303,6 +1359,36 @@
     left: 560px;
     top: 130.5px;
 }
+.box.no-4 {
+    padding: 1px 9px;
+    left: 860px;
+    top: 275px;
+}
+.box.no-5 {
+    padding: 1px 9px;
+    left: 322px;
+    top: 460px;
+}
+.box.no-6 {
+    padding: 1px 9px;
+    left: 580px;
+    top: 584px;
+}
+.box.no-7 {
+    padding: 1px 9px;
+    left: 392px;
+    top: 870px;
+}
+.box.no-8 {
+    padding: 1px 9px;
+    left: 670px;
+    top: 984px;
+}
+.box.no-9 {
+    padding: 1px 9px;
+    left: 670px;
+    top: 758px;
+}
 .box.yes-1 {
     padding: 0.5px 6px;
     left: 659px;
@@ -1317,6 +1403,36 @@
     padding: 0.5px 6px;
     left: 764px;
     top: 560px;
+}
+.box.yes-4 {
+    padding: 0.5px 6px;
+    left: 830px;
+    top: 197px;
+}
+.box.yes-5 {
+    padding: 0.5px 6px;
+    left: 322px;
+    top: 627px;
+}
+.box.yes-6 {
+    padding: 0.5px 6px;
+    left: 620px;
+    top: 653px;
+}
+.box.yes-7 {
+    padding: 0.5px 6px;
+    left: 480px;
+    top: 758px;
+}
+.box.yes-8 {
+    padding: 0.5px 6px;
+    left: 670px;
+    top: 916px;
+}
+.box.yes-9 {
+    padding: 0.5px 6px;
+    left: 568px;
+    top: 833px;
 }
 
 .lane {
