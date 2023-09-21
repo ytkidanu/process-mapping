@@ -241,6 +241,16 @@ class Abbrev extends HTMLElement {
                         <th scope="row"> SGIP </th>
                         <td> Small Generator Interconnection Procedures </td>
                     </tr>
+
+                    <tr>
+                        <th scope="row"> Distr. </th>
+                        <td> Distribution </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> Trans. </th>
+                        <td> Transmission </td>
+                    </tr>
                     </tbody>
                 </table>
                 </div>
@@ -281,16 +291,26 @@ class SwimLane extends HTMLElement {
 
             <abbrev-list></abbrev-list>
 
-            <button type="button" class="btn btn-light btn-sm reviews army-corps" data-bs-toggle="modal" data-bs-target="#army-corps-modal">
-              United States Army Corps of Engineers &#8594 401 Certification, Section 404
+            <div class="reviews army-corps"> <b>United States Army Corps of Engineers</b> </div>
+            <button type="button" class="btn btn-light btn-sm reviews btn-1" data-bs-toggle="modal" data-bs-target="#army-corps-modal">
+              Clean Water Act Section 401 Certification
+            </button>
+            <button type="button" class="btn btn-light btn-sm reviews btn-2" data-bs-toggle="modal" data-bs-target="#army-corps-modal">
+              Clean Water Act Section 404 Permit
             </button>
 
-            <button type="button" class="btn btn-light btn-sm reviews fish-wildlife" data-bs-toggle="modal" data-bs-target="#">
-              United States Fish & Wildlife &#8594 New Incidental Take Permit & Supplementary Information for Renewal/Amendment of an Existing Valid Permit
+            <div class="reviews fish-wildlife"> <b>United States Fish and Wildlife Service</b> </div>
+            <button type="button" class="btn btn-light btn-sm reviews btn-3" data-bs-toggle="modal" data-bs-target="#army-corps-modal">
+              Habitat Conservation Plan
             </button>
-
-            <button type="button" class="btn btn-light btn-sm reviews species-act" data-bs-toggle="modal" data-bs-target="#">
-              Habitat Conservation Plans under the Endangered Species Act
+            <button type="button" class="btn btn-light btn-sm reviews btn-4" data-bs-toggle="modal" data-bs-target="#army-corps-modal">
+              New Incidental Take Permit
+            </button>
+            <button type="button" class="btn btn-light btn-sm reviews btn-5" data-bs-toggle="modal" data-bs-target="#army-corps-modal">
+              Renewal or Amendment of an Existing Valid Incidental Take Permit
+            </button>
+            <button type="button" class="btn btn-light btn-sm reviews btn-6" data-bs-toggle="modal" data-bs-target="#army-corps-modal">
+              Transfer, Partial Transfer, or Succession of an Existing Valid Incidental Take Permit
             </button>
 
             <div class="modal fade" id="army-corps-modal" tabindex="-1" role="dialog">

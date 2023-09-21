@@ -1529,7 +1529,7 @@
 
     font-size: 14px;
     font-weight: 500;
-    padding: 35px 16px;
+    padding: 40px 16px;
 }
 
 footer {
@@ -1551,7 +1551,7 @@ landing-footer {
     
     position: absolute;
     left: 0px;
-    top: 1150px;
+    top: 1170px;
 
     width:100%
 }
@@ -1592,25 +1592,26 @@ landing-footer {
     background-color: #FFCF72;
     color: var(--black-color);
     border: none;
+    font-weight: 500;
 }
 .mw-20.btn-1 {
     position: absolute;
-    left: 14px;
+    left: 26px;
     top: 256px;
 }
 .mw-20.btn-2 {
     position: absolute;
-    left: 91px;
+    left: 92px;
     top: 256px;
 }
 .mw-20.btn-3 {
     position: absolute;
-    left: 18px;
+    left: 26px;
     top: 256px;
 }
 .mw-20.btn-4 {
     position: absolute;
-    left: 95px;
+    left: 92px;
     top: 256px;
 }
 
@@ -1622,19 +1623,73 @@ landing-footer {
 
     position: absolute;
     z-index: 2;
-    font-size: 12px; 
+    font-size: 10.5px; 
 }
 .reviews.army-corps {
-    left: 190px;
-    top: 111px;
+    left: 210px;
+    top: 114px;
+    height: 82px;
+    width: 290px;
+    
+    padding-top: 4px;
+    text-align: center;
+}
+.reviews.btn-1 {
+    left: 224px;
+    top: 139.5px;
+
+    font-size: 9.5px;
+    background: #FFD0D0;
+    text-align: center;
+}
+.reviews.btn-2 {
+    left: 224px;
+    top: 166px;
+
+    font-size: 9.5px;
+    background: #FFD0D0;
+    text-align: center;
 }
 .reviews.fish-wildlife {
-    left: 190px;
-    top: 141px;
+    left: 530px;
+    top: 114px;
+    height: 82px;
+    width: 530px;
+    
+    padding-top: 4px;
+    text-align: center;
 }
-.reviews.species-act {
-    left: 190px;
-    top: 171px;
+.reviews.btn-3 {
+    left: 910px;
+    top: 139.5px;
+
+    font-size: 9.5px;
+    background: #FFD0D0;
+    text-align: center;
+}
+.reviews.btn-4 {
+    left: 910px;
+    top: 166px;
+
+    font-size: 9.5px;
+    background: #FFD0D0;
+    text-align: center;
+}
+.reviews.btn-5 {
+    left: 545px;
+    top: 166px;
+
+    font-size: 9.5px;
+    background: #FFD0D0;
+    text-align: center;
+}
+.reviews.btn-6 {
+    left: 545px;
+    top: 139.5px;
+
+    font-size: 9.5px;
+    background: #FFD0D0;
+    text-align: center;
 }
 
 .inter {
