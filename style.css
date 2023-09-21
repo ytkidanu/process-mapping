@@ -1905,7 +1905,7 @@ landing-footer {
     padding: 6px 10px;
 }
 .deq.deq-2 {
-    width: 220px;
+    width: 278px;
     height: 76px;
     left: 400px;
     top: 414px;
@@ -1973,6 +1973,16 @@ landing-footer {
     border: 1px solid #000000;
     padding: 13px 12px;
 }
+.deq.deq-9 {
+    left: 618px;
+    top: 446px;
+
+    text-align: center;
+    font-size: 11px;
+    border: 1px solid #000000;
+    background: #E3FBE2;
+    padding: 6px 6px;
+}
 /* dbq-pbr.html */
 .deq.deq-pbr-1 {
     width: 160px;
@@ -1984,7 +1994,7 @@ landing-footer {
     padding: 6px 10px;
 }
 .deq.deq-pbr-2 {
-    width: 220px;
+    width: 278px;
     height: 76px;
     left: 400px;
     top: 414px;
@@ -2051,6 +2061,16 @@ landing-footer {
 
     border: 1px solid #000000;
     padding: 13px 12px;
+}
+.deq.deq-pbr-9 {
+    left: 618px;
+    top: 446px;
+
+    text-align: center;
+    font-size: 11px;
+    border: 1px solid #000000;
+    background: #E3FBE2;
+    padding: 6px 6px;
 }
 
 .scc {

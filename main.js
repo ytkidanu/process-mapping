@@ -291,53 +291,182 @@ class SwimLane extends HTMLElement {
 
             <abbrev-list></abbrev-list>
 
-            <div class="reviews army-corps"> <b>United States Army Corps of Engineers</b> </div>
-            <button type="button" class="btn btn-light btn-sm reviews btn-1" data-bs-toggle="modal" data-bs-target="#army-corps-modal">
-              Clean Water Act Section 401 Certification
+            <div class="reviews army-corps" data-bs-toggle="modal" data-bs-target="#army-corps-modal"> <b>United States Army Corps of Engineers</b> </div>
+            <button type="button" class="btn btn-light btn-sm reviews btn-1" data-bs-toggle="modal" data-bs-target="#certification-modal">
+              Clean Water Act, Section 401 Certification
             </button>
-            <button type="button" class="btn btn-light btn-sm reviews btn-2" data-bs-toggle="modal" data-bs-target="#army-corps-modal">
-              Clean Water Act Section 404 Permit
+            <button type="button" class="btn btn-light btn-sm reviews btn-2" data-bs-toggle="modal" data-bs-target="#section-permit-modal">
+              Clean Water Act, Section 404 Permit
             </button>
 
-            <div class="reviews fish-wildlife"> <b>United States Fish and Wildlife Service</b> </div>
-            <button type="button" class="btn btn-light btn-sm reviews btn-3" data-bs-toggle="modal" data-bs-target="#army-corps-modal">
+            <div class="reviews fish-wildlife" data-bs-toggle="modal" data-bs-target="#fish-wildlife-modal"> <b>United States Fish and Wildlife Service</b> </div>
+            <button type="button" class="btn btn-light btn-sm reviews btn-3" data-bs-toggle="modal" data-bs-target="#habitat-conservation-modal">
               Habitat Conservation Plan
             </button>
-            <button type="button" class="btn btn-light btn-sm reviews btn-4" data-bs-toggle="modal" data-bs-target="#army-corps-modal">
+            <button type="button" class="btn btn-light btn-sm reviews btn-4" data-bs-toggle="modal" data-bs-target="#new-incidental-modal">
               New Incidental Take Permit
             </button>
-            <button type="button" class="btn btn-light btn-sm reviews btn-5" data-bs-toggle="modal" data-bs-target="#army-corps-modal">
+            <button type="button" class="btn btn-light btn-sm reviews btn-5" data-bs-toggle="modal" data-bs-target="#renewal-permit-modal">
               Renewal or Amendment of an Existing Valid Incidental Take Permit
             </button>
-            <button type="button" class="btn btn-light btn-sm reviews btn-6" data-bs-toggle="modal" data-bs-target="#army-corps-modal">
+            <button type="button" class="btn btn-light btn-sm reviews btn-6" data-bs-toggle="modal" data-bs-target="#transfer-permit-modal">
               Transfer, Partial Transfer, or Succession of an Existing Valid Incidental Take Permit
             </button>
 
-            <div class="modal fade" id="army-corps-modal" tabindex="-1" role="dialog">
-              <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                  <div class="modal-header">
-                  <h5 class="modal-title" id="abbrev-title">  401 Certification, Section 404 </h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                  </div>
+            <army-corps>
+                <div class="modal fade" id="army-corps-modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="abbrev-title"> United States Army Corps of Engineers </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
 
-                  <div class="modal-body">
-                    <b> Agency</b>: Army Corp of Engineers <br>
-                    <b> Agency Type</b>: Federal/State <br>
-                    <br> Section 401 of the CWA provides states and authorized tribes with an important tool to help protect the water quality
-                    of federally regulated waters within their borders, in collaboration with federal agencies. Section 401 of the CWA requires 
-                    that, for any federally licensed or permitted project that may result in a discharge into waters of the United States, a 
-                    water quality certification be issued to ensure that the discharge complies with applicable water quality requirements. <br>
-                    <br> <b> Prerequisite Permits</b>: None <br>
-                    <b> Permit Requirements</b>: Joint Permit Application Process <br>
-                    <b> Contact Name</b>: Susan Tripp, Guidance & Regulation Coordinator <br>
-                    <b> Contact Email</b>: susan.tripp@deq.virginia.gov<br>
-                    <b> Notices/Public Hearings</b>: DEQ Process <br>
-                    <b> Permit Link</b>: https://www.deq.virginia.gov/water/wetlands-streams <br>
-                    <br>
-                  </div>
-              </div>
-              </div>
+                            <div class="modal-body">
+                                If the project is subject to any of the following requirements, the associated permit(s) must be obtained from the U.S. 
+                                Army Corps of Engineers (USACE), with responsibility delegated to the VA DEQ. Further information on VA DEQ responsibilities can 
+                                be found <a href="https://www.deq.virginia.gov/laws-regulations/water">here</a>.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </army-corps>
+
+            <div class="modal fade" id="section-permit-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="abbrev-title"> Clean Water Act, Section 404 Permit </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            Section 404 of the <a href='https://www.epa.gov/cwa-404/permit-program-under-cwa-section-404'>Clean Water Act</a> requires that projects which are in or affect navigable bodies of water obtain a Section 404 Permit before dredged or fill material may be discharged into waters of the U.S. In Virginia, local jursidction falls under the Virginia Water Protection (VWP) permit regulations.
+                            <br> <br> According to the DEQ, "Authority to protect wetlands and streams and administer Virginia Water Protection (VWP) permit regulations is given by <a href='https://law.lis.virginia.gov/vacode/62.1-44.15:20/'>§62.1-44.15:20</a> of the Code of Virginia. The over-arching regulation for the VWP permit program is found in <a href=' https://law.lis.virginia.gov/admincode/title9/agency25/chapter210/'>9VAC25-210</a>.
+                            <br> <br> The associated permit is issued under 22-SPGP-RCIR. Follow the <a href='https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf'>Joint Permit Application (JPA) Process</a>. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal
+                            wetlands, and/or dune/beach resources – including, but not limited to,
+                            construction, dredging, filling, or excavation. Contact information can be found on the linked application materials.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="certification-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="abbrev-title"> Clean Water Act, Section 401 Certification </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            Section 401 of the <a href='https://www.epa.gov/cwa-401/overview-cwa-section-401-certification'>Clean Water Act (CWA)</a> provides states and authorized tribes with an important tool to help protect the water quality of federally regulated waters within their borders, in collaboration with federal agencies. Section 401 of the CWA requires that, for any federally licensed or permitted project that may result in a discharge into waters of the United States, a water quality certification be issued to ensure that the discharge complies with the applicable water quality requirements. In Virginia, local jursidction falls under the Virginia Water Protection (VWP) permit regulations. See the VA DEQ permitting process for further requirements and notices or public hearings.
+
+                            <br><br>According to the DEQ, "Authority to protect wetlands and streams and administer Virginia Water Protection (VWP) permit regulations is given by <a href='https://law.lis.virginia.gov/vacode/62.1-44.15:20/'>§62.1-44.15:20</a> of the Code of Virginia. The over-arching regulation for the VWP permit program is found in <a href='https://law.lis.virginia.gov/admincode/title9/agency25/chapter210/'>9VAC25-210</a>.
+                            
+                            <br><br>The associated permit is issued under 22-SPGP-RCIR. Follow the <a href='https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf'>Joint Permit Application (JPA) Process</a>. Contact information can be found on the linked application materials. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal
+                            wetlands, and/or dune/beach resources – including, but not limited to,
+                            construction, dredging, filling, or excavation. Contact information can be found on the linked application materials.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="fish-wildlife-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="abbrev-title"> United States Fish and Wildlife Service </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            If the project is subject to any of the following requirements, the associated permit(s) must be obtained from the U.S. Fish and Wildlife Service (Service), with responsibility delegated to the VA DEQ.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="transfer-permit-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="abbrev-title"> Transfer, Partial Transfer, or Succession of an Existing Valid Incidental Take Permit </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            When the ownership of a project changes, the new owner must obtain a transfer of an existing Incidental Take Permit. See the VA DEQ permitting process for permit requirements and notices or public hearings.
+
+                            <br><br><b>Prerequisite Permit(s)</b>: New Incidental Take Permit 
+                            
+                            <br><b>Contact Name</b>: Susan Tripp, Small Renewable Energy PBR Program Guidance & Regulation Coordinator 
+                            <br><b>Contact Emails</b>: permitsR5ES@fws.gov (<i>Federal</i>), susan.tripp@deq.virginia.gov (<i>State</i>)
+                            <br><b>Permit Link</b>: See the VA DEQ for State Permit Process, <a href='https://fwsepermitstest.servicenowservices.com/fwsid=fws_kb_view&sys_id=adc55dfd1b1f50101f45dbdbe54bcbb5'>Federal Permit Process</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="renewal-permit-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="abbrev-title"> Renewal or Amendment of an Existing Valid Incidental Take Permit </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            This permit will grant the renewal or amendment of an existing Incidental Take Permit. See the VA DEQ permitting process for permit requirements and notices or public hearings.
+
+                            <br><br><b>Prerequisite Permit(s)</b>: New Incidental Take Permit 
+                            
+                            <br><b>Contact Name</b>: Susan Tripp, Small Renewable Energy PBR Program Guidance & Regulation Coordinator 
+                            <br><b>Contact Emails</b>: permitsR5ES@fws.gov (<i>Federal</i>), susan.tripp@deq.virginia.gov (<i>State</i>)
+                            <br><b>Permit Link</b>: See the VA DEQ for State Permit Process, <a href='https://fwsepermitstest.servicenowservices.com/fwsid=fws_kb_view&sys_id=adc55dfd1b1f50101f45dbdbe54bcbb5'>Federal Permit Process</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="habitat-conservation-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="abbrev-title"> Habitat Conservation Plan </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            The Endangered Species Act provides for the protection of endangered and threatened species of wildlife and plants. When non-Federal parties plan to interact with ecosystems containing such species, it is required by <a href='https://www.fws.gov/laws/endangered-species-act/section-10'>Section 10(a)(2)(A)</a> of the Act to develop a Habitat Conservation Plan (HCP). HCPs must meet the permit issuance criteria of section <a href="https://www.fws.gov/laws/endangered-species-act/section-10">10(a)(2)(B)</a> of the Endangered Species Act. HCPs can also include conservation measures for vulnerable plant and animal species that are not listed federally as endangered or threatened.
+
+                            <br><br> The habitat conservation plan associated with the permit ensures that the effects of the authorized incidental take are adequately minimized and mitigated.
+                            
+                            <br><br>According to the <a href='https://www.fws.gov/service/habitat-conservation-plans'>Service</a>:
+                            "A Habitat Conservation Plan (HCP) is a planning document designed to accommodate economic development to the extent possible by authorizing the limited and unintentional take of listed species when it occurs incidental to otherwise lawful activities. The plan is designed not only to help landowners and communities but also to provide long-term benefits to species and their habitats. HCPs describe the anticipated effects of the proposed taking, how those impacts will be minimized or mitigated, and how the conservation measures included in the plan will be funded."
+                            
+                            <br><br> <i>Before drafting the HCP, it is strongly recommended to consult with the local field office of the Service to determine whether the HCP meets the respective policy and incidental take permit issuance criteria. Find your local field office <a href='https://www.fws.gov/our-facilities?state_name=%5B%22Virginia%22%5D'>here<a>. 
+                            Check for existing HCPs that individual landowners can join – programmatic HCPs – before drafting your own. Programmatic HCPs are often county- or even region-wide.</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="new-incidental-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="abbrev-title"> New Incidental Take Permit </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            An incidental take permit is required if otherwise lawful activities may unintentionally result in any "take" of endangered or threatened animal species. A completed Habitat Conservation Plan (HCP) must accompany any application for an incidental take permit. If the Service finds that an HCP meets the Endangered Species Act section <a href=’https://www.fws.gov/laws/endangered-species-act/section-10’>10(a)(1)(B)</a> incidental take permit issuance criteria, they will unlock the incidental take permit application. The applicant must then submit the completed incidental take permit (with the associated HCP) to the Service.
+
+                            <br><br>See <a href=’https://www.fws.gov/service/habitat-conservation-plans’>here</a> for further information on HCPs and associated incidental take permits.
+                        </div>
+                    </div>
+                </div>
             </div>
         `;
     }
