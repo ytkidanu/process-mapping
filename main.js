@@ -362,7 +362,7 @@ class SwimLane extends HTMLElement {
                         <div class="modal-body">
                             Section 401 of the <a href='https://www.epa.gov/cwa-401/overview-cwa-section-401-certification'>Clean Water Act (CWA)</a> provides states and authorized tribes with an important tool to help protect the water quality of federally regulated waters within their borders, in collaboration with federal agencies. Section 401 of the CWA requires that, for any federally licensed or permitted project that may result in a discharge into waters of the United States, a water quality certification be issued to ensure that the discharge complies with the applicable water quality requirements. In Virginia, local jursidction falls under the Virginia Water Protection (VWP) permit regulations. See the VA DEQ permitting process for further requirements and notices or public hearings.
 
-                            <br><br>According to the DEQ, "Authority to protect wetlands and streams and administer Virginia Water Protection (VWP) permit regulations is given by <a href='https://law.lis.virginia.gov/vacode/62.1-44.15:20/'>§62.1-44.15:20</a> of the Code of Virginia. The over-arching regulation for the VWP permit program is found in <a href='https://law.lis.virginia.gov/admincode/title9/agency25/chapter210/'>9VAC25-210</a>.
+                            <br><br>According to the DEQ, "Authority to protect wetlands and streams and administer Virginia Water Protection (VWP) permit regulations is given by <a href='https://law.lis.virginia.gov/vacode/62.1-44.15:20/'>§62.1-44.15:20</a> of the Code of Virginia. The over-arching regulation for the VWP permit program is found in <a href='https://law.lis.virginia.gov/admincode/title9/agency25/chapter210/'>9VAC25-210</a>".
                             
                             <br><br>The associated permit is issued under 22-SPGP-RCIR. Follow the <a href='https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf'>Joint Permit Application (JPA) Process</a>. Contact information can be found on the linked application materials. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal
                             wetlands, and/or dune/beach resources – including, but not limited to,
@@ -480,12 +480,79 @@ class Title extends HTMLElement {
     }
 }
 
+class SisterAgencyModal extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        <div class="modal fade" id="sister-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="abbrev-title"> Courtesy Sister Agency Process </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews may identify issues that affect the site plan and the application for the General Construction Stormwater Permit (VPDES). 
+
+                        <br><br> These four courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES). Submit simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (5MW-100MW). See
+                        <a href='https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/'>20VAC5-302-25, 11</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="dot-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="abbrev-title"> Department of Transportation, Traffic Impact Statement </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        The VDOT Traffic Impact Statement (VTIS) assesses the impact of a proposed development on the transportation system and recommends improvements to lessen or negate those impacts. The permit requirements are as follows: 
+                        The VTIS shall (i) identify any traffic issues associated with access from the site to the existing transportation network, (ii) outline solutions to potential problems, (iii) address the sufficiency of the future transportation 
+                        network, and (iv) present improvements to be incorporated into the proposed development. The VDOT will accept a traffic analysis study prepared according to local requirements, as long as the VDOT certifies that the 
+                        local requirements meet acceptable standards of professional practice. The VDOT will provide the locality with a written report contain key findings. If necessary, certain forms that are to be submitted can be found <a href='https://www.virginiadot.org/info/traffic_impact_analysis_regulations.asp'>here</a>.
+
+                        <br><br> <b>Statutory Review Time Limits</b>: VDOT will respond to request for a scope of work meeting within 30 days of the request, and schedule a meeting to occur within 60 days of being contacted.
+                        <br><br> <b>Notices/Public Hearings</b>: VDOT must make its comments available to the public through various means, e.g. through VDOT’s LandTrack system web page on the VDOT public website, copies at the local government offices, or a presentation to the locality.\
+
+                        <br><br> The legislation regulating the guidelines for the VTIS is established in <a href='https://law.lis.virginia.gov/admincode/title24/agency30/chapter155/section60/'>24VAC30-155-60</a> of the Virginia Administrative Code. To get in touch with the VDOT and see further information on the VTIS, see <a href='https://www.virginiadot.org/info/traffic_impact_analysis_regulations.asp'>here<a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="dhr-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="abbrev-title"> Department of Historic Resources </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    This is a review of any impacted historic sites. The DHR may provide comments to the DEQ for inclusion into their evaluation. It is important to note that the DHR application must be submitted no less than 30 days prior to the start date of the project.
+
+                    <br><br>The establishment of this review requirement can be found at <a href='https://www.dhr.virginia.gov/federal-state-review/state-project-review/'>here</a>.
+                    
+                    <br><br>This is only required if the project will impact a historic site. This assessment should be coordinated with DWR as part of the natural resource impact assessment.
+                    </div>
+                </div>
+            </div>
+        </div>
+        `;
+    }
+}
+
 customElements.define('nav-bar', NavBar);
 customElements.define('swim-bar', SwimLaneNavBar);
 customElements.define('abbrev-list', Abbrev);
 customElements.define('footer-', Footer);
 customElements.define('swim-lane', SwimLane);
 customElements.define('title-', Title);
+customElements.define('sister-agency', SisterAgencyModal);
 
 $('#myModal').on('shown.bs.modal', function() {
     $('#myInput').trigger('focus')
