@@ -1630,6 +1630,7 @@ landing-footer {
     top: 114px;
     height: 82px;
     width: 290px;
+    border-radius: 0px;
     
     padding-top: 4px;
     text-align: center;
@@ -1658,6 +1659,7 @@ landing-footer {
     
     padding-top: 4px;
     text-align: center;
+    border-radius: 0px;
 }
 .reviews.btn-3 {
     left: 910px;
@@ -1909,6 +1911,7 @@ landing-footer {
     height: 76px;
     left: 400px;
     top: 414px;
+    border-radius: 0px;
 
     text-align: center;
     font-size: 11px;
