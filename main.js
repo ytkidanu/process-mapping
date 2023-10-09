@@ -582,6 +582,26 @@ class SisterAgencyModal extends HTMLElement {
     }
 }
 
+class DEQ extends HTMLElement{
+    connectedCallback() {
+        this.innerHTML = `
+        <div class="modal fade" id="noi-130-permit" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="abbrev-title"> Notice of Intent for Solar Energy Project </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+        `;
+    }
+}
+
 customElements.define('nav-bar', NavBar);
 customElements.define('swim-bar', SwimLaneNavBar);
 customElements.define('abbrev-list', Abbrev);
@@ -589,6 +609,7 @@ customElements.define('footer-', Footer);
 customElements.define('swim-lane', SwimLane);
 customElements.define('title-', Title);
 customElements.define('sister-agency', SisterAgencyModal);
+customElements.define('deq-', DEQ);
 
 $('#myModal').on('shown.bs.modal', function() {
     $('#myInput').trigger('focus')
