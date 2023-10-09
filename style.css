@@ -54,7 +54,6 @@
     top: 243px;
 }
 
-
 .circle {
     height: 30px;
     width: 30px;
@@ -1643,7 +1642,7 @@ landing-footer {
     padding: 6px 10px;
 }
 .deq.deq-2 {
-    width: 278px;
+    width: 222px;
     height: 76px;
     left: 400px;
     top: 414px;
@@ -1737,6 +1736,7 @@ landing-footer {
     height: 76px;
     left: 400px;
     top: 414px;
+    border-radius: 0px;
 
     text-align: center;
     font-size: 11px;
