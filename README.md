@@ -1,1 +1,1 @@
-# Process Mapping
+# Solar Permit Process Map
