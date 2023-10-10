@@ -1647,6 +1647,8 @@ landing-footer {
     height: 76px;
     left: 200px;
     top: 414px;
+    border-radius: 0;
+    text-align: left;
 
     border: 1px dashed #000000;
     padding: 6px 10px;
@@ -1717,6 +1719,8 @@ landing-footer {
     height: 76px;
     left: 950px;
     top: 414px;
+    text-align: left;
+    border-radius: 0;
 
     border: 1px solid #000000;
     padding: 13px 12px;

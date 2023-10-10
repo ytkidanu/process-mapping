@@ -618,21 +618,6 @@ class DEQ extends HTMLElement{
             </div>
         </div>
 
-        <div class="modal fade" id="informal-review" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="abbrev-title"> <i>Best Practice</i>: Informal Sister Agency Review Process</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-
-                    <div class="modal-body">
-                        It is advisable to begin the informal sister review process before going to the localities for an application. 
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div class="modal fade" id="permit-issuance" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
