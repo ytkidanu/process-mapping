@@ -187,10 +187,10 @@
     font-weight: 500;
 }
 .txt.noi-permit {
-    width: 100px;
+    width: 125px;
     height: 100px;
-    left: 217px;
-    top: 436px;
+    left: 205px;
+    top: 430px;
 
     z-index: 2;
 
@@ -1737,6 +1737,8 @@ landing-footer {
     height: 76px;
     left: 428px;
     top: 508px;
+    border-radius: 0px;
+    text-align: left;
 
     border: 1px dashed #000000;
     padding: 6px 10px;
@@ -1807,6 +1809,8 @@ landing-footer {
     height: 76px;
     left: 950px;
     top: 414px;
+    border-radius: 0px;
+    text-align: left;
 
     border: 1px solid #000000;
     padding: 13px 12px;
@@ -1909,6 +1913,8 @@ landing-footer {
     height: 76px;
     left: 218px;
     top: 508px;
+    border-radius: 0px;
+    text-align: left;
 
     border: 1px dashed #000000;
     padding: 12px 12px;

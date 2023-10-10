@@ -589,11 +589,79 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="abbrev-title"> Notice of Intent for Solar Energy Project </h5>
+                        <h5 class="modal-title" id="abbrev-title"> Notice of Intent for Solar Energy Project ("De Minimis" Section 130 Projects)</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
                     <div class="modal-body">
+                        This is the second of the two permit requirements, as laid out in <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section130/">9VAC15-60-130</a>. "The owner or operator of a small solar energy project with either a rated capacity greater than 500 kilowatts and less than or equal to five megawatts or a disturbance zone greater than two acres and less than or equal to 10 acres shall notify the department."
+                        Submit the NOI using the template <a href="https://www.deq.virginia.gov/home/showpublisheddocument/4677/637475305763630000">here</a>.
+
+                        <br><br>For questions and further information, contact the DEQ's Small Renewable Energy PBR Program Guidance & Regulation Coordinator.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="noi-early" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="abbrev-title"> <i>Best Practice</i>: Submit NOI As Early As Possible</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        As soon as the project is determined to be "practicable" (When the applicant believes that it will pass local requirements), the applicant should submit the NOI for their project to the DEQ.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="informal-review" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="abbrev-title"> <i>Best Practice</i>: Informal Sister Agency Review Process</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        It is advisable to begin the informal sister review process before going to the localities for an application. 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="permit-issuance" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="abbrev-title">Issuance of Section 130 Permit</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Upon completion of all application requirements and required modifications, the applicant will be issued a permit by the DEQ granting them the authority to contruct and operate a small solar PV facility under the Section 130 criteria.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="stormwater-permit" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="abbrev-title">General Construction Stormwater Permit</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    The VPDES requires that the construction activity operator obtaining the permit develop and implement a site specific Stormwater Pollution Prevention Plan (SWPPP). The SWPPP must be prepared prior to submitting a registration statement for permit to the Virginia Stormwater Management Program (VSMP) Authority or VA DEQ. The SWPPP outlines the steps and techniques to reduce pollutants in the stormwater runoff from the construction site that the operator will take to comply with the terms and conditions of the permit, including water quality and quantity requirements in the VSMP permit regulations. See <a href="https://www.deq.virginia.gov/permits/water/stormwater-construction">here</a> for further information.
+
+                    <br><br>Courtesy reviews by DWR, DCR, and DHR are necessary prior to applying for this permit.
+                    
+                    <br><br><i>Projects may be subject to either local or VA DEQ VSMP authority. Check to see which is the case at the project location. The VA DEQ VSMP permit is only for those directly regulated under the VA DEQ authority. If local governments have the permitting authority, regulations for local SWPPP may differ from VA DEQ SWPPP. If the project is within the Chesapeake Bay Preservation Areas (CBPs), localities are required to have local regulations to protect water quality for the Chesapeake Bay.</i>
                     </div>
                 </div>
             </div>
