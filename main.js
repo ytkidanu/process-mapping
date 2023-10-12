@@ -487,7 +487,7 @@ class SisterAgencyModal extends HTMLElement {
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="abbrev-title"> Courtesy Sister Agency Process </h5>
+                        <h5 class="modal-title" id="abbrev-title">Courtesy Sister Agency Process</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -535,7 +535,7 @@ class SisterAgencyModal extends HTMLElement {
                     <div class="modal-body">
                     This is a review of any impacted historic sites. The DHR may provide comments to the DEQ for inclusion into their evaluation. It is important to note that the DHR application must be submitted no less than 30 days prior to the start date of the project.
 
-                    <br><br>The establishment of this review requirement can be found at <a href='https://www.dhr.virginia.gov/federal-state-review/state-project-review/'>here</a>.
+                    <br><br>The establishment of this review requirement can be found <a href='https://www.dhr.virginia.gov/federal-state-review/state-project-review/'>here</a>.
                     
                     <br><br>This is only required if the project will impact a historic site. This assessment should be coordinated with DWR as part of the natural resource impact assessment.
                     </div>
@@ -647,6 +647,73 @@ class DEQ extends HTMLElement{
                     <br><br>Courtesy reviews by DWR, DCR, and DHR are necessary prior to applying for this permit.
                     
                     <br><br><i>Projects may be subject to either local or VA DEQ VSMP authority. Check to see which is the case at the project location. The VA DEQ VSMP permit is only for those directly regulated under the VA DEQ authority. If local governments have the permitting authority, regulations for local SWPPP may differ from VA DEQ SWPPP. If the project is within the Chesapeake Bay Preservation Areas (CBPs), localities are required to have local regulations to protect water quality for the Chesapeake Bay.</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="application-pbr" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="abbrev-title">Permit by Rule for Full Solar Energy Project Application</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        The application provides the state sufficient information to determine if the project meets the Permit by Rule criteria and facilitates state and federal reviews as needed.
+
+                        <br><br><b>Prerequisites</b>: Application for a PJM Interconnection Service Agreement (Local Government Project Approval)
+                        <br><br>
+                        Application must include:
+                        <br> 
+                        <ol type = "1">
+                        <li><a href="https://www.deq.virginia.gov/home/showpublisheddocument/4686/637475307699370000">Local Governing Body Certification Form</a></li>
+                        <li><a href="https://www.deq.virginia.gov/home/showpublisheddocument/4679/637475306133830000">Environmental Permit Certification Form</a> (Environmental permits must be <b>applied</b> for prior)</li>
+                        <li><a href="https://www.deq.virginia.gov/home/showpublisheddocument/4681/637475306597800000">Non-Utility Certification Form</a> or <a href="https://www.deq.virginia.gov/home/showpublisheddocument/4675/637475305496100000">Utility Certification Form</a></li>
+                        <li><a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section110/">Permit by Rule Application & Modification Fees</a></li>
+                        <li>Analysis of the Beneficial and Adverse Impacts on Natural Resources</li>
+                        <li>Determination of Likely Significant Adverse Impacts</li>
+                        <li>Mitigation Plan</li>
+                        <li>Site Plan and Context Map</li>
+                        <li>Documentation of Public Notices, Comment Periods, and Meetings</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="noi-solar-energy" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="abbrev-title"><a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/">Notice of Intent for Full Solar Energy Project</a></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        The NOI provides the state notice that the developer intends to develop a project from 5MW up to 150 MW and use the DEQ PBR process for
+                        permitting. There are no official prerequisites for the NOI. However, it is recommended that the the developer submit for local certification and PJM before submitting NOI. The NOI is then a prerequisite for the full PBR.
+                        The NOI for Full Solar Energy Project template can be found <a href="https://www.deq.virginia.gov/home/showpublisheddocument/4676/637475305664400000">here</a>.
+                        <br><br>
+                        <b>Public Notification</b>: DEQ will publish the notice of intent in the Virginia Register for 30 days <a href="https://www.townhall.virginia.gov/L/GeneralNotice.cfm">here</a> (No public comment forum)
+                        <br><br>
+                        <b>Contact</b>: Susan Tripp, Small Renewable Energy PBR Program Guidance & Regulation Coordinator, susan.tripp@deq.virginia.gov
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="issuance-pbr" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="abbrev-title">Issuance of Permit by Rule for Full Solar Energy Project</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Permit will be approved or denied within 90 days after the DEQ accepts all necessary forms. If approved, the applicant is authorized to construct and operate a small solar energy project pursuant to this chapter. If denied, the DEQ will contact the applicant and notify them of specific deficiencies.
                     </div>
                 </div>
             </div>
