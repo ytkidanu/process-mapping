@@ -206,6 +206,21 @@
     font-size: 20px;
     font-weight: 500;
 }
+.txt.sgia-lt{
+    left: 601px;
+    top: 228px;
+    font-size: 11px;
+
+    z-index: 3;
+}
+.txt.sgia-gt{
+    left: 915px;
+    top: 235px;
+    font-size: 11px;
+    display: none;
+
+    z-index: 3;
+}
 .txt.noi-permit {
     width: 125px;
     height: 100px;
@@ -707,15 +722,16 @@
 }
 /* noi-500-kw.html */
 .line.line-51 {
-    width: 25px;
-    left: 500px;
-    top: 251px;
+    width: 101.5px;
+    left: 698.5px;
+    top: 403px;
 
-    z-index: 2;
+    display: none;
+    z-index: 1;
     transform: rotate(90deg);
 }
 .line.line-52 {
-    width: 320px;
+    width: 410px;
     left: 192px;
     top: 251px;
 
@@ -1371,14 +1387,27 @@ landing-footer {
 }
 .mw-20.btn-3 {
     position: absolute;
-    left: 26px;
+    left: 20px;
     top: 256px;
 }
 .mw-20.btn-4 {
     position: absolute;
-    left: 92px;
+    left: 82px;
     top: 256px;
 }
+.mw-20.btn-5 {
+    position: absolute;
+    left: 15px;
+    top: 256px;
+    display: none;
+}
+.mw-20.btn-6 {
+    position: absolute;
+    left: 95px;
+    top: 256px;
+    display: none;
+}
+
 
 
 .reviews {
@@ -1479,35 +1508,35 @@ landing-footer {
     top: 225px;
     display: none;
 
-    padding: 17px 7.5px;
+    padding: 12px 7.5px;
 }
 .inter.inter-2 {
     left: 320px;
     top: 225px;
     display: none;
 
-    padding: 17px 9px;
+    padding: 18px 8px;
 }
 .inter.inter-3 {
     left: 435px;
     top: 225px;
     display: none;
 
-    padding: 17px 3px;
+    padding: 10px 8px;
 }
 .inter.inter-4 {
     left: 550px;
     top: 225px;
     display: none;
 
-    padding: 12px 3px;
+    padding: 11px 3px;
 }
 .inter.inter-5 {
     left: 665px;
     top: 225px;
     display: none;
 
-    padding: 17px 3px;
+    padding: 12px 3px;
 }
 .inter.inter-6 {
     left: 780px;
@@ -1566,7 +1595,7 @@ landing-footer {
     padding: 12px 8px;
 }
 .inter.inter-13 {
-    left: 270px;
+    left: 250px;
     top: 225px;
 
     width: 145px;
@@ -1582,6 +1611,34 @@ landing-footer {
     height: 58px;
 
     padding: 18px 8px;
+}
+.inter.inter-15 {
+    left: 440px;
+    top: 225px;
+
+    padding: 17px 7.5px;
+}
+.inter-doc-1 {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
+
+    width: 160px;
+    height: 75px;
+    left: 600px;
+    top: 220px;
+}
+.inter-doc-2 {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
+
+    width: 160px;
+    height: 75px;
+    left: 905px;
+    top: 220px;
+
+    display: none;
 }
 
 .local {

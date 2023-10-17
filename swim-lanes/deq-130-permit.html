@@ -269,62 +269,132 @@
             <interconnections>
               <div class="lane interconnections-500"> Small Interconnections </div>
 
-              <button type="button" id="mw-gt20-btn" class="mw-20 btn-3 btn btn-light btn-sm"> Distr. </button>
-              <button type="button" id="mw-lt20-btn" class="mw-20 btn-4 btn btn-light btn-sm"> Trans. </button>  
+              <button type="button" id="distr-btn" class="mw-20 btn-3 btn btn-light btn-sm"> Distr. </button>
+              <button type="button" id="sminter-btn" class="mw-20 btn-4 btn btn-light btn-sm"> Sm. Inter. </button>  
+              <button type="button" id="mw-lt20-btn" class="mw-20 btn-5 btn btn-light btn-sm"> &le; 2 MW </button>
+              <button type="button" id="mw-gt20-btn" class="mw-20 btn-6 btn btn-light btn-sm"> &gt; 2 MW </button>  
 
-              <div class="line line-23"></div>
-              <div class="line line-51"></div>
-              <div class="line line-52"></div>
+              <div id="line-1" class="line line-23"></div>
+              <div id="line-3" class="line line-52"></div>
               <div id="mw-lt20-8" class="line line-53"></div>
               <div id="mw-lt20-12" class="line line-54"></div>
               <div id="mw-lt20-9" class="line line-55"></div>
               <div id="mw-lt20-10" class="line line-58"></div>
               <div id="mw-lt20-11" class="line line-57"></div>
 
-              <div id="mw-lt20-1" class="inter inter-1"> Queue Window </div>
-              <div id="mw-lt20-2" class="inter inter-2"> Scope Meeting </div>
-              <div id="mw-lt20-3" class="inter inter-3"> Feasibility Study </div>
-              <div id="mw-lt20-4" class="inter inter-4"> System Impact<br> Study </div>
-              <div id="mw-lt20-5" class="inter inter-5"> Facilities Study </div>
+              <div id="mw-lt20-1" class="inter inter-1"> SGIP Level 3 Pathway</div>
+              <div id="mw-lt20-2" class="inter inter-2"> Queue Window </div>
+              <div id="mw-lt20-3" class="inter inter-3"> Scoping Meeting </div>
+              <div id="mw-lt20-4" class="inter inter-4"> Feasibility & Impact Study</div>
+              <div id="mw-lt20-5" class="inter inter-5"> Facilities Study Agreement </div>
               <div id="mw-lt20-6" class="inter inter-6"> Construction Planning Meeting </div>
-              <div id="mw-lt20-7" class="inter inter-7"> Small Generator Interconnection Agreeement</div>
+              <img id="mw-lt20-13" src="../images/InterDocument.png" class="inter-doc-2"></img>
+              <div id="mw-lt20-14" class="txt sgia-gt"> Small Generator <br>Interconnection Agreeement</div>
 
               <div id="mw-gt20-5" class="inter inter-13"> SGIP Level 2 Pathway </div>
+              <div id="mw-gt20-6" class="inter inter-15"> Queue Window </div>
+              <img id="lt-2-mw-1" src="../images/InterDocument.png" class="inter-doc-1"></img>
+              <div id="lt-2-mw-2" class="btn txt sgia-lt">Small Generator <br>Interconnection Agreement</div>
+
               
 
               <script type="text/javascript"> 
+                $("#distr-btn").click(function() {
+                    $("#mw-lt20-1").hide();
+                    $("#mw-lt20-2").hide();
+                    $("#mw-lt20-3").hide();
+                    $("#mw-lt20-4").hide();
+                    $("#mw-lt20-5").hide();
+                    $("#mw-lt20-6").hide();
+                    $("#mw-lt20-7").hide();
+                    $("#mw-lt20-8").hide();
+                    $("#mw-lt20-9").hide();
+                    $("#mw-lt20-10").hide();
+                    $("#mw-lt20-11").hide();
+                    $("#mw-lt20-12").hide();
+                    $("#mw-lt20-13").hide();
+                    $("#mw-lt20-14").hide();
+
+                    $("#lt-2-mw-1").hide();
+                    $("#lt-2-mw-2").hide();
+                    $("#mw-gt20-5").hide();
+                    $("#mw-gt20-6").hide();
+
+                    $("#line-1").hide();
+                    $("#line-2").hide();
+                    $("#line-3").hide();
+                    });
+
+                $("#sminter-btn").click(function() {
+                    $("#mw-lt20-btn").show();
+                    $("#mw-gt20-btn").show();
+
+                    $("#sminter-btn").hide();
+                    $("#distr-btn").hide();
+                });
+
                 $("#mw-gt20-btn").click(function() {
-                  $("#mw-lt20-1").hide();
-                  $("#mw-lt20-2").hide();
-                  $("#mw-lt20-3").hide();
-                  $("#mw-lt20-4").hide();
-                  $("#mw-lt20-5").hide();
-                  $("#mw-lt20-6").hide();
-                  $("#mw-lt20-7").hide();
-                  $("#mw-lt20-8").hide();
-                  $("#mw-lt20-9").hide();
-                  $("#mw-lt20-10").hide();
-                  $("#mw-lt20-11").hide();
-                  $("#mw-lt20-12").hide();
- 
-                  $("#mw-gt20-5").show();
+                    $("#lt-2-mw-1").hide();
+                    $("#lt-2-mw-2").hide();
+                    $("#mw-gt20-5").hide();
+                    $("#mw-gt20-6").hide();
+
+                    $("#mw-lt20-1").show();
+                    $("#mw-lt20-2").show();
+                    $("#mw-lt20-3").show();
+                    $("#mw-lt20-4").show();
+                    $("#mw-lt20-5").show();
+                    $("#mw-lt20-6").show();
+                    $("#mw-lt20-7").show();
+                    $("#mw-lt20-8").show();
+                    $("#mw-lt20-9").show();
+                    $("#mw-lt20-10").show();
+                    $("#mw-lt20-11").show();
+                    $("#mw-lt20-12").show();
+                    $("#mw-lt20-13").show();
+                    $("#mw-lt20-14").show();
+
+                    $("#mw-lt20-btn").hide();
+                    $("#mw-gt20-btn").hide();
+
+                    $("#sminter-btn").show();
+                    $("#distr-btn").show();
+
+                    $("#line-1").show();
+                    $("#line-2").show();
+                    $("#line-3").show();
                 });
 
                 $("#mw-lt20-btn").click(function() {
-                  $("#mw-gt20-5").hide();
+                    $("#mw-lt20-1").hide();
+                    $("#mw-lt20-2").hide();
+                    $("#mw-lt20-3").hide();
+                    $("#mw-lt20-4").hide();
+                    $("#mw-lt20-5").hide();
+                    $("#mw-lt20-6").hide();
+                    $("#mw-lt20-7").hide();
+                    $("#mw-lt20-8").hide();
+                    $("#mw-lt20-9").hide();
+                    $("#mw-lt20-10").hide();
+                    $("#mw-lt20-11").hide();
+                    $("#mw-lt20-12").hide();
+                    $("#mw-lt20-13").hide();
+                    $("#mw-lt20-14").hide();
+    
+                    $("#lt-2-mw-1").show();
+                    $("#lt-2-mw-2").show();
+                    $("#mw-gt20-5").show();
+                    $("#mw-gt20-6").show();
 
-                  $("#mw-lt20-1").show();
-                  $("#mw-lt20-2").show();
-                  $("#mw-lt20-3").show();
-                  $("#mw-lt20-4").show();
-                  $("#mw-lt20-5").show();
-                  $("#mw-lt20-6").show();
-                  $("#mw-lt20-7").show();
-                  $("#mw-lt20-8").show();
-                  $("#mw-lt20-9").show();
-                  $("#mw-lt20-10").show();
-                  $("#mw-lt20-11").show();
-                  $("#mw-lt20-12").show();
+                    $("#mw-lt20-btn").hide();
+                    $("#mw-gt20-btn").hide();
+
+                    $("#sminter-btn").show();
+                    $("#distr-btn").show();
+
+                    $("#line-1").show();
+                    $("#line-2").show();
+                    $("#line-3").show();
                 });
               </script>
             </interconnections>
