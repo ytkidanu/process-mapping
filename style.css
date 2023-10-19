@@ -206,8 +206,15 @@
     font-size: 20px;
     font-weight: 500;
 }
-.txt.sgia-lt{
-    left: 601px;
+.txt.sgia-lt-1{
+    left: 612px;
+    top: 235px;
+    font-size: 11px;
+
+    z-index: 3;
+}
+.txt.sgia-lt-2{
+    left: 600px;
     top: 228px;
     font-size: 11px;
 
@@ -1554,6 +1561,7 @@ landing-footer {
     font-size: 12px;
     line-height: 16px;
     z-index: 3;
+    border-radius: 0;
 
     width: 100px;
     height: 58px;

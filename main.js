@@ -163,7 +163,7 @@ class Abbrev extends HTMLElement {
             <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                <h5 class="modal-title" id="abbrev-title">  Abbreviations </h5>
+                <h5 class="modal-title" id="title">  Abbreviations </h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
 
@@ -251,6 +251,16 @@ class Abbrev extends HTMLElement {
                         <th scope="row"> Trans. </th>
                         <td> Transmission </td>
                     </tr>
+
+                    <tr>
+                        <th scope="row"> Inter. </th>
+                        <td> Interconnection </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> Lvl. </th>
+                        <td> Level </td>
+                    </tr>
                     </tbody>
                 </table>
                 </div>
@@ -318,7 +328,7 @@ class SwimLane extends HTMLElement {
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="abbrev-title"> United States Army Corps of Engineers </h5>
+                                <h5 class="modal-title" id="title"> United States Army Corps of Engineers </h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                             </div>
 
@@ -336,7 +346,7 @@ class SwimLane extends HTMLElement {
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="abbrev-title"> Clean Water Act, Section 404 Permit </h5>
+                            <h5 class="modal-title" id="title"> Clean Water Act, Section 404 Permit </h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
@@ -355,7 +365,7 @@ class SwimLane extends HTMLElement {
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="abbrev-title"> Clean Water Act, Section 401 Certification </h5>
+                            <h5 class="modal-title" id="title"> Clean Water Act, Section 401 Certification </h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
@@ -376,7 +386,7 @@ class SwimLane extends HTMLElement {
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="abbrev-title"> United States Fish and Wildlife Service </h5>
+                            <h5 class="modal-title" id="title"> United States Fish and Wildlife Service </h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
@@ -391,7 +401,7 @@ class SwimLane extends HTMLElement {
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="abbrev-title"> Transfer, Partial Transfer, or Succession of an Existing Valid Incidental Take Permit </h5>
+                            <h5 class="modal-title" id="title"> Transfer, Partial Transfer, or Succession of an Existing Valid Incidental Take Permit </h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
@@ -412,7 +422,7 @@ class SwimLane extends HTMLElement {
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="abbrev-title"> Renewal or Amendment of an Existing Valid Incidental Take Permit </h5>
+                            <h5 class="modal-title" id="title"> Renewal or Amendment of an Existing Valid Incidental Take Permit </h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
@@ -433,7 +443,7 @@ class SwimLane extends HTMLElement {
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="abbrev-title"> Habitat Conservation Plan </h5>
+                            <h5 class="modal-title" id="title"> Habitat Conservation Plan </h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
@@ -456,7 +466,7 @@ class SwimLane extends HTMLElement {
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="abbrev-title"> New Incidental Take Permit </h5>
+                            <h5 class="modal-title" id="title"> New Incidental Take Permit </h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
@@ -487,7 +497,7 @@ class SisterAgencyModal extends HTMLElement {
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="abbrev-title">Courtesy Sister Agency Process</h5>
+                        <h5 class="modal-title" id="title">Courtesy Sister Agency Process</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -505,7 +515,7 @@ class SisterAgencyModal extends HTMLElement {
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="abbrev-title"> Department of Transportation, Traffic Impact Statement </h5>
+                        <h5 class="modal-title" id="title"> Department of Transportation, Traffic Impact Statement </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -528,7 +538,7 @@ class SisterAgencyModal extends HTMLElement {
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="abbrev-title"> Department of Historic Resources </h5>
+                        <h5 class="modal-title" id="title"> Department of Historic Resources </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -547,7 +557,7 @@ class SisterAgencyModal extends HTMLElement {
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="abbrev-title"> Department of Conservation and Recreation </h5>
+                        <h5 class="modal-title" id="title"> Department of Conservation and Recreation </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -564,7 +574,7 @@ class SisterAgencyModal extends HTMLElement {
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="abbrev-title"> Department of Wildlife Resources, Solar Energy Facility Guidance </h5>
+                        <h5 class="modal-title" id="title"> Department of Wildlife Resources, Solar Energy Facility Guidance </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -589,7 +599,7 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="abbrev-title"> Notice of Intent for Solar Energy Project ("De Minimis" Section 130 Projects)</h5>
+                        <h5 class="modal-title" id="title"> Notice of Intent for Solar Energy Project ("De Minimis" Section 130 Projects)</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -607,7 +617,7 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="abbrev-title"> <i>Best Practice</i>: Submit NOI As Early As Possible</h5>
+                        <h5 class="modal-title" id="title"> <i>Best Practice</i>: Submit NOI As Early As Possible</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -622,7 +632,7 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="abbrev-title">Issuance of Section 130 Permit</h5>
+                        <h5 class="modal-title" id="title">Issuance of Section 130 Permit</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -637,7 +647,7 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="abbrev-title">General Construction Stormwater Permit</h5>
+                        <h5 class="modal-title" id="title">General Construction Stormwater Permit</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -656,7 +666,7 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="abbrev-title">Permit by Rule for Full Solar Energy Project Application</h5>
+                        <h5 class="modal-title" id="title">Permit by Rule for Full Solar Energy Project Application</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -687,7 +697,7 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="abbrev-title"><a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/">Notice of Intent for Full Solar Energy Project</a></h5>
+                        <h5 class="modal-title" id="title"><a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/">Notice of Intent for Full Solar Energy Project</a></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -708,7 +718,7 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="abbrev-title">Issuance of Permit by Rule for Full Solar Energy Project</h5>
+                        <h5 class="modal-title" id="title">Issuance of Permit by Rule for Full Solar Energy Project</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -722,6 +732,114 @@ class DEQ extends HTMLElement{
     }
 }
 
+class Interconnections extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        <div class="modal fade" id="queue-window" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Queue Window</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Regulations surrounding queue numbers are established in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section38/">20VAC5-314-38</a>.
+                        <br><br>
+                        Interconnection requests are assigned a queue number "based upon the date-stamp and time-stamp of receipt of a completed Interconnection Request Form by the utility." An Interconnection Request Form that is received earlier than another request shall be assigned a lower numerical queue number. Projects are studied in numerical order from low to high, except in the case of interdependent projects.
+                        <br><br>
+                        If the utility makes a preliminary determination that the SGF does not create an interdependency, follow straight to the Level 2 study process in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section60/">20VAC5-314-60</a>. If a dependency is determined, see <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section38/">20VAC5-314-38</a> for further details.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="sgia" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Small Generator Interconnection Agreement</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        As established in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section60/ ">20VAC5-314-60</a> of the Virginia Administrative Code:
+                        <br><br>"After the utility notifies the IC that it has received a complete Interconnection Request Form, the utility performs screening reviews. If the interconnection passes the screens, the utility will approve the interconnection request and provide the IC with an SGIA within 10 business days. If the interconnection instead fails any screens, Parts F-H lay out the subsequent timeline and actions required."
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="sgip-level-2" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">SGIP Level 2 Pathway</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        As laid out in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section50/">20VAC5-314-50.A</a> of the Virginia Administrative Code: <br><br>
+                        "The IC shall submit (i) a completed Levels 2 and 3 Interconnection Request Form (Schedule 6 of 20VAC5-314-170); (ii) site control documentation pursuant to Schedule 6 of 20VAC5-314-170, and (iii) the required $1,000 processing fee."
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="sgip-level-3" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">SGIP Level 3 Pathway</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        As laid out in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section50/">20VAC5-314-50.A</a> of the Virginia Administrative Code: <br><br> 
+                        "The IC shall submit (i) a completed Levels 2 and 3 Interconnection Request Form (Schedule 6 of 20VAC5-314-170); (ii) site control documentation pursuant to Schedule 6 of 20VAC5-314-170, and (iii) the required $1,000 processing fee."
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="scoping-meeting" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Scoping Meeting</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/">20VAC5-314-70-B</a>: <br><br>
+                        "1. The purpose of the scoping meeting is to discuss the interconnection request and the utility's preliminary interdependency determination. The parties shall discuss the studies potentially required to safely and reliably interconnect the IC to the utility's system, including the cost responsibilities for the studies.
+                        <br><br>
+                        2. A scoping meeting shall be held no later than 10 business days after the Interconnection Request Form is deemed complete or as otherwise mutually agreed to in writing by the parties. The utility and the IC shall bring to the meeting all resources as may be reasonably required to accomplish the purpose of the meeting, such as system engineers and other personnel.
+                        <br><br>
+                        3. The scoping meeting may be omitted by mutual, written agreement of the parties."
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+        `;
+    }
+}
+
+
 customElements.define('nav-bar', NavBar);
 customElements.define('swim-bar', SwimLaneNavBar);
 customElements.define('abbrev-list', Abbrev);
@@ -730,6 +848,7 @@ customElements.define('swim-lane', SwimLane);
 customElements.define('title-', Title);
 customElements.define('sister-agency', SisterAgencyModal);
 customElements.define('deq-', DEQ);
+customElements.define('inter-', Interconnections);
 
 $('#myModal').on('shown.bs.modal', function() {
     $('#myInput').trigger('focus')
