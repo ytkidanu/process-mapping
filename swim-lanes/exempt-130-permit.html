@@ -40,13 +40,33 @@
             <abbrev-list></abbrev-list>
             
             <interconnections>
-              <div class="lane interconnections-exempt"> Small Interconnections </div>
+              <div class="lane interconnections-exempt"> Interconnections </div>
 
-              <div class="line line-60"></div>
-              <div class="line line-61"></div>
-              <div class="line line-62"></div>
+              <button type="button" id="sgip-btn" class="mw-20 btn-11 btn btn-light btn-sm"> SGIP Lvl. 1</button>
+              <button type="button" id="distr-btn" class="mw-20 btn-12 btn btn-light btn-sm"> Distr. </button>  
 
-              <div class="inter inter-14"> SGIP Level 1 Pathway </div>
+              <div id="line-1" class="line line-60"></div>
+              <div id="line-2" class="line line-61"></div>
+              <div id="line-3" class="line line-62"></div>
+
+              <div id="sgip" class="inter inter-14"> SGIP Level 1 Pathway </div>
+
+              <script type="text/javascript"> 
+                $("#sgip-btn").click(function() {
+                  $("#line-1").show();
+                  $("#line-2").show();
+                  $("#line-3").show();
+                  $("#sgip").show();
+                });
+
+                $("#distr-btn").click(function() {
+                  $("#line-1").hide();
+                  $("#line-2").hide();
+                  $("#line-3").hide();
+                  $("#sgip").hide();
+                });
+              </script>
+
             </interconnections>
           </div>
 
