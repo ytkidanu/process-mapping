@@ -822,6 +822,88 @@ class Interconnections extends HTMLElement {
             </div>
         </div>
 
+        <div class="modal fade" id="combined-study" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Feasibility & Impact Study</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        For the small generation expedited process, the first of the Interconnection Analysis studies – the Feasibility Study and the System Impact Study – can be combined if certain criteria are met. From 5.4.1 of PJM Manual 14G, "A small generator interconnection or upgrade may qualify for the expedited study process if it meets the criteria described in Subpart G of the Tariff. Generally, if no load flow or short circuit network impacts are identified and there are no other projects in the vicinity of the small resource addition, a Combined Feasibility and Impact Study (A.k.a a combined study) can be issued to the Interconnection Customer."
+                        
+                        <br><br>The study completion target is approximately 120 days after the close of the queue. Study participants are PJM and TO (Contractor under TO).
+                        <br><br>
+
+                        <div class="card" style="width: 760px;">
+                        <div class="card-body">
+                            <h6 class="card-title">Feasibility Study</h6>
+                            <p class="card-text">As laid out in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/">20VAC5-314-70-C</a>: 
+                            <br><br>
+                            A feasibility study is only required if the parties agree that it should be performed. If the parties agree to not perform a feasibility study, "the utility shall provide the IC a System Impact Study Agreement (Schedule 8 of 20VAC5-314-170) including an outline of the scope of the study and an estimate of the cost to perform the study no later than 10 business days after the scoping meeting or five business days after the decision is made to not have a scoping meeting."
+                            <br><br>
+                            If the parties instead agree that a feasibility study should be performed, the utility "shall provide the IC with a Feasibility Study Agreement (Schedule 7 of 20VAC5-314-170), including an outline of the scope of the feasibility study and an estimate of the cost to perform the study, no later than 10 business days after the scoping meeting or 10 business days after the decision is made to not have a scoping meeting and otherwise pursuant to subsection D of this section." In executing the agreement and subsequent requirements, follow 20VAC5-314-70-C Steps 2-10 for guidance.
+                            <br><br>
+                            Upon completion of the feasibility study, the IC has either met all study requirements, or must continue the study process with the system impact study. 
+                            "11. If the feasibility study shows no potential for adverse system impacts, then within 10 business days of the completion of the study, the utility shall send the IC either an SGIA (Schedule 10 of 20VAC5-314-170) or a Facilities Study Agreement (Schedule 9 of 20VAC5-314-170), including an outline of the scope of the facilities study and an estimate of the cost to perform the study.
+                            12. If the feasibility study shows potential for adverse system impacts, the review process shall proceed to the system impact study."</p>
+                        </div>
+                        </div>
+
+                        <br>
+
+                        <div class="card" style="width: 760px;">
+                        <div class="card-body">
+                            <h6 class="card-title">System Impact Study</h6>
+                            <p class="card-text">Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/">20VAC5-314-70-D<a>:
+                            <br><br>
+                            If the parties agree that a system impact study should be performed, no later than 10 business days after the parties come to the agreement, "the utility shall provide the IC a System Impact Study Agreement (Schedule 8 of 20VAC5-314-170), including an outline of the scope of the system impact study and an estimate of the cost to perform the study." In executing the agreement and subsequent requirements, follow 20VAC5-314-70-D Steps 2-9 for guidance.
+                            <br><br>
+                            Upon completion of the study, "if the system impact study shows that facility modifications are needed to accommodate the SGF, then within 10 business days following transmittal of the system impact study report, the utility shall send the IC a Facilities Study Agreement (Schedule 9 of 20VAC5-314-170), including an outline of the scope of the study and an estimate of the cost to perform the study."
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="modal fade" id="facilities-agreement" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Facilities Study Agreement</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/">20VAC5-314-70-D.10</a>: 
+                        <br><br>
+                        "If the system impact study shows that facility modifications are needed to accommodate the SGF, then within 10 business days following transmittal of the system impact study report, the utility shall send the IC a Facilities Study Agreement (Schedule 9 of 20VAC5-314-170), including an outline of the scope of the study and an estimate of the cost to perform the study."
+                        <br><br>
+                        The requirements of the Facilities Study Agreement are laid out in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/">20VAC5-314-70-E</a>. 
+                        <br><br>
+                        The Facilities Study is the third and final of the Interconnection Analysis studies. The customer must select a single Point of Interconnection (If two were evaluated in the Feasibility Study). Conduct of this study is governed by procedures as set forth in Attachment D of PJM's Manual M-14A.
+                        <br><br>   
+                        In order for the IC to maintain its queue position, the IC must "execute the Facilities Study Agreement and return it to the utility and, if applicable, pay the interconnection request study deposit set forth in Schedule 6 of 20VAC5-314-170 within 30 business days after receipt of the agreement, unless an extension has been agreed to in writing with the utility." The timeline is increased to 45 business days after receipt of the agreement if the case requires system upgrades.
+                        <br><br>  
+                        <b>Study Participants</b>: TO (Or contractor under direction of TO) and affected system study
+                        <br><br>  
+                        <b>Important dynamics to note</b>: 
+                        <ul style="list-style-type:disc">
+                            <li>Potential for System Impact Study Re-tool Analysis</li>
+                            <li>Stability Analysis</li>
+                            <li>Additional Studies as required by Type of Technology being connected</li>
+                            <li>Facility Study Report: Conceptual Design</li>
+                            <li>Attachment Facilities</li>
+                            <li>Network Upgrades: Cost Estimates; Preliminary Engineering and Construction Schedule</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="modal fade" id="" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
