@@ -904,15 +904,22 @@ class Interconnections extends HTMLElement {
             </div>
         </div>
 
-        <div class="modal fade" id="" tabindex="-1" role="dialog">
+        <div class="modal fade" id="construction" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title"></h5>
+                        <h5 class="modal-title" id="title">Construction Planning Meeting</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
                     <div class="modal-body">
+                        Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/">20VAC5-314-70-F</a>: 
+                        <br><br>
+                        "1. Within 15 business days of receipt of the report for the final study (i.e., the facilities study or, if applicable, a combined study that satisfies all study requirements), the IC shall request a construction planning meeting where failure to comply shall result in the interconnection request being deemed withdrawn. The construction planning meeting request shall be in writing and shall include the IC's reasonably requested date for completion of the construction of the customer's interconnection facilities and upgrades.
+                        <br><br>
+                        2. The construction planning meeting shall be scheduled within 15 business days of the request from the IC as stated in subdivision F1 of this section, or as otherwise mutually agreed to in writing by the parties.
+                        <br><br>
+                        3. The purpose of the construction planning meeting is to identify the tasks for each party and discuss and determine the milestones for the construction of the system upgrades and attachment facilities. Agreed upon milestones shall be specific as to scope of action, responsible party, and dates of deliverables and shall be recorded in the SGIA (See Schedule 10 of 20VAC5-314-170) to be provided to the IC."
                     </div>
                 </div>
             </div>
