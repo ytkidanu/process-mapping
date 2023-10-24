@@ -1081,15 +1081,16 @@ class Interconnections extends HTMLElement {
             </div>
         </div>
 
-        <div class="modal fade" id="" tabindex="-1" role="dialog">
+        <div class="modal fade" id="deficiency" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title"></h5>
+                        <h5 class="modal-title" id="title">Deficiency Review</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
                     <div class="modal-body">
+                        Within 15 days of receipt of the customer’s Generation Interconnection Feasibility Study Agreement, or as soon as possible thereafter, the Transmission Provider will execute a deficiency review. The Transmission Provider’s deficiency notice may include, but is not limited to, providing additional required information, evidence, and payments for estimated additional costs. The customer is given ten business days to respond to the deficiency notice. Resolution of any deficiencies is necessary to receive a queue position. Further details can be found in Part IV, Subpart A, Section 36.1.01-2 of the PJM Open Access Transmission Tariff.
                     </div>
                 </div>
             </div>
