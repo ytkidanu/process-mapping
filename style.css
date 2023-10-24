@@ -207,8 +207,8 @@
     font-weight: 500;
 }
 .txt.sgia-lt-1{
-    left: 612px;
-    top: 235px;
+    left: 600px;
+    top: 230px;
     font-size: 11px;
 
     z-index: 3;
@@ -221,23 +221,23 @@
     z-index: 3;
 }
 .txt.sgia-gt{
-    left: 915px;
-    top: 235px;
+    left: 903px;
+    top: 230px;
     font-size: 11px;
     display: none;
 
     z-index: 3;
 }
 .txt.isa-gt{
-    left: 854px;
-    top: 236px;
+    left: 840px;
+    top: 230px;
     font-size: 11px;
 
     z-index: 3;
 }
 .txt.csa-gt{
-    left: 985px;
-    top: 236px;
+    left: 970px;
+    top: 230px;
     font-size: 11px;
 
     z-index: 3;
@@ -1400,8 +1400,9 @@ landing-footer {
 .mw-20 {
     background-color: #FFCF72;
     color: var(--black-color);
-    border: none;
     font-weight: 500;
+    border-color: #000000;
+    border-width: 0.8px;
 }
 .mw-20.btn-1 {
     position: absolute;

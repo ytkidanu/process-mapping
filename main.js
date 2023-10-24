@@ -986,7 +986,96 @@ class Interconnections extends HTMLElement {
                     <br>
                     4. Short-Circuit Analysis
              <br><br>
-             Customers receive a Feasibility Study Report and have 30 days to sign a System Impact Study Agreement (SISA).
+             Customers receive a Feasibility Study Report and 30 days to sign a System Impact Study Agreement (SISA).
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="system-impact" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">System Impact Study</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        The System Impact Study is the second of the Interconnection Analysis studies. The customer must select a single Point of Interconnection (If two were evaluated in the Feasibility Study). <br><br> The following components are required:
+                        <br> 1. Deposit Based on MW Size
+                        <br> 2. Initial Air Permit Application (N/A for solar/wind projects)
+                        <br> 3. Ownership (Transmission Interconnection Requests)
+             
+                        <br><br><b>Study Completion</b>: 120 days after start of Queue Study or start of System Impact Study Agreement
+                        <br><b>Study Participants</b>: PJM & TO (Contractor under TO) and affected systems (FSA)
+             
+                        <br><br>The results of the study are as follows:
+                        <br> 1. Summer-Peak Power Flow Analysis
+                        <br> 2. Light-Load Power Flow Analysis (If applicable)
+                        <br> 3. Short-Circuit Analysis
+                        <br> 4. OtherPowerflow Analyses (If applicable)
+                        <br> 5. Cost Estimates and Allocations
+                        <br><br>
+                        Customers receive a System Impact Study Report and have 30 days to sign a Facility Study Agreement (FSA)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="facilities-studies" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Facilities Studies</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        The Facilities Study is the third and final of the Interconnection Analysis studies. The customer must select a single Point of Interconnection (If two were evaluated in the Feasibility Study). Conduct of this study is governed by procedures as set forth in Attachment D of PJM's Manual M-14A.
+                        <br><br>
+                        The Facilities Study requires a deposit based on MW size. Completion of the study is dependent on the individual transmission owner zone and queue volume.
+                        <br><br>
+                    <b>Study Participants</b>: TO (or contractor under direction of TO) and affected System Study
+                    <br><br>
+                    <b>Important dynamics to note</b>:
+                    <ul style="list-style-type:disc">
+                            <li>Potential for System Impact Study Re-tool Analysis</li>
+                            <li>Stability Analysis</li>
+                            <li>Additional Studies as required by Type of Technology being connected</li>
+                            <li>Facility Study Report: Conceptual Design</li>
+                            <li>Attachment Facilities</li>
+                            <li>Network Upgrades: Cost Estimates; Preliminary Engineering and Construction Schedule</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="inter-services" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Interconnection Services Agreement</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        The ISA is issued to the customer upon completion of the above studies, granting the customer rights to interconnect and generate. It also contains the following important components: defines project milestones, describes the project’s point of interconnection, describes system upgrades and costs, outlines metering requirements, and contains a security requirement. The ISA persists after construction.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="construct-services" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Interconnection Construction Service Agreement</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        The Interconnection Construction Service Agreement (CSA) is provided to the customer. The agreement outlines construction responsibility and contains the upgrade construction schedule and notification and insurance obligations. After construction is completed, the agreement is terminated. 
                     </div>
                 </div>
             </div>
