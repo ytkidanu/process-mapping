@@ -924,6 +924,87 @@ class Interconnections extends HTMLElement {
                 </div>
             </div>
         </div>
+
+        <div class="modal fade" id="inter-request" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Generation Interconnection Request</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        As set forth in FERC Docket No. ER22-2110, the PJM interconnection process follows a “first-ready, first-served” cycle approach. In accordance with <a href="https://agreements.pjm.com/oatt/4088">Part IV Preamble, Section 201 of the PJM Open Access Transmission Tariff</a>, interconnection customers must submit “a complete and fully executed Generation Interconnection Feasibility Study Agreement” to be assigned a queue position. <br><br>The Generation Interconnection Feasibility Study Agreement must include, at minimum, the ten components laid out in Part IV, Subpart A, Section 36.1.01-1 of the PJM Open Access Transmission Tariff. This includes the project’s location, ownership, size, fuel type, equipment configuration, planned in-service date, and deposit.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="position-granted" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Queue Position Granted</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    There are two annual periods for the New Services Queue ending March 31 and September 30 in which new interconnection requests can be allocated a spot. Per Part IV, Subpart A, Section 36.1.01-3 of the PJM Open Access Transmission Tariff: “The Interconnection Customer must submit a complete and fully executed Generation Interconnection Feasibility Study Agreement (Tariff, Attachment N) to the Transmission Provider by March 10 for the New Services Queue ending March 31, and by September 10 for the New Services Queue ending September 30.” Queue position will be assigned based on the date and time of receipt of the last required piece of information, including resolution of deficiency notice.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="feasibility" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Feasibility Study</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    The Feasibility Study is the first of the Interconnection Analysis studies. The customer can select a primary and secondary Point of Interconnection (POI). The following components are required:
+                    <br>
+                    1. Deposit for interconnection requests based on request receipt timing and MW size
+                    <br>
+                    2. Site control for generation requests
+                    <br>
+                    3. In-service date within 7 years of entering queue
+                    <br><br>
+             <b>Study Completion</b>: Target is approximately 120 days after close of queue
+             <br>
+             <b>Study Participants</b>: PJM & TO (Contractor under TO)
+             <br><br>
+             The results of the study are as follows:
+                    <br>
+                    1. Attachment Facilities Needed for Interconnection
+                    <br>
+                    2. Identify thermal overloads and required upgrades (Construction schedule estimates for primary POI)
+                    <br>
+                    3. Identify thermal overloads with secondary POI (No cost/schedule estimates)
+                    <br>
+                    4. Short-Circuit Analysis
+             <br><br>
+             Customers receive a Feasibility Study Report and have 30 days to sign a System Impact Study Agreement (SISA).
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    </div>
+                </div>
+            </div>
+        </div>
         `;
     }
 }
