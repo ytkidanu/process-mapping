@@ -1499,8 +1499,6 @@ landing-footer {
     font-size: 14px;
 }
 
-
-
 .reviews {
     background-color: #FF8E8E;
     color: var(--black-color);
@@ -1759,6 +1757,8 @@ landing-footer {
     position: absolute;
     font-size: 10px;
     z-index: 2;
+    border-radius: 0px;
+    text-align: left;
 
     background: #FEFFC1;
 }

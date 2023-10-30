@@ -980,27 +980,22 @@ class Interconnections extends HTMLElement {
 
                     <div class="modal-body">
                     The Feasibility Study is the first of the Interconnection Analysis studies. The customer can select a primary and secondary Point of Interconnection (POI). The following components are required:
-                    <br>
-                    1. Deposit for interconnection requests based on request receipt timing and MW size
-                    <br>
-                    2. Site control for generation requests
-                    <br>
-                    3. In-service date within 7 years of entering queue
-                    <br><br>
+                    <ol type="1">
+                        <li>Deposit for interconnection requests based on request receipt timing and MW size</li>
+                        <li>Site control for generation requests</li>
+                        <li>In-service date within 7 years of entering queue</li>
+                    </ol>
              <b>Study Completion</b>: Target is approximately 120 days after close of queue
              <br>
              <b>Study Participants</b>: PJM & TO (Contractor under TO)
              <br><br>
              The results of the study are as follows:
-                    <br>
-                    1. Attachment Facilities Needed for Interconnection
-                    <br>
-                    2. Identify thermal overloads and required upgrades (Construction schedule estimates for primary POI)
-                    <br>
-                    3. Identify thermal overloads with secondary POI (No cost/schedule estimates)
-                    <br>
-                    4. Short-Circuit Analysis
-             <br><br>
+                    <ol type="1">
+                        <li>Attachment Facilities Needed for Interconnection</li>
+                        <li>Identify thermal overloads and required upgrades (Construction schedule estimates for primary POI)</li>
+                        <li>Identify thermal overloads with secondary POI (No cost/schedule estimates)</li>
+                        <li>Short-Circuit Analysis</li>
+                    </ol>    
              Customers receive a Feasibility Study Report and 30 days to sign a System Impact Study Agreement (SISA).
                     </div>
                 </div>
@@ -1017,20 +1012,22 @@ class Interconnections extends HTMLElement {
 
                     <div class="modal-body">
                         The System Impact Study is the second of the Interconnection Analysis studies. The customer must select a single Point of Interconnection (If two were evaluated in the Feasibility Study). <br><br> The following components are required:
-                        <br> 1. Deposit Based on MW Size
-                        <br> 2. Initial Air Permit Application (N/A for solar/wind projects)
-                        <br> 3. Ownership (Transmission Interconnection Requests)
-             
-                        <br><br><b>Study Completion</b>: 120 days after start of Queue Study or start of System Impact Study Agreement
+                        <ol type="1">
+                            <li>Deposit Based on MW Size</li>
+                            <li>Initial Air Permit Application (N/A for Solar/Wind Projects)</li>
+                            <li>Ownership (Transmission Interconnection Requests)</li>
+                        </ol> 
+                        <b>Study Completion</b>: 120 days after start of Queue Study or start of System Impact Study Agreement
                         <br><b>Study Participants</b>: PJM & TO (Contractor under TO) and affected systems (FSA)
              
                         <br><br>The results of the study are as follows:
-                        <br> 1. Summer-Peak Power Flow Analysis
-                        <br> 2. Light-Load Power Flow Analysis (If applicable)
-                        <br> 3. Short-Circuit Analysis
-                        <br> 4. OtherPowerflow Analyses (If applicable)
-                        <br> 5. Cost Estimates and Allocations
-                        <br><br>
+                        <ol type="1">
+                            <li>Summer-Peak Power Flow Analysis</li>
+                            <li>Light-Load Power Flow Analysis (If applicable)</li>
+                            <li>Short-Circuit Analysis</li>
+                            <li>Other Power Flow Analyses (If applicable)</li>
+                            <li>Cost Estimates and Allocations</li>
+                        </ol> 
                         Customers receive a System Impact Study Report and have 30 days to sign a Facility Study Agreement (FSA)
                     </div>
                 </div>
@@ -1114,6 +1111,95 @@ class Interconnections extends HTMLElement {
     }
 }
 
+class Localities extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+            <div class="modal fade" id="local-meetings" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="title">Pre-Application Meetings, Community Meetings and Public Engagement</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                                <div class="modal-body">
+                                <div class="card" style="width: 760px;">
+                                <div class="card-body">
+                                    <h6 class="card-title">Pre-Application Meetings</h6>
+                                    <p class="card-text"> Pre-application meetings are coordinated with the locality before submitting the permit application. Requirements differ depending on the locality.</p>
+                                </div>
+                                </div>
+        
+                                <br>
+        
+                                <div class="card" style="width: 760px;">
+                                <div class="card-body">
+                                    <h6 class="card-title">Community Meetings and Public Engagement</h6>
+                                    <p class="card-text">The applicant hosts community meetings and public engagements as requested or required by the locality. Such engagements with the community can take place before, during, and/or after the application is submitted.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="modal fade" id="local-certification" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">Local Certifications Process</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            Possible components of the local certifications process include, but are not limited to:
+                            <ol type="1">
+                                <li>2232 Comprehensive Plan Review or Siting Agreement</li>
+                                <li>Municipal/County Zone Review</li>
+                            </ol>
+                            If applicable, local certification will be granted at the conclusion of steps A and B.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="submit-certification" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">Submit Certification by the Governing Body of the Locality</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                        This is the first of the two permit requirements, as laid out in <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section130/">9VAC15-60-130</a>. Once the project has been deemed to meet the local certification criteria, submit local certification that the project complies with local land use ordinances. No statutory review time limits or public hearings required.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="permits-inspections" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">Construction Permits and Inspections</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            Construction permits and inspections occur after the state permit is obtained. Required permits and inspections may include, but are not limited to: 
+                            <br>
+                            <ol type="1">
+                                <li>Local Stormwater/Erosion/Sedimentation Permit</li>
+                                <li>Municipal/County Construction Permit </li>
+                                <li>Municipal/County Electrical Permits </li>
+                                <li>Municipal/County Traffic Study/Permit </li>
+                                <li>Traffic Management Plan</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `
+    }
+}
+
 
 customElements.define('nav-bar', NavBar);
 customElements.define('swim-bar', SwimLaneNavBar);
@@ -1124,6 +1210,7 @@ customElements.define('title-', Title);
 customElements.define('sister-agency', SisterAgencyModal);
 customElements.define('deq-', DEQ);
 customElements.define('inter-', Interconnections);
+customElements.define('localities-', Localities);
 
 $('#myModal').on('shown.bs.modal', function() {
     $('#myInput').trigger('focus')
