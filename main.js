@@ -728,6 +728,21 @@ class DEQ extends HTMLElement{
                 </div>
             </div>
         </div>
+
+        <div class="modal fade" id="hb206-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Future Requirements Per HB206</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Still in progress and will be promulgated by the end of 2024. See up-to-date information <a href="https://www.deq.virginia.gov/our-programs/air/renewable-energy/hb-206-renewable-energy-natural-resources">here</a>.
+                    </div>
+                </div>
+            </div>
+        </div>
         `;
     }
 }
