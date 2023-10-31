@@ -543,23 +543,23 @@
     transform: rotate(90deg);
 }
 .line.line-31 {
-    width: 212px;
-    left: 700px;
-    top: 352px;
+    width: 242px;
+    left: 752px;
+    top: 307.5px;
 
     z-index: 1;
 }
 .line.line-32 {
-    width: 200px;
-    left: 650px;
-    top: 452px;
+    width: 265px;
+    left: 620.3px;
+    top: 440px;
 
     z-index: 1;
     transform: rotate(90deg);
 }
 .line.line-33 {
     width: 200px;
-    left: 550px;
+    left: 552px;
     top: 453px;
 
     z-index: 1;
@@ -592,6 +592,13 @@
 .line.line-46 {
     width: 100px;
     left: 500px;
+    top: 352.5px;
+
+    z-index: 1;
+}
+.line.line-69 {
+    width: 65px;
+    left: 688px;
     top: 352.5px;
 
     z-index: 1;
@@ -774,9 +781,9 @@
     display: none;
 }
 .line.line-67 {
-    width: 101px;
-    left: 700px;
-    top: 403px;
+    width: 162px;
+    left: 670px;
+    top: 433px;
 
     display: none;
     z-index: 1;
