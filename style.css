@@ -138,6 +138,7 @@
     text-align: center;
     color: var(--black-color);
     position: absolute;
+    white-space: nowrap;
 }
 /* cpcn-5-mw.html */
 .txt.mw-5-title {
@@ -1510,6 +1511,7 @@ landing-footer {
     background-color: #FF8E8E;
     color: var(--black-color);
     border: 1px solid #000000;
+    white-space: nowrap;
 
     position: absolute;
     z-index: 2;
