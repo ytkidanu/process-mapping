@@ -21,6 +21,90 @@
 <body>
     <nav-bar></nav-bar>
 
+    <modals>
+      <div class="modal fade" id="start-here" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="title">Which Best Describes Your Project?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                  This tool is intended to help understand and navigate which pathway is required, or best suited, for a proposed solar project. The permit pathway required or chosen can depend on multiple factors, including maximum capacity (MW), disturbance area (acerage), and owner-operator of a public utility.
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="modal fade" id="nameplate-less-5-mw" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="title">Nameplate Capacity: &le; 5 MW</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                  If the project is no larger than 5 MW, follow this pathway. The traditional permit application process is that governed by the State Corporation Comission (SCC). You may choose to instead apply through the alternative process of the Virginia Department of Environmental Quality (DEQ).
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="modal fade" id="alternative-4" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="title">Alternative Process: Department of Environmental Quality</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                  If choosing to apply through the DEQ, follow this pathway to determine which DEQ permit process that is required to be followed.
+
+                  <br><br><i>9VAC15-60-10 defines "disturbance zone" as: "The area within the site directly impacted by construction and operation of the solar energy project and within 100 feet of the boundary of the directly impacted area."</i>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="modal fade" id="disturbance-1" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="title">Project is &le; 500 kW and the Disturbance Zone is &le; 2 acres</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                  If the project falls under this category, the project is exempt from the Small Solar PV Facility Notice of Intent (Section 130 Permit). Under <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section130/ ">9VAC15-60-130A</a>, "The owner or operator of a small solar energy project is not required to submit any notification or certification to the department."
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="modal fade" id="disturbance-2" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="title">Project is &lt; 500 kW and the Disturbance Zone is &gt; 2 acres but &le; 10 acres</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                  If your project falls under this category, you are exempt from the Small Solar PV Facility Notice of Intent (Section 130 Permit). Under <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section130/ ">VAC15-60-130A</a>, "The owner or operator of a small solar energy project is not required to submit any notification or certification to the department."
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </modals>
+
     <div class="container">
         <div class="row">
           <div class="col"></div>
@@ -65,18 +149,18 @@
             <div class="circle circle-5"></div>
             <div class="circle circle-6"></div>
 
-            <div class="project landing-5-mw"><b>Nameplate Capacity</b>:<br> &le; 5 MW</div>
+            <div data-bs-toggle="modal" data-bs-target="#nameplate-less-5-mw" class="btn btn-light project landing-5-mw"><b>Nameplate Capacity</b>:<br> &le; 5 MW</div>
             <div class="project landing-5-100-mw"><b>Nameplate Capacity</b>:<br> &gt; 5 MW but &le; 100 MW</div>
             <div class="project landing-100-mw"><b>Nameplate Capacity</b>:<br> &gt; 100 MW</div>
 
-            <div class="project landing-1">&le; 500 kW and disturbance zone is &le; 2 acres</div>
-            <div class="project landing-2">&le; 500 kW and disturbance zone is &gt; 2 acres but &le; 10 acres</div>
+            <div data-bs-toggle="modal" data-bs-target="#disturbance-1" class="btn btn-light project landing-1">&le; 500 kW and disturbance zone is &le; 2 acres</div>
+            <div data-bs-toggle="modal" data-bs-target="#disturbance-2" class="btn btn-light project landing-2">&le; 500 kW and disturbance zone is &gt; 2 acres but &le; 10 acres</div>
             <div class="project landing-3">&gt; 500 KW but &le; 5 MW and disturbance zone is &le; 2 acres</div>
             <div class="project landing-4">&gt; 500 KW but &le; 5 MW and disturbance zone is &gt; 2 acres but &le; 10 acres</div>
             <div class="project landing-5">&gt; 500 KW but &le; 5 MW and disturbance zone is &gt; 10 acres</div>
 
             <div class="txt landing-best-describe">Which best <br>describes your<br> project?</div>
-            <div class="decision landing-best-describe"></div>
+            <div data-bs-toggle="modal" data-bs-target="#start-here" class="btn btn-light decision landing-best-describe"></div>
 
             <div class="txt landing-title-56">Is the utility<br> regulated pursuant<br> to Title 56?</div>
             <div class="decision landing-title-56-1"></div>
@@ -93,7 +177,7 @@
             <div class="process alternative-1"><b>Alternative Process</b>: Department of Environmental Quality</div>
             <div class="process alternative-2"><b>Alternative Process</b>: Department of Environmental Quality</div>
             <div class="process alternative-3"><b>Alternative Process</b>: Department of Environmental Quality</div>
-            <div class="process alternative-4"><b>Alternative Process</b>: Department of Environmental Quality</div>
+            <div data-bs-toggle="modal" data-bs-target="#alternative-4" class="btn btn-light process alternative-4"><b>Alternative Process</b>: Department of Environmental Quality</div>
             
             <div class="txt landing-title-56-2">Is the utility<br> regulated pursuant<br> to Title 56?</div>
             <div class="decision landing-title-56-2"></div>
@@ -114,7 +198,6 @@
             <div class="box yes-7"> YES </div>
             <div class="box yes-8"> YES </div>
             <div class="box yes-9"> YES </div>
-
 
             <permit>
               <img src="../images/permit.png" class="landing-permit permit-1"></img>
@@ -147,6 +230,7 @@
               <img src="../images/permit.png" class="landing-permit permit-10"></img>
               <a href="swim-lanes/cpcn-100-mw.html" class="txt landing-100-mw-2">CPCN for &gt 100 MW Facilities</a>
             </permit>
+
 
             <abbrev-list></abbrev-list>
           </div>
