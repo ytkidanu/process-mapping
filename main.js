@@ -3,7 +3,8 @@ class NavBar extends HTMLElement {
         this.innerHTML = `
             <nav class="navbar navbar-expand sticky-top navbar-light bg-light"">
                 <div class="container">
-                    <span class="navbar-logo h2"> The Virginia Solar Permit Map </span>
+                    <span class="navbar-logo"><h2> The Virginia Solar Permit Map </h2> 
+                        An Interactive Process Map Detailing the Various Permits Required for Solar Permits in Virginia </span>
                     <div class="collapse navbar-collapse"></div>
                         <ul class="navbar-nav h5">
                             <li class="nav-item px-2">
@@ -82,7 +83,8 @@ class SwimLaneNavBar extends HTMLElement {
         this.innerHTML = `
             <nav class="navbar navbar-expand navbar-light bg-light">
                 <div class="container">
-                    <span class="navbar-logo h2"> The Virginia Solar Permit Map </span>
+                    <span class="navbar-logo"> <h2> The Virginia Solar Permit Map </h2> 
+                    An Interactive Process Map Detailing the Various Permits Required for Solar Permits in Virginia </span>
                     <div class="collapse navbar-collapse"></div>
                         <ul class="navbar-nav h5">
                             <li class="nav-item px-2">
