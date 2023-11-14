@@ -22,9 +22,22 @@
     position: absolute;
 }
 /* landing.html */
-.decision.landing-best-describe {
-    left: -65px;
-    top: 510px;
+.landing-best-describe {
+    box-sizing: border-box;
+    background: var(--green-color);
+    border-radius: 0px;
+    font-size: 12px;
+    border-radius: 60%;
+
+    border: 1px solid var(--black-color);
+    width: 120px;
+    height: 95px;
+    z-index: 0;
+    position: absolute;
+    padding-top: 18px;
+
+    left: -80px;
+    top: 505px;
 }
 .decision.landing-title-56-1 {
     left: 300px;
@@ -52,7 +65,7 @@
 }
 .decision.landing-exempt {
     left: 745px;
-    top: 243px;
+    top: 256px;
 }
 
 .circle {
@@ -85,7 +98,7 @@
 }
 .circle.circle-5 {
     left: 470px;
-    top: 271px;
+    top: 284px;
 }
 .circle.circle-6 {
     left: 276.5px;
@@ -132,7 +145,7 @@
 }
 .process.alternative-4 {
     left: 310px;
-    top: 245px;
+    top: 258px;
     font-size: 11px;
 }
 
@@ -272,13 +285,6 @@
     font-weight: 500;
 }
 /* landing.html */
-.txt.landing-best-describe{
-    width: 83px;
-    height: 46px;
-    left: -65px;
-    top: 530px;
-    font-size: 12px;
-}
 .txt.landing-noi-500-kw {
     width: 225px;
     height: 100px;
@@ -448,7 +454,7 @@
     width: 225px;
     height: 96px;
     left: 675px;
-    top: 265px;
+    top: 270px;
 
     text-decoration: none;
     line-height: 16px;
@@ -988,9 +994,9 @@
     transform: rotate(90deg);
 }
 .line.landline-20 {
-    width: 226px;
-    left: 179px;
-    top: 171.5px;
+    width: 240px;
+    left: 172px;
+    top: 178.5px;
 
     transform: rotate(90deg);
 }
@@ -1003,38 +1009,38 @@
 .line.landline-22 {
     width: 622.2px;
     left: 291.3px;
-    top: 285px;
+    top: 298px;
     z-index: 0;
 }
 .line.landline-23 {
-    width: 244.4px;
-    left: 363px;
-    top: 222px;
+    width: 155px;
+    left: 408px;
+    top: 221px;
 
     transform: rotate(90deg);
 }
 .line.landline-24 {
-    width: 250px;
+    width: 250.2px;
     left: 485px;
     top: 223px;
     z-index: 0;
 }
 .line.landline-25 {
-    width: 429px;
+    width: 250px;
     left: 485px;
-    top: 165px;
+    top: 144px;
     z-index: 0;
 }
 .line.landline-26 {
-    width: 250px;
-    left: 485px;
-    top: 100.5px;
+    width: 200px;
+    left: 734px;
+    top: 180px;
     z-index: 0;
 }
 .line.landline-27 {
-    width: 123.5px;
-    left: 672.5px;
-    top: 162px;
+    width: 80px;
+    left: 694.5px;
+    top: 183.4px;
     z-index: 0;
 
     transform: rotate(90deg);
@@ -1128,25 +1134,14 @@
     padding: 10px;
     font-size: 11px;
 }
-.project.landing-1 {
-    width: 190px;
-    height: 50px;
-
-    left: 515px;
-    top: 80px;
-    padding: 10px;
-    font-size: 11px;
-    padding-top: 8px;
-    background-color: #FFFBD7;
-}
 .project.landing-2 {
     width: 190px;
     height: 50px;
 
     left: 515px;
-    top: 140px;
+    top: 120px;
     padding: 10px;
-    font-size: 11px;
+    font-size: 12px;
     padding-top: 8px;
     background-color: #FFFBD7;
 }
@@ -1157,7 +1152,7 @@
     left: 515px;
     top: 200px;
     padding: 3px;
-    font-size: 11px;
+    font-size: 12px;
     padding-top: 8px;
     background-color: #FFFBD7;
 }
@@ -1166,20 +1161,9 @@
     height: 50px;
 
     left: 515px;
-    top: 260px;
+    top: 275px;
     padding: 5px;
-    font-size: 10px;
-    padding-top: 8px;
-    background-color: #FFFBD7;
-}
-.project.landing-5 {
-    width: 190px;
-    height: 50px;
-
-    left: 515px;
-    top: 320px;
-    padding: 3px;
-    font-size: 11px;
+    font-size: 12px;
     padding-top: 8px;
     background-color: #FFFBD7;
 }
@@ -1249,8 +1233,8 @@
 /* base.html */
 .box.no-4 {
     padding: 1px 9px;
-    left: 860px;
-    top: 275px;
+    left: 859px;
+    top: 289px;
 }
 .box.no-5 {
     padding: 1px 9px;
