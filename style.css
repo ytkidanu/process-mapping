@@ -34,7 +34,7 @@
     height: 95px;
     z-index: 0;
     position: absolute;
-    padding-top: 18px;
+    padding-top: 20px;
 
     left: -80px;
     top: 505px;
@@ -93,7 +93,7 @@
     top: 878px;
 }
 .circle.circle-4 {
-    left: 754.5px;
+    left: 723.5px;
     top: 753px;
 }
 .circle.circle-5 {
@@ -139,7 +139,7 @@
     font-size: 11px;
 }
 .process.alternative-3 {
-    left: 735px;
+    left: 749.5px;
     top: 885px;
     font-size: 11px;
 }
@@ -399,7 +399,7 @@
     width: 225px;
     height: 95px;
     left: 230px;
-    top: 528px;
+    top: 522px;
 
     text-decoration: none;
     line-height: 16px;
@@ -410,7 +410,7 @@
     width: 225px;
     height: 95px;
     left: 405px;
-    top: 633px;
+    top: 626px;
 
     text-decoration: none;
     line-height: 16px;
@@ -421,7 +421,7 @@
     width: 225px;
     height: 95px;
     left: 477px;
-    top: 896px;
+    top: 889px;
 
     text-decoration: none;
     line-height: 16px;
@@ -431,8 +431,8 @@
 .txt.landing-title-56-2 {
     width: 225px;
     height: 95px;
-    left: 475px;
-    top: 743px;
+    left: 476px;
+    top: 736px;
 
     text-decoration: none;
     line-height: 16px;
@@ -443,7 +443,7 @@
     width: 155px;
     height: 96px;
     left: 334px;
-    top: 752px;
+    top: 745px;
 
     text-decoration: none;
     line-height: 16px;
@@ -974,9 +974,9 @@
     z-index: 0;
 }
 .line.landline-17 {
-    width: 215px;
-    left: 305px;
-    top: 898px;
+    width: 230px;
+    left: 297.5px;
+    top: 899.5px;
 
     transform: rotate(90deg);
 }
@@ -987,9 +987,9 @@
     z-index: 0;
 }
 .line.landline-19 {
-    width: 106px;
-    left: 717.5px;
-    top: 820px;
+    width: 158px;
+    left: 660px;
+    top: 845.5px;
 
     transform: rotate(90deg);
 }
@@ -1080,7 +1080,7 @@
 .line.landline-33 {
     width: 100px;
     left: 682px;
-    top: 664px;
+    top: 663.5px;
     z-index: 0;
 
     transform: rotate(90deg);
@@ -1224,7 +1224,7 @@
     height: 18px;
     line-height: 16px;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     z-index: 1;
 
     background: white;
@@ -1258,7 +1258,7 @@
 }
 .box.no-9 {
     padding: 1px 9px;
-    left: 670px;
+    left: 665px;
     top: 758px;
 }
 .box.yes-4 {
