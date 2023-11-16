@@ -160,17 +160,19 @@
 }
 /* cpcn-5-mw.html */
 .txt.mw-5-title {
-    left: 400px;
-    top: 55px;
+    left: 110px;
+    top: 30px;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
 }
 /* dbq-pbr.html */
 .txt.deq-pbr-title {
     left: 355px;
-    top: 55px;
+    top: 30px;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
 }
 .txt.noi-solar-energy-1 {
     width: 125px;
@@ -194,10 +196,11 @@
 }
 /* cpcn-100-mw.html */
 .txt.mw-100-title {
-    left: 430px;
-    top: 55px;
+    left: 220px;
+    top: 30px;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
 }
 .txt.operational {
     left: 915px;
@@ -214,16 +217,18 @@
 /* noi-500-kw.html */
 .txt.kw-500-title {
     left: 220px;
-    top: 55px;
+    top: 30px;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
 }
 /* deq-130-permit.html */
 .txt.deq-permit-title {
-    left: 460px;
-    top: 55px;
+    left: 380px;
+    top: 30px;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
 }
 .txt.sgia-lt-1{
     left: 600px;
@@ -273,10 +278,11 @@
 }
 /* exempt-130-permit.html */
 .txt.exempt-permit-title {
-    left: 410px;
-    top: 55px;
+    left: 300px;
+    top: 40px;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
 }
 .txt.operational-exempt {
     left: 915px;
