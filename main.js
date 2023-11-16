@@ -175,8 +175,13 @@ class Abbrev extends HTMLElement {
                     </thead>
                     <tbody>
                     <tr>
-                        <th scope="row"> SCC </th>
-                        <td> State Coporation Commission </td>
+                        <th scope="row"> CPCN </th>
+                        <td> Certificate of Public Convenience and Necessity </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> DCR </th>
+                        <td> Department of Conservation and Recreation </td>
                     </tr>
 
                     <tr>
@@ -185,63 +190,8 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
-                        <th scope="row"> CPCN </th>
-                        <td> Certificate of Public Convenience and Necessity </td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row"> NOI </th>
-                        <td> Notice of Intent </td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row"> MW </th>
-                        <td> Megawatt </td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row"> kw </th>
-                        <td> Kilowatt </td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row"> EGF </th>
-                        <td> Electric Generating Facility </td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row"> DOT </th>
-                        <td> Department of Transportation </td>
-                    </tr>
-
-                    <tr>
                         <th scope="row"> DHR </th>
                         <td> Department of Historic Resources </td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row"> DCR </th>
-                        <td> Department of Conversation and Recreation </td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row"> DWR </th>
-                        <td> Department of Wildlife Resources </td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row"> ISA </th>
-                        <td> Interconnection Service Agreeement </td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row"> WMPA </th>
-                        <td> Wholesale Market Participation Agreement </td>
-                    </tr>
-
-                    <tr>
-                        <th scope="row"> SGIP </th>
-                        <td> Small Generator Interconnection Procedures </td>
                     </tr>
 
                     <tr>
@@ -250,8 +200,28 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
-                        <th scope="row"> Trans. </th>
-                        <td> Transmission </td>
+                        <th scope="row"> DOT </th>
+                        <td> Department of Transportation </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> DWR </th>
+                        <td> Department of Wildlife Resources </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> E&S </th>
+                        <td> Erosion and Sediment </td>
+                    </tr>
+                    
+                    <tr>
+                        <th scope="row"> EGF </th>
+                        <td> Electric Generating Facility </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> FERC </th>
+                        <td> Federal Energy Regulatory Comission </td>
                     </tr>
 
                     <tr>
@@ -260,8 +230,73 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> ISA </th>
+                        <td> Interconnection Service Agreement </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> kw </th>
+                        <td> Kilowatt </td>
+                    </tr>
+
+                    <tr>
                         <th scope="row"> Lvl. </th>
                         <td> Level </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> MW </th>
+                        <td> Megawatt </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> NOI </th>
+                        <td> Notice of Intent </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> PBR </th>
+                        <td> Permit By Rule </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> PV </th>
+                        <td> Photovoltaic </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> SCC </th>
+                        <td> State Coporation Commission </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> SGIP </th>
+                        <td> FERC Small Generator Interconnection Procedures </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> Sm. Inter. </th>
+                        <td> Small Interconnection </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> SWPPP </th>
+                        <td> Stormwater Pollution Prevention Plan </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> Trans. </th>
+                        <td> Transmission </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> VPDES </th>
+                        <td> Virginia Pollutant Discharge Elimination System </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> WMPA </th>
+                        <td> Wholesale Market Participation Agreement </td>
                     </tr>
                     </tbody>
                 </table>
