@@ -12,7 +12,6 @@
 .container-description {
     padding-top: 3%;
     padding-right: 10%;
-    
 }
 
 .decision {
@@ -1421,6 +1420,18 @@ landing-footer {
     position: absolute;
     left: 0px;
     top: 1170px;
+
+    width:100%
+}
+
+about-footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    
+    position: absolute;
+    left: 0px;
+    top: 2000px;
 
     width:100%
 }

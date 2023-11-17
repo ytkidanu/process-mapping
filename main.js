@@ -1,7 +1,7 @@
 class NavBar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <nav class="navbar navbar-expand sticky-top navbar-light bg-light"">
+            <nav class="navbar navbar-expand navbar-light bg-light"">
                 <div class="container">
                     <span class="navbar-logo"><h2> The Virginia Solar Permit Map </h2> 
                         An Interactive Process Map Detailing the Various Permits Required for Solar Permits in Virginia </span>
@@ -314,8 +314,6 @@ class Footer extends HTMLElement {
             <footer class="bg-light">
                 <img src="../images/VAEnergyLogo.png" class="va-energy-logo"> <img src="../images/VTLogo.png" class="vt-logo">
                 <br> Feedback or Questions? Contact <a href="https://energytransition.coopercenter.org/profile/elizabeth-marshall">Elizabeth Marshall</a> at the Virginia Solar Intiative
-                <br> Updated on June 30th, 2023
-                <br> Created by Jaden Wang, Elizabeth Marshall, Katie Treene, Lucy Williams, and Dr. Ron Meyers
             </footer>
         `;
     }
