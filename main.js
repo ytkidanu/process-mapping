@@ -26,7 +26,7 @@ class NavBar extends HTMLElement {
                                     <ul class="dropdown-menu dropdown-menu-end">
                                         <li>
                                             <a href="swim-lanes/exempt-130-permit.html" class="dropdown-item">
-                                                Exemption from Section 130 Permit
+                                                Exemption from DEQ Section 130 Permit
                                             </a>
                                         </li>
 
@@ -42,7 +42,7 @@ class NavBar extends HTMLElement {
                             
                                         <li>
                                             <a href="swim-lanes/noi-500-kw.html" class="dropdown-item">
-                                                NOI to Construct an EGF with Rated Capacity of &lt5 MW
+                                                SCC NOI to Construct an EGF with Rated Capacity of &lt5 MW
                                             </a>
                                         </li>
 
@@ -58,7 +58,7 @@ class NavBar extends HTMLElement {
                             
                                         <li>
                                             <a href="swim-lanes/cpcn-5-mw.html" class="dropdown-item">
-                                                CPCN for Facilities 5 MW to 100 MW
+                                                SCC CPCN for Facilities 5 MW to 100 MW
                                             </a>
                                         </li>
 
@@ -66,7 +66,7 @@ class NavBar extends HTMLElement {
                             
                                         <li>
                                             <a href="swim-lanes/cpcn-100-mw.html" class="dropdown-item">
-                                                CPCN for Facilities &gt100 MW 
+                                               SCC CPCN for Facilities &gt100 MW 
                                             </a>
                                         </li>
                                     </ul>
@@ -106,7 +106,7 @@ class SwimLaneNavBar extends HTMLElement {
                                     <ul class="dropdown-menu dropdown-menu-end">
                                         <li>
                                             <a href="exempt-130-permit.html" class="dropdown-item">
-                                                Exemption from Section 130 Permit
+                                                Exemption from DEQ Section 130 Permit
                                             </a>
                                         </li>
 
@@ -122,7 +122,7 @@ class SwimLaneNavBar extends HTMLElement {
                             
                                         <li>
                                             <a href="noi-500-kw.html" class="dropdown-item">
-                                                NOI to Construct an EGF with Rated Capacity of &lt5 MW
+                                                SCC NOI to Construct an EGF with Rated Capacity of &lt5 MW
                                             </a>
                                         </li>
 
@@ -138,7 +138,7 @@ class SwimLaneNavBar extends HTMLElement {
                             
                                         <li>
                                             <a href="cpcn-5-mw.html" class="dropdown-item">
-                                                CPCN for Facilities 5 MW to 100 MW
+                                                SCC CPCN for Facilities 5 MW to 100 MW
                                             </a>
                                         </li>
 
@@ -146,7 +146,7 @@ class SwimLaneNavBar extends HTMLElement {
                             
                                         <li>
                                             <a href="cpcn-100-mw.html" class="dropdown-item">
-                                                CPCN for Facilities &gt100 MW 
+                                                SCC CPCN for Facilities &gt100 MW 
                                             </a>
                                         </li>
                                     </ul>

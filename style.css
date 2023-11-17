@@ -9,6 +9,12 @@
     position: relative;
 }
 
+.container-description {
+    padding-top: 3%;
+    padding-right: 10%;
+    
+}
+
 .decision {
     box-sizing: border-box;
     background: var(--green-color);
