@@ -225,6 +225,11 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> IC </th>
+                        <td> Interconnection </td>
+                    </tr>
+                    
+                    <tr>
                         <th scope="row"> Inter. </th>
                         <td> Interconnection </td>
                     </tr>
@@ -267,6 +272,11 @@ class Abbrev extends HTMLElement {
                     <tr>
                         <th scope="row"> SCC </th>
                         <td> State Coporation Commission </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> SGIA </th>
+                        <td> Small Generator Interconnection Agreement </td>
                     </tr>
 
                     <tr>
@@ -350,12 +360,6 @@ class SwimLane extends HTMLElement {
             </button>
             <button type="button" class="btn btn-light btn-sm reviews btn-4" data-bs-toggle="modal" data-bs-target="#new-incidental-modal">
               New Incidental Take Permit
-            </button>
-            <button type="button" class="btn btn-light btn-sm reviews btn-5" data-bs-toggle="modal" data-bs-target="#renewal-permit-modal">
-              Renewal or Amendment of an Existing Valid Incidental Take Permit
-            </button>
-            <button type="button" class="btn btn-light btn-sm reviews btn-6" data-bs-toggle="modal" data-bs-target="#transfer-permit-modal">
-              Transfer, Partial Transfer, or Succession of an Existing Valid Incidental Take Permit
             </button>
 
             <army-corps>

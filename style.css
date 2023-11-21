@@ -1586,14 +1586,14 @@ about-footer {
     left: 530px;
     top: 114px;
     height: 82px;
-    width: 530px;
+    width: 290px;
     
     padding-top: 4px;
     text-align: center;
     border-radius: 0px;
 }
 .reviews.btn-3 {
-    left: 910px;
+    left: 545px;
     top: 139.5px;
 
     font-size: 9.5px;
@@ -1601,24 +1601,8 @@ about-footer {
     text-align: center;
 }
 .reviews.btn-4 {
-    left: 910px;
-    top: 166px;
-
-    font-size: 9.5px;
-    background: #FFD0D0;
-    text-align: center;
-}
-.reviews.btn-5 {
     left: 545px;
     top: 166px;
-
-    font-size: 9.5px;
-    background: #FFD0D0;
-    text-align: center;
-}
-.reviews.btn-6 {
-    left: 545px;
-    top: 139.5px;
 
     font-size: 9.5px;
     background: #FFD0D0;
