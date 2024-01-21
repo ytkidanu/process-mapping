@@ -8,11 +8,11 @@ class NavBar extends HTMLElement {
                     <div class="collapse navbar-collapse"></div>
                         <ul class="navbar-nav h5">
                             <li class="nav-item px-2">
-                                <a href="../index.html" class="nav-link"> Home </a>
+                                <a href="index.html" class="nav-link"> Home </a>
                             </li>
 
                             <li class="nav-item px-2">
-                                <a href="../about.html" class="nav-link"> About </a>
+                                <a href="about.html" class="nav-link"> About </a>
                             </li>
 
                             <li class="nav-item px-2">
@@ -943,7 +943,7 @@ class Interconnections extends HTMLElement {
                         <br><br>  
                         <b>Study Participants</b>: TO (Or contractor under direction of TO) and affected system study
                         <br><br>  
-                        <b>Important dynamics to note</b>: 
+                        Important dynamics to note: 
                         <ul style="list-style-type:disc">
                             <li>Potential for System Impact Study Re-tool Analysis</li>
                             <li>Stability Analysis</li>
@@ -1087,7 +1087,7 @@ class Interconnections extends HTMLElement {
                         <br><br>
                     <b>Study Participants</b>: TO (or contractor under direction of TO) and affected System Study
                     <br><br>
-                    <b>Important dynamics to note</b>:
+                    Important dynamics to note:
                     <ul style="list-style-type:disc">
                             <li>Potential for System Impact Study Re-tool Analysis</li>
                             <li>Stability Analysis</li>
