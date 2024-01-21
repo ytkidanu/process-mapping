@@ -65,8 +65,8 @@
     top: 725px;
 }
 .decision.landing-150-mw {
-    left: 370px;
-    top: 725px;
+    left: 300px;
+    top: 850px;
 }
 .decision.landing-exempt {
     left: 745px;
@@ -453,8 +453,8 @@
 .txt.landing-150-mw {
     width: 155px;
     height: 96px;
-    left: 334px;
-    top: 745px;
+    left: 265px;
+    top: 870px;
 
     text-decoration: none;
     line-height: 16px;
@@ -953,28 +953,28 @@
     z-index: 0;
 }
 .line.landline-12 {
-    width: 249px;
-    left: 178px;
-    top: 891px;
+    width: 258.5px;
+    left: 213.3px;
+    top: 895.5px;
 
     transform: rotate(90deg);
 }
 .line.landline-13 {
-    width: 611.2px;
-    left: 302px;
-    top: 1015px;
+    width: 597px;
+    left: 342px;
+    top: 1024px;
     z-index: 0;
 }
 .line.landline-14 {
-    width: 611.2px;
-    left: 302px;
+    width: 580px;
+    left: 342px;
     top: 767px;
     z-index: 0;
 }
 .line.landline-15 {
-    width: 100px;
-    left: 539px;
-    top: 840px;
+    width: 250px;
+    left: 464px;
+    top: 899px;
 
     transform: rotate(90deg);
 }
@@ -1089,9 +1089,9 @@
     z-index: 0;
 }
 .line.landline-33 {
-    width: 100px;
-    left: 682px;
-    top: 663.5px;
+    width: 121px;
+    left: 672px;
+    top: 653px;
     z-index: 0;
 
     transform: rotate(90deg);
@@ -1259,13 +1259,13 @@
 }
 .box.no-7 {
     padding: 1px 9px;
-    left: 392px;
-    top: 870px;
+    left: 322px;
+    top: 975px;
 }
 .box.no-8 {
     padding: 1px 9px;
-    left: 670px;
-    top: 984px;
+    left: 569px;
+    top: 1000px;
 }
 .box.no-9 {
     padding: 1px 9px;
@@ -1289,8 +1289,8 @@
 }
 .box.yes-7 {
     padding: 0.5px 6px;
-    left: 480px;
-    top: 758px;
+    left: 322px;
+    top: 792px;
 }
 .box.yes-8 {
     padding: 0.5px 6px;
@@ -2255,3 +2255,34 @@ about-footer {
     border-radius: 5px;
     padding: 12px 15px;
 }
+
+.arrow {
+    position: absolute;
+    font-size: 25px;
+}
+.arrow-1 {
+    left: 815px;
+    top: 747.2px;
+}
+.arrow-2 {
+    left: 733px;
+    top: 820px;
+
+    transform: rotate(90deg);
+}
+.arrow-3 {
+    left: 670px;
+    top: 1004px;
+}
+.arrow-4 {
+    left: 723.5px;
+    top: 600px;
+
+    transform: rotate(270deg);
+}
+.arrow-5 {
+    left: 726.5px;
+    top: 678px;
+
+    transform: rotate(90deg);
+}                  
