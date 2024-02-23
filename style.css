@@ -2285,4 +2285,210 @@ about-footer {
     top: 678px;
 
     transform: rotate(90deg);
-}                  
+}
+
+.container-scroll {
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.txt-test {
+    z-index: 1;
+    font-style: normal;
+    line-height: 16px;
+    color: var(--black-color);
+}
+.txt-test.mw-100-title- {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.txt-test.txt-inter-1-test {
+    top: 132px;
+    left: 258px;
+    z-index: 1;
+
+    font-size: 12px;
+    font-weight: 500;
+    
+    position: absolute;
+}
+
+.container-swimlane {
+    width: 1075px;
+    height: 500px;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
+
+footer-test {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    
+    position: absolute;
+    width:100%
+}
+
+.lane-test {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1075px;
+    height: 100px;
+    z-index: -1;
+
+    border: 1px solid #000000;
+}
+.lane-test.federal-test {
+    background: #FFD0D0;
+    left: 0px;
+    top: 0px;
+
+    font-size: 16px;
+    font-weight: 500;
+    padding: 38px 30px;
+}
+.lane-test.interconnections-test {
+    background: #FFECC8;
+    left: 0px;
+    top: 100px;
+
+    font-size: 16px;
+    font-weight: 500;
+    padding: 35px 30px;
+}
+.lane-test.localities-test {
+    background: #FDFFE5;
+    left: 0px;
+    top: 200px;
+
+    font-size: 16px;
+    font-weight: 500;
+    padding: 36px 50px;
+}
+.lane-test.deq-test {
+    background: #E3FBE2;
+    left: 0px;
+    top: 300px;
+
+    font-size: 16px;
+    font-weight: 500;
+    padding: 36px 68px;
+}
+.lane-test.scc-test {
+    background: #E2E1FF;
+    left: 0px;
+    top: 400px;
+
+    font-size: 16px;
+    font-weight: 500;
+    padding: 36px 68px;
+}
+
+.line-test {
+    border: 1px solid var(--black-color);
+    z-index: 0;
+    position: absolute;
+}
+.line-test.test-1 {
+    width: 500px;
+    left: -70px;
+    top: 250px;
+
+    transform: rotate(90deg);
+}
+
+.reviews-test {
+    background-color: #FF8E8E;
+    color: var(--black-color);
+    border: 1px solid #000000;
+    white-space: nowrap;
+
+    position: absolute;
+    z-index: 1;
+    font-size: 10.5px; 
+}
+.reviews-test.army-corps-test {
+    left: 210px;
+    top: 4px;
+    height: 45px;
+    width: 425px;
+    border-radius: 0px;
+    
+    font-weight: 500;
+    padding-top: 3px;
+    text-align: center;
+}
+.reviews-test.btn-1-test {
+    left: 234px;
+    top: 26px;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    z-index: 2;
+    font-size: 9px;
+    background: #FFD0D0;
+    text-align: center;
+}
+.reviews-test.btn-2-test {
+    left: 434px;
+    top: 26px;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    z-index: 2;
+    font-size: 9px;
+    background: #FFD0D0;
+    text-align: center;
+}
+.reviews-test.fish-wildlife-test {
+    left: 210px;
+    top: 52px;
+    height: 44px;
+    width: 425px;
+    
+    font-weight: 500;
+    padding-top: 3px;
+    text-align: center;
+    border-radius: 0px;
+}
+.reviews-test.btn-3-test {
+    left: 295px;
+    top: 73px;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    z-index: 2;
+    font-size: 9px;
+    background: #FFD0D0;
+    text-align: center;
+}
+.reviews-test.btn-4-test {
+    left: 435px;
+    top: 73px;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    z-index: 2;
+    font-size: 9px;
+    background: #FFD0D0;
+    text-align: center;
+}
+
+.inter-test {
+    left: 210px;
+    top: 105px;
+    height: 90px;
+    width: 250px;
+
+    z-index: 1;
+    position: absolute;
+}
