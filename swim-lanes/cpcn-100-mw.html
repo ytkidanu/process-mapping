@@ -21,83 +21,180 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <swim-bar></swim-bar>
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
+        <span class="navbar-logo"> <h2> <a style="text-decoration: none; color: black;" href="../index.html">The Virginia Solar Permit Map</a></h2> 
+            <div class="collapse navbar-collapse">
+                <span class="d-md-block">An Interactive Map Detailing Permits Required for Solar Permits in Virginia</span>
+            </div>
+        </span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav h5">
+            <li class="nav-item px-2">
+                <a href="../index.html" class="nav-link"> Home </a>
+            </li>
+
+            <li class="nav-item px-2">
+                <a href="../about.html" class="nav-link"> About </a>
+            </li>
+
+            <li class="nav-item px-2">
+                <a href="../inter-map.html" class="nav-link"> Interconnections</a>
+            </li>
+
+            <li class="nav-item dropdown px-2">
+                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Process Maps </a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li>
+                            <a href="exempt-130-permit.html" class="dropdown-item">
+                                Exemption from DEQ Section 130 Permit
+                            </a>
+                        </li>
+
+                        <li><hr class="dropdown-divider"></li>
+
+                        <li>
+                            <a href="deq-130-permit.html" class="dropdown-item">
+                                DEQ Section 130 Permit
+                            </a>
+                        </li>
+
+                        <li><hr class="dropdown-divider"></li>
+              
+                        <li>
+                            <a href="noi-500-kw.html" class="dropdown-item">
+                                SCC NOI to Construct an EGF with Rated Capacity of &lt5 MW
+                            </a>
+                        </li>
+
+                        <li><hr class="dropdown-divider"></li>
+              
+                        <li>
+                            <a href="deq-pbr.html" class="dropdown-item">
+                                DEQ Permit by Rule of Full Solar Energy Project 
+                            </a>
+                        </li>
+
+                        <li><hr class="dropdown-divider"></li>
+              
+                        <li>
+                            <a href="cpcn-5-mw.html" class="dropdown-item">
+                                SCC CPCN for Facilities 5 MW to 100 MW
+                            </a>
+                        </li>
+
+                        <li><hr class="dropdown-divider"></li>
+              
+                        <li>
+                            <a href="cpcn-100-mw.html" class="dropdown-item">
+                                SCC CPCN for Facilities &gt100 MW 
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <div class="container">
+        <br>
+        <div class="text-center txt-test mw-100-title-"> SCC Renewable Energy Generating Facilities with Rating Capacities &gt; 100 MW 
+        <br> 
+        <sub style="font-size: 16px; font-weight: normal;">(SCC CPCN for Facilities &gt100 MW) 
+        <br> 
+        20VAC5-302-20</sub></div>
+
         <div class="row">
-          <div class="col"></div>
+            <div class="col"></div>
+            <div class="col-10">
+                <div style="line-height: 75%"><br></div>
+                <button class="btn btn-light" style="font-weight: 500;" data-bs-toggle="modal" data-bs-target="#abbrev-modal"> Abbreviations </button>
+                <abbrev-list></abbrev-list>
+                <div style="line-height: 115%"><br></div>
 
-          <div class="content col-10">
-            <div class="txt mw-100-title"> SCC Renewable Energy Generating Facilities with Rating Capacities &gt; 100 MW <br> <sub style="font-size: 16px; font-weight: normal;">(SCC CPCN for Facilities &gt100 MW) 20VAC5-302-20</sub></div>
-            <swim-lane></swim-lane>
+                <div class="container-scroll">
+                    <div class="container-swimlane">
+                        <swimlanes>
+                            <div class="lane-test federal-test"> Federal Reviews </div>
+                            <div class="lane-test interconnections-test"> Interconnection </div>
+                            <div class="lane-test localities-test"> Localities</div>
+                            <div class="lane-test deq-test"> DEQ </div>  
+                            <div class="lane-test scc-test"> SCC </div>
 
-            <scc>
-              <div class="line line-27"></div>
-              <div class="line line-43"></div>
-              <div class="scc scc-100-mw-4"> Issuance of Permit </div>
-              <div class="scc scc-100-mw-1">20VAC5-302-20 Components</div>
-            </scc>
+                            <div class="line test-1"></div>
+                        </swimlanes>
 
-            <deq>
-              <div class="deq deq-1"> <i>Best Practice</i><br>Informal Sister Review Process before going to localities for applications </div>
-              <div class="btn btn-light deq deq-2" data-bs-toggle="modal" data-bs-target="#sister-modal"> <b>DEQ Courtesy Sister Agency Process</b> </div>
+                        <federalreviews>
+                            <div class="reviews-test army-corps-test">United States Army Corps of Engineers</div>
+                            <button class="reviews-test btn btn-1-test">Clean Water Act, Section 401 Certification</button>
+                            <button class="reviews-test btn btn-2-test">Clean Water Act, Section 404 Permit</button>
+                            <div class="reviews-test fish-wildlife-test">United States Fish and Wildlife Service</div>
+                            <button class="reviews-test btn btn-3-test">Habitat Conservation Plan</button>
+                            <button class="reviews-test btn btn-4-test">New Incidental Take Permit</button>
+                        </federalreviews>
 
-              <button class="btn btn-light deq deq-3" data-bs-toggle="modal" data-bs-target="#dot-modal"> DOT </button>
-              <button class="btn btn-light deq deq-4" data-bs-toggle="modal" data-bs-target="#dhr-modal"> DHR </button>
-              <button class="btn btn-light deq deq-5" data-bs-toggle="modal" data-bs-target="#dcr-modal"> DCR </button>
-              <button class="btn btn-light deq deq-6" data-bs-toggle="modal" data-bs-target="#dwr-modal"> DWR </button>
+                        <interconnection>
+                            <img src="../images/OffPage.png" class="inter-test btn"></img>
+                            <img src="../images/InterDocument.png" class="inter-test-doc-1 btn"><img>
+                            <img src="../images/InterDocument.png" class="inter-test-doc-2 btn"><img>
+                            <div class="txt-test txt-inter-1-test text-center">To: Interconnection <br> Permit Process Map</div>
+                            <div class="txt-test txt-inter-2-test text-center">Interconnection <br> Service Agreement</div>
+                            <div class="txt-test txt-inter-3-test text-center">Inter. Construction <br> Service Agreement</div>
 
-              <div class="deq deq-7"> <i>Deadline</i><br>DHR must be submitted no less than 30 days prior to the start date of the project </div>
-              <div class="deq deq-8 btn-light btn" data-bs-toggle="modal" data-bs-target="#stormwater-permit"> General Construction Stormwater Permit &#40;VPDES, SWPPP, E&S&#41; </div>
-              <div class="line line-26"></div>
-              <div class="line line-45"></div>
-              
-              <sister-agency></sister-agency>
-              <deq-></deq->
-            </deq>
+                            <div class="line test-2"></div>
+                        </interconnection>
 
-            <localities>
-              <div class="local local-1"> <i> Best Practice </i><br>Developer notifies<br>the locality before beginning DEQ </div>
-              <div data-bs-toggle="modal" data-bs-target="#local-meetings" class="btn btn-light local local-2"> 1. Pre-Application Meetings<br>2. Community Meetings<br>3. Public Engagement </div>
-              <div data-bs-toggle="modal" data-bs-target="#local-certification" class="btn btn-light local local-3"> Location Certification Process &#40;Zoning, 2232 Review, Sitting Agreement&#41; </div>
-              <div data-bs-toggle="modal" data-bs-target="#permits-inspections" class="btn btn-light local local-4"> Construction Permit and Inspections &#40;Electrical, Land Disturbing, Traffic Planning&#41; </div>
+                        <localities>
+                            <div class="local local-test-1"><i>Best Practice</i><br>Developer notifies the locality before or at the same time as submitting the NOI to the SCC</div>
+                            <div class="local local-test-2">1. Pre-Application Meetings <br> 2. Community Meetings <br> 3. Public Engagements</div>
+                            <div class="local local-test-3">Location Certification Process (Zoning, 2232 Review, Siting Agreement)</div>
+                            <div class="local local-test-4">Construction Permits and Inspections (Electrical, Land Disturbance, Traffic Planning)</div>
 
-              <div class="line line-25"></div>
-              <div class="line line-47"></div> 
-              <div class="line line-49"></div> 
-              <div class="line line-50"></div>
+                            <div class="line test-3"></div>
+                        </localities>
 
-              <localities-></localities->
-            </localities>
-            
-            <interconnections>
-              <div class="lane interconnections-100"> Large Interconnections </div>
+                        <deq>
+                            <div class="deq deq-test-1">DEQ Office of Env. Impact & Courtesy Sister Agencies</div>
+                            <div class="deq deq-test-6 btn">Apply for General Construction Stormwater Permit (VPDES, SWPPP, E&S)</div>
+                            <div class="deq deq-test-7 btn">Issuance of <br>General Construction <br>Stormwater Permit</div>
+                            <div class="deq deq-test-8 btn"><i>Best Practice</i> <br>Informal Sister Agency Review process before local certification</div>
+                            <div class="deq deq-test-2 btn">DEQ</div>
+                            <div class="deq deq-test-3 btn">DHQ</div>
+                            <div class="deq deq-test-4 btn">DCQ</div>
+                            <div class="deq deq-test-5 btn">DWQ</div>
 
-              <div class="line line-23"></div>
-              <div class="line line-24"></div>
-              <div class="line line-48"></div> 
+                            <div class="line test-4"></div>
+                        </deq>
 
-              <div data-bs-toggle="modal" data-bs-target="#inter-request" class="btn btn-light inter inter-8"> Generation <br> Inter. Request </div>
-              <div data-bs-toggle="modal" data-bs-target="#deficiency" class="btn btn-light inter inter-9"> Deficiency Review</div>
-              <div data-bs-toggle="modal" data-bs-target="#position-granted" class="btn btn-light inter inter-10"> Queue Position Granted </div>
-              <div data-bs-toggle="modal" data-bs-target="#feasibility" class="btn btn-light inter inter-11"> Feasibility <br> Study </div>
-              <div data-bs-toggle="modal" data-bs-target="#system-impact" class="btn btn-light inter inter-12"> System Impact Study</div>
-              <div data-bs-toggle="modal" data-bs-target="#facilities-studies" class="btn btn-light inter inter-16"> Facilties Studies </div>
-              <img src="../images/InterDocument.png" class="inter-doc-3"></img>
-              <div data-bs-toggle="modal" data-bs-target="#inter-services" class="btn txt isa-gt"> Interconnection <br>Service Agreement</div>
-              <img src="../images/InterDocument.png" class="inter-doc-4"></img>
-              <div data-bs-toggle="modal" data-bs-target="#construct-services" class="btn txt csa-gt">Inter. Construction <br> Service Agreement</div>
-              
-              <inter-></inter->
-            </interconnections>
-          </div>
+                        <scc>
+                            <div class="scc scc-test-1"><i>Best Practice</i> <br>File for CPCN at the same time as the locality application</div>
+                            <div class="scc scc-test-2">Submit Pre-Filed Testimony in Support of Application (Public Notice and Hearings Requirements for Projects ≥ 150 MW)<br></div>
+                            <div class="scc scc-test-3">Application for SCC Authority to Construct <br> and Operate an EGF<br></div>
+                            <div class="scc scc-test-4">Issuance of Permit</div>
 
-          <div class="col"></div>
+                            <div class="line test-5"></div>
+                        </scc>
+
+                        <div class="line test-6"></div>
+                        <div class="line test-7"></div>
+                        <div class="line test-8"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
         </div>
     </div>
 
-    <footer-></footer->
+    <br><br>
+
+    <footer-test class="bg-light">
+      <img src="../images/VAEnergyLogo.png" class="va-energy-logo"> <img src="../images/VTLogo.png" class="vt-logo">
+    </footer-test>
 
 </body>
 </html>
