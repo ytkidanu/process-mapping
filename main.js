@@ -81,77 +81,82 @@ class NavBar extends HTMLElement {
 class SwimLaneNavBar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <nav class="navbar navbar-expand navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
-                    <span class="navbar-logo"> <h2> The Virginia Solar Permit Map </h2> 
-                    An Interactive Process Map Detailing the Various Permits Required for Solar Permits in Virginia </span>
-                    <div class="collapse navbar-collapse"></div>
-                        <ul class="navbar-nav h5">
-                            <li class="nav-item px-2">
-                                <a href="../index.html" class="nav-link"> Home </a>
-                            </li>
-
-                            <li class="nav-item px-2">
-                                <a href="../about.html" class="nav-link"> About </a>
-                            </li>
-
-                            <li class="nav-item px-2">
-                                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#abbrev-modal">
-                                    Abbreviations
-                                </a>
-                            </li>
-
-                            <li class="nav-item dropdown px-2">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Process Maps </a>
-                                    <ul class="dropdown-menu dropdown-menu-end">
-                                        <li>
-                                            <a href="exempt-130-permit.html" class="dropdown-item">
-                                                Exemption from DEQ Section 130 Permit
-                                            </a>
-                                        </li>
-
-                                        <li><hr class="dropdown-divider"></li>
-
-                                        <li>
-                                            <a href="deq-130-permit.html" class="dropdown-item">
-                                                DEQ Section 130 Permit
-                                            </a>
-                                        </li>
-
-                                        <li><hr class="dropdown-divider"></li>
-                            
-                                        <li>
-                                            <a href="noi-500-kw.html" class="dropdown-item">
-                                                SCC NOI to Construct an EGF with Rated Capacity of &lt5 MW
-                                            </a>
-                                        </li>
-
-                                        <li><hr class="dropdown-divider"></li>
-                            
-                                        <li>
-                                            <a href="deq-pbr.html" class="dropdown-item">
-                                                DEQ Permit by Rule of Full Solar Energy Project 
-                                            </a>
-                                        </li>
-
-                                        <li><hr class="dropdown-divider"></li>
-                            
-                                        <li>
-                                            <a href="cpcn-5-mw.html" class="dropdown-item">
-                                                SCC CPCN for Facilities 5 MW to 100 MW
-                                            </a>
-                                        </li>
-
-                                        <li><hr class="dropdown-divider"></li>
-                            
-                                        <li>
-                                            <a href="cpcn-100-mw.html" class="dropdown-item">
-                                                SCC CPCN for Facilities &gt100 MW 
-                                            </a>
-                                        </li>
-                                    </ul>
+                    <span class="navbar-logo"> <h2> <a style="text-decoration: none; color: black;" href="../index.html">The Virginia Solar Permit Map</a></h2> 
+                        <div class="collapse navbar-collapse">
+                            <span class="d-md-block">An Interactive Map Detailing Permits Required for Solar Permits in Virginia</span>
+                        </div>
+                    </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav h5">
+                        <li class="nav-item px-2">
+                            <a href="../index.html" class="nav-link"> Home </a>
+                        </li>
+            
+                        <li class="nav-item px-2">
+                            <a href="../about.html" class="nav-link"> About </a>
+                        </li>
+            
+                        <li class="nav-item px-2">
+                            <a href="../inter-map.html" class="nav-link"> Interconnections</a>
+                        </li>
+            
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Process Maps </a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <a href="exempt-130-permit.html" class="dropdown-item">
+                                            Exemption from DEQ Section 130 Permit
+                                        </a>
+                                    </li>
+            
+                                    <li><hr class="dropdown-divider"></li>
+            
+                                    <li>
+                                        <a href="deq-130-permit.html" class="dropdown-item">
+                                            DEQ Section 130 Permit
+                                        </a>
+                                    </li>
+            
+                                    <li><hr class="dropdown-divider"></li>
+                        
+                                    <li>
+                                        <a href="noi-500-kw.html" class="dropdown-item">
+                                            SCC NOI to Construct an EGF with Rated Capacity of &lt5 MW
+                                        </a>
+                                    </li>
+            
+                                    <li><hr class="dropdown-divider"></li>
+                        
+                                    <li>
+                                        <a href="deq-pbr.html" class="dropdown-item">
+                                            DEQ Permit by Rule of Full Solar Energy Project 
+                                        </a>
+                                    </li>
+            
+                                    <li><hr class="dropdown-divider"></li>
+                        
+                                    <li>
+                                        <a href="cpcn-5-mw.html" class="dropdown-item">
+                                            SCC CPCN for Facilities 5 MW to 100 MW
+                                        </a>
+                                    </li>
+            
+                                    <li><hr class="dropdown-divider"></li>
+                        
+                                    <li>
+                                        <a href="cpcn-100-mw.html" class="dropdown-item">
+                                            SCC CPCN for Facilities &gt100 MW 
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
+                    </div>
                 </div>
             </nav>
             `;
