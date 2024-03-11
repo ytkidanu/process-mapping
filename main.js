@@ -225,6 +225,11 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> Env. </th>
+                        <td> Environment </td>
+                    </tr>
+
+                    <tr>
                         <th scope="row"> FERC </th>
                         <td> Federal Energy Regulatory Comission </td>
                     </tr>
@@ -277,6 +282,11 @@ class Abbrev extends HTMLElement {
                     <tr>
                         <th scope="row"> SCC </th>
                         <td> State Coporation Commission </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> SGF </th>
+                        <td> Small Generating Facility </td>
                     </tr>
 
                     <tr>
