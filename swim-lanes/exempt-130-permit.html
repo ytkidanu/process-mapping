@@ -21,78 +21,54 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 
+<swim-bar></swim-bar>
+
 <body>
-    <swim-bar></swim-bar>
-
     <div class="container">
+        <br>
+        <div class="text-center txt-test mw-100-title-"> Exemption from DEQ Small Solar PV Facility Notice of Intent 
+        <br>
+        <sub style="font-size: 16px; font-weight: normal;">(Exempt from DEQ Section 130 Permit) 
+        <br> 
+        VAC-15-60-130</sub></div>
+
         <div class="row">
-          <div class="col"></div>
+            <div class="col"></div>
+            <div class="col-10">
+                <div style="line-height: 75%"><br></div>
+                <button class="btn btn-light" style="font-weight: 500;" data-bs-toggle="modal" data-bs-target="#abbrev-modal"> Abbreviations </button>
+                <abbrev-list></abbrev-list>
+                <div style="line-height: 115%"><br></div>
 
-          <div class="content col-10">
-            <div class="txt exempt-permit-title"> Exemption from DEQ Small Solar PV Facility Notice of Intent <br> <sub style="font-size: 16px; font-weight: normal;"> (Exempt from DEQ Section 130 Permit) VAC-15-60-130 </sub></div>
-            <div class="txt operational-exempt"> Operational Start Date </div>
+                <div class="container-scroll">
+                  <div class="container-swimlane-exempt">
+                      <swimlanes>
+                        <div class="lane-test interconnections-test-exempt">Interconnection</div>
+                        <div class="lane-test localities-test-exempt">Localities</div>
 
-            <div class="line line-59"></div>
-            <div class="line line-63"></div>
-            <div class="line line-64"></div>
-            <div class="arrow-head-exempt"> &#9658 </div>
+                        <div class="line test-1-exempt"></div>
+                      </swimlanes>
 
-            <abbrev-list></abbrev-list>
-            
-            <interconnections>
-              <div class="lane interconnections-exempt"> Interconnections </div>
+                      <interconnection>
+                        <img src="../images/OffPage.png" class="inter-test-exempt btn"></img>
+                        <div class="txt-test txt-inter-1-test-exempt text-center">Interconnection <br> Permit Process Map</div>
+                      </interconnection>
 
-              <button type="button" id="sgip-btn" class="mw-20 btn-11 btn btn-light btn-sm"> SGIP Lvl. 1</button>
-              <button type="button" id="distr-btn" class="mw-20 btn-12 btn btn-light btn-sm"> Distr. </button>  
-
-              <div id="line-1" class="line line-60"></div>
-              <div id="line-2" class="line line-61"></div>
-              <div id="line-3" class="line line-62"></div>
-
-              <div id="sgip" data-bs-toggle="modal" data-bs-target="#sgip-level-1" class="btn btn-light inter inter-14"> SGIP Level 1 Pathway </div>
-
-              <script type="text/javascript"> 
-                $("#sgip-btn").click(function() {
-                  $("#line-1").show();
-                  $("#line-2").show();
-                  $("#line-3").show();
-                  $("#sgip").show();
-                });
-
-                $("#distr-btn").click(function() {
-                  $("#line-1").hide();
-                  $("#line-2").hide();
-                  $("#line-3").hide();
-                  $("#sgip").hide();
-                });
-              </script>
-
-            </interconnections>
-
-            <div class="modal fade" id="sgip-level-1" tabindex="-1" role="dialog">
-              <div class="modal-dialog modal-lg" role="document">
-                  <div class="modal-content">
-                      <div class="modal-header">
-                          <h5 class="modal-title" id="title">SGIP Level 1 Pathway</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                      </div>
-  
-                      <div class="modal-body">
-                        As laid out in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section40/ ">20VAC5-314-40</a> of the Virginia Administrative Code: <br><br>
-                        "B. The IC shall submit (i) a complete Level 1 Interconnection Request Form (Schedule 5 of 20VAC5-314-170); (ii) site control documentation pursuant to Schedule 5 of 20VAC5-314-170; and (iii) the required $100 processing fee to the utility. Alternatively, the utility may require use of a commission-approved Interconnection Request Form similar to Schedule 5 of 20VAC5-314-170, which shall be made available to customers on the utility's website."
-                        <br><br>
-                        The utility shall then notify the IC of any defficiences and necessary modifications. Once any required modifications or additions (As provided for in 20VAC5-314-40-C) and the additional requirements in 20VAC5-314-40-D are completed, the IC may begin operation of an SGF.
-                      </div>
+                      <localities>
+                        <div class="local local-test-exempt">Local Processes Vary</div>
+                      </localities>
                   </div>
-              </div>
+                </div>
             </div>
-          </div>
-
-          <div class="col"></div>
+            <div class="col"></div>
         </div>
     </div>
 
-    <footer-></footer->
+    <br><br>
+
+    <footer-test class="bg-light">
+      <img src="../images/VAEnergyLogo.png" class="va-energy-logo"> <img src="../images/VTLogo.png" class="vt-logo">
+    </footer-test>
 
 </body>
 </html>

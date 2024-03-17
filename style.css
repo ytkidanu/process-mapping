@@ -2313,6 +2313,16 @@ about-footer {
     
     position: absolute;
 }
+.txt-test.txt-inter-1-test-exempt {
+    top: 32.5px;
+    left: 265px;
+    z-index: 1;
+
+    font-size: 12px;
+    font-weight: 500;
+    
+    position: absolute;
+}
 .txt-test.txt-inter-2-test {
     top: 132px;
     left: 748px;
@@ -2337,6 +2347,15 @@ about-footer {
 .container-swimlane {
     width: 1075px;
     height: 500px;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
+.container-swimlane-exempt {
+    width: 1075px;
+    height: 200px;
 
     position: relative;
 
@@ -2382,10 +2401,28 @@ footer-test {
     font-weight: 500;
     padding: 35px 30px;
 }
+.lane-test.interconnections-test-exempt {
+    background: #FFECC8;
+    left: 0px;
+    top: 0px;
+
+    font-size: 16px;
+    font-weight: 500;
+    padding: 35px 30px;
+}
 .lane-test.localities-test {
     background: #FDFFE5;
     left: 0px;
     top: 200px;
+
+    font-size: 16px;
+    font-weight: 500;
+    padding: 36px 50px;
+}
+.lane-test.localities-test-exempt {
+    background: #FDFFE5;
+    left: 0px;
+    top: 100px;
 
     font-size: 16px;
     font-weight: 500;
@@ -2414,6 +2451,15 @@ footer-test {
     width: 500px;
     left: -70px;
     top: 250px;
+
+    z-index: 2;
+
+    transform: rotate(90deg);
+}
+.line.test-1-exempt {
+    width: 200px;
+    left: 78px;
+    top: 100px;
 
     z-index: 2;
 
@@ -2549,6 +2595,15 @@ footer-test {
     z-index: 1;
     position: absolute;
 }
+.inter-test-exempt {
+    left: 210px;
+    top: 6px;
+    height: 90px;
+    width: 250px;
+
+    z-index: 1;
+    position: absolute;
+}
 .inter-test-doc-1 {
     left: 720px;
     top: 110px;
@@ -2579,7 +2634,17 @@ footer-test {
     border: 1px dashed #000000;
     padding: 6px 10px;
 }
+.local.local-test-exempt  {
+    left: 222.5px;
+    top: 112px;
+    width: 160px;
+    height: 76px;
 
+    font-size: 11px;
+
+    border: 1px dashed #000000;
+    padding: 28px 28px;
+}
 .local.local-test-2 {
     left: 380px;
     top: 213px;
@@ -2589,7 +2654,6 @@ footer-test {
     border: 1px solid #000000;
     padding: 13px 10px;
 }
-
 .local.local-test-3 {
     left: 540px;
     top: 213px;
@@ -2599,7 +2663,6 @@ footer-test {
     border: 1px solid #000000;
     padding: 13px 10px;
 }
-
 .local.local-test-4 {
     left: 880px;
     top: 213px;
