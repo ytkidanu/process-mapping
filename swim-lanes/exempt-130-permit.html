@@ -50,12 +50,33 @@
                       </swimlanes>
 
                       <interconnection>
-                        <img src="../images/OffPage.png" class="inter-test-exempt btn"></img>
+                        <button class="btn">
+                          <a href="../inter-map.html">
+                            <img class="inter-test-exempt btn" src="../images/OffPage.png">
+                          </a>
+                        </button>
                         <div class="txt-test txt-inter-1-test-exempt text-center">Interconnection <br> Permit Process Map</div>
                       </interconnection>
 
                       <localities>
-                        <div class="local local-test-exempt">Local Processes Vary</div>
+                        <modals>
+                          <div class="modal fade" id="local-process" tabindex="-1" role="dialog">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="title"> Local Processes Vary </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+            
+                                    <div class="modal-body">
+                                      Localities determine their own size thresholds for local permitting. Check with the authority having jurisdiction to determine if local permits are needed.
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </modals>
+
+                        <div data-bs-toggle="modal" data-bs-target="#local-process" class="btn local local-test-exempt">Local Processes Vary</div>
                       </localities>
                   </div>
                 </div>
@@ -66,9 +87,7 @@
 
     <br><br>
 
-    <footer-test class="bg-light">
-      <img src="../images/VAEnergyLogo.png" class="va-energy-logo"> <img src="../images/VTLogo.png" class="vt-logo">
-    </footer-test>
+    <footer-></footer->
 
 </body>
 </html>
