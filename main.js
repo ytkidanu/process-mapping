@@ -740,9 +740,9 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        The NOI provides the state notice that the developer intends to develop a project from 5MW up to 150 MW and use the DEQ PBR process for
-                        permitting. There are no official prerequisites for the NOI. However, it is recommended that the the developer submit for local certification and PJM before submitting NOI. The NOI is then a prerequisite for the full PBR.
-                        The NOI for Full Solar Energy Project template can be found <a href="https://www.deq.virginia.gov/home/showpublisheddocument/4676/637475305664400000">here</a>.
+                        The NOI <a href=https://www.deq.virginia.gov/permits/renewable-energy>https://www.deq.virginia.gov/permits/renewable-energy</a> provides the state notice that the developer intends to develop a project from 5MW up to 150 MW and use the DEQ PBR process for
+                        permitting. There are no official prerequisites for the NOI. NOTE: Rulemaking for HB206 may impact
+                        these timelines.
                         <br><br>
                         <b>Public Notification</b>: DEQ will publish the notice of intent in the Virginia Register for 30 days <a href="https://www.townhall.virginia.gov/L/GeneralNotice.cfm">here</a> (No public comment forum)
                         <br><br>
