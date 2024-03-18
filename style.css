@@ -662,12 +662,12 @@
     transform: rotate(90deg);
 }
 .line.line-38 {
-    width: 25px;
-    left: 995px;
-    top: 500px;
+    width: 35px;
+    left: 960px;
+    top: 495px;
 
     z-index: 2;
-    border: dashed;
+   /* border: dashed;*/
     transform: rotate(90deg);
 }
 .line.line-39 {
@@ -1965,8 +1965,9 @@ about-footer {
     top: 515px;
     border-radius: 0px;
     border: 1px dashed #000000;
-    
-    font-size: 9.5px;
+    line-height: 1.3;
+
+    font-size: 10px;
     padding: 6px;
 
 }
@@ -2154,17 +2155,19 @@ about-footer {
     border-radius: 400px;
 
 }
+
 /* dbq-pbr.html */
 .scc-pbr-1 {
-    width: 100px;
-    height: 76px;
-    left: 218px;
+    width: 150px;
+    height: 46px;
+    left: 190px;
     top: 508px;
     border-radius: 0px;
     text-align: left;
-
+    line-height: 1.3;
+    padding: 2px 12px 12px 4px;
     border: 1px dashed #000000;
-    padding: 12px 12px;
+   /* padding: 12px 12px;*/
     background: #B6F2A1;
 }
 .scc-pbr-2 {
