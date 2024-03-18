@@ -627,6 +627,7 @@
 
     z-index: 1;
 }
+
 /* dbq-pbr.html */
 .line.line-34 {
     width: 800px;
@@ -662,7 +663,7 @@
     transform: rotate(90deg);
 }
 .line.line-38 {
-    width: 35px;
+    width: 66px;
     left: 960px;
     top: 495px;
 
@@ -740,6 +741,24 @@
     top: 352px;
 
     z-index: 1;
+}
+
+.line.line-70 {
+    width: 75px;
+    left: 723px;
+    top: 490px;
+
+    z-index: 2;
+    transform: rotate(90deg);
+}
+
+.line.line-71 {
+    width: 234px;
+    left: 760px;
+    top: 527px;
+
+    z-index: 2;
+  
 }
 /* cpcn-100-mw.html */
 .line.line-43 {
@@ -1974,7 +1993,7 @@ about-footer {
 .deq.deq-pbr-2 {
     width: 278px;
     height: 76px;
-    left: 480px;
+    left: 470px;
     top: 414px;
     border-radius: 0px;
 
@@ -2024,12 +2043,12 @@ about-footer {
     padding: 6px 8px;
 }
 .deq.deq-pbr-7 {
-    width: 150px;
-    height: 78px;
-    left: 924px;
+    width: 140px;
+    height: 68px;
+    left: 778px;
     top: 508px;
 
-    border: 1px dashed #000000;
+   border: 1px solid #000000;
     padding: 7px 10px;
 }
 .deq.deq-pbr-8 {
@@ -2196,7 +2215,7 @@ about-footer {
 .scc-pbr-5 {
     width: 150px;
     height: 68px;
-    left: 780px;
+    left: 770px;
     top: 415px;
     text-align: center;
 
@@ -2210,7 +2229,7 @@ about-footer {
 .scc-pbr-6 {
     width: 150px;
     height: 68px;
-    left: 950px;
+    left: 940px;
     top: 415px;
     text-align: center;
 
