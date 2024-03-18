@@ -653,7 +653,7 @@
     transform: rotate(90deg);
 }
 .line.line-37 {
-    width: 25px;
+    width: 40px;
     left: 600px;
     top: 500px;
 
@@ -1957,27 +1957,18 @@ about-footer {
     background: #E3FBE2;
     padding: 6px 6px;
 }
-/* dbq-pbr.html */
-.txt.noi-solar-energy-1 { 
-    width: 125px;
-    height: 100px;
-    left: 200px;
-    top: 420px;
-    line-height: 1.3;
-    z-index: 2;
 
-    font-size: 9.5px;
-}
 .deq.deq-pbr-1 {
     width: 165px;
     height: 70px;
     left: 533px;
     top: 515px;
     border-radius: 0px;
-   /* text-align: left;*/
-
     border: 1px dashed #000000;
-    padding: 6px 10px;
+    
+    font-size: 9.5px;
+    padding: 6px;
+
 }
 .deq.deq-pbr-2 {
     width: 278px;
