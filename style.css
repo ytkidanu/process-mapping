@@ -1771,6 +1771,19 @@ about-footer {
 
     padding: 18px 4px;
 }
+.inter.inter-17 {
+    left: 305px;
+    top: 225px;
+    padding: 11px 3px;
+}
+.txt.inter-17 {
+    left: 962px; /* Adjust the left position as needed */
+    top: 230px; /* Adjust the top position as needed */
+    font-size: 10px; /* Adjust the font size as needed */
+    color: #000; /* Adjust the text color as needed */
+    z-index: 4; /* Ensure the text appears above the permit image */ 
+}
+
 .inter-doc-1 {
     box-sizing: border-box;
     position: absolute;
