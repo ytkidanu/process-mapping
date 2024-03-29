@@ -1771,13 +1771,9 @@ about-footer {
 
     padding: 18px 4px;
 }
-.inter.inter-17 {
-    left: 305px;
-    top: 225px;
-    padding: 11px 3px;
-}
+
 .txt.inter-17 {
-    left: 962px; /* Adjust the left position as needed */
+    left: 942px; /* Adjust the left position as needed */
     top: 230px; /* Adjust the top position as needed */
     font-size: 10px; /* Adjust the font size as needed */
     color: #000; /* Adjust the text color as needed */
@@ -1823,13 +1819,13 @@ about-footer {
 
     width: 120px;
     height: 65px;
-    left: 970px;
+    left: 950px;
     top: 225px;
 }
 
 
 .inter-permit-here {
-    position: absolute; /* Position the permit image container absolutely */
+    position: absolute; 
     width: 560px;
     height: 75px;
     left: 170px;
