@@ -282,6 +282,7 @@
 
     font-size: 12px;
 }
+
 /* exempt-130-permit.html */
 .txt.exempt-permit-title {
     left: 300px;
@@ -1577,52 +1578,62 @@ about-footer {
     font-size: 10.5px; 
 }
 .reviews.army-corps {
-    left: 210px;
+    left: 210px; /* united army corps of engineers*/
     top: 114px;
-    height: 82px;
-    width: 290px;
+    height: 41px;
+    width: 620px;
     border-radius: 0px;
     
-    padding-top: 4px;
-    text-align: center;
+    padding-top: 0.5px;
+    padding-left:64px;
+    text-align: left;
+    font-size: 9.5px; 
 }
 .reviews.btn-1 {
-    left: 224px;
-    top: 139.5px;
+    left: 224px; /* clean waters certification*/
+    top: 128.5px;
 
     font-size: 9.5px;
     background: #FFD0D0;
     text-align: center;
+    z-index: 2;
 }
-.reviews.btn-2 {
-    left: 224px;
-    top: 166px;
+.reviews.btn-2 { /* clean waters 404 permit*/
+    left: 425px;
+    top: 128.5px;
 
     font-size: 9.5px;
     background: #FFD0D0;
     text-align: center;
+    z-index: 3;
+
 }
-.reviews.fish-wildlife {
-    left: 530px;
-    top: 114px;
-    height: 82px;
-    width: 290px;
+.reviews.fish-wildlife { /* united states fish and wild life*/
+    left: 210px;
+    top: 160px;
+    height: 41px;
+    width: 620px;
     
-    padding-top: 4px;
-    text-align: center;
+    padding-top: 0.5px;
+    padding-left:64px;
+    text-align: left;
     border-radius: 0px;
+    z-index: 2;
+    font-size: 9.5px; 
 }
+
 .reviews.btn-3 {
-    left: 545px;
-    top: 139.5px;
+    
+    left: 224px; /* habitat conservation plan*/
+    top: 175px;
 
     font-size: 9.5px;
     background: #FFD0D0;
     text-align: center;
 }
 .reviews.btn-4 {
-    left: 545px;
-    top: 166px;
+    left: 360px; /* new incedental take permit*/
+    top: 175px;
 
     font-size: 9.5px;
     background: #FFD0D0;
@@ -1803,6 +1814,26 @@ about-footer {
     top: 225px;
 }
 
+
+.inter-permit-here {
+    position: absolute; /* Position the permit image container absolutely */
+    width: 560px;
+    height: 75px;
+    left: 170px;
+    top: 195px;
+    z-index: 3;
+}
+
+
+.txt-inter-1 {
+    position: absolute; /* Position the text container absolutely */
+    left: 200px; /* Adjust the left position as needed */
+    top: 230px; /* Adjust the top position as needed */
+    font-size: 12px; /* Adjust the font size as needed */
+    color: #000; /* Adjust the text color as needed */
+    z-index: 4; /* Ensure the text appears above the permit image */
+}
+
 .local {
     box-sizing: border-box;
 
@@ -1884,7 +1915,7 @@ about-footer {
 
 }
 .deq.deq-1 {
-    width: 155px;
+    width: 0px;
     height: 76px;
     left: 200px;
     top: 414px;

@@ -776,7 +776,8 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        Still in progress and will be promulgated by the end of 2024. See up-to-date information <a href="https://www.deq.virginia.gov/our-programs/air/renewable-energy/hb-206-renewable-energy-natural-resources">here</a>.
+                        Rulemaking is in progress. See up-to-date information <a href="https://www.deq.virginia.gov/our-programs/air/renewable-energy/hb-206-renewable-energy-natural-resources ">here</a>. Rules will be promulgated by the end of 2024.
+                       
                     </div>
                 </div>
             </div>
