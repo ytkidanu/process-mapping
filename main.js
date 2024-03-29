@@ -81,77 +81,82 @@ class NavBar extends HTMLElement {
 class SwimLaneNavBar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <nav class="navbar navbar-expand navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
-                    <span class="navbar-logo"> <h2> The Virginia Solar Permit Map </h2> 
-                    An Interactive Process Map Detailing the Various Permits Required for Solar Permits in Virginia </span>
-                    <div class="collapse navbar-collapse"></div>
-                        <ul class="navbar-nav h5">
-                            <li class="nav-item px-2">
-                                <a href="../index.html" class="nav-link"> Home </a>
-                            </li>
-
-                            <li class="nav-item px-2">
-                                <a href="../about.html" class="nav-link"> About </a>
-                            </li>
-
-                            <li class="nav-item px-2">
-                                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#abbrev-modal">
-                                    Abbreviations
-                                </a>
-                            </li>
-
-                            <li class="nav-item dropdown px-2">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Process Maps </a>
-                                    <ul class="dropdown-menu dropdown-menu-end">
-                                        <li>
-                                            <a href="exempt-130-permit.html" class="dropdown-item">
-                                                Exemption from DEQ Section 130 Permit
-                                            </a>
-                                        </li>
-
-                                        <li><hr class="dropdown-divider"></li>
-
-                                        <li>
-                                            <a href="deq-130-permit.html" class="dropdown-item">
-                                                DEQ Section 130 Permit
-                                            </a>
-                                        </li>
-
-                                        <li><hr class="dropdown-divider"></li>
-                            
-                                        <li>
-                                            <a href="noi-500-kw.html" class="dropdown-item">
-                                                SCC NOI to Construct an EGF with Rated Capacity of &lt5 MW
-                                            </a>
-                                        </li>
-
-                                        <li><hr class="dropdown-divider"></li>
-                            
-                                        <li>
-                                            <a href="deq-pbr.html" class="dropdown-item">
-                                                DEQ Permit by Rule of Full Solar Energy Project 
-                                            </a>
-                                        </li>
-
-                                        <li><hr class="dropdown-divider"></li>
-                            
-                                        <li>
-                                            <a href="cpcn-5-mw.html" class="dropdown-item">
-                                                SCC CPCN for Facilities 5 MW to 100 MW
-                                            </a>
-                                        </li>
-
-                                        <li><hr class="dropdown-divider"></li>
-                            
-                                        <li>
-                                            <a href="cpcn-100-mw.html" class="dropdown-item">
-                                                SCC CPCN for Facilities &gt100 MW 
-                                            </a>
-                                        </li>
-                                    </ul>
+                    <span class="navbar-logo"> <h2> <a style="text-decoration: none; color: black;" href="../index.html">The Virginia Solar Permit Map</a></h2> 
+                        <div class="collapse navbar-collapse">
+                            <span class="d-md-block">An Interactive Map Detailing Permits Required for Solar Permits in Virginia</span>
+                        </div>
+                    </span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav h5">
+                        <li class="nav-item px-2">
+                            <a href="../index.html" class="nav-link"> Home </a>
+                        </li>
+            
+                        <li class="nav-item px-2">
+                            <a href="../about.html" class="nav-link"> About </a>
+                        </li>
+            
+                        <li class="nav-item px-2">
+                            <a href="../inter-map.html" class="nav-link"> Interconnections</a>
+                        </li>
+            
+                        <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Process Maps </a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <a href="exempt-130-permit.html" class="dropdown-item">
+                                            Exemption from DEQ Section 130 Permit
+                                        </a>
+                                    </li>
+            
+                                    <li><hr class="dropdown-divider"></li>
+            
+                                    <li>
+                                        <a href="deq-130-permit.html" class="dropdown-item">
+                                            DEQ Section 130 Permit
+                                        </a>
+                                    </li>
+            
+                                    <li><hr class="dropdown-divider"></li>
+                        
+                                    <li>
+                                        <a href="noi-500-kw.html" class="dropdown-item">
+                                            SCC NOI to Construct an EGF with Rated Capacity of &lt5 MW
+                                        </a>
+                                    </li>
+            
+                                    <li><hr class="dropdown-divider"></li>
+                        
+                                    <li>
+                                        <a href="deq-pbr.html" class="dropdown-item">
+                                            DEQ Permit by Rule of Full Solar Energy Project 
+                                        </a>
+                                    </li>
+            
+                                    <li><hr class="dropdown-divider"></li>
+                        
+                                    <li>
+                                        <a href="cpcn-5-mw.html" class="dropdown-item">
+                                            SCC CPCN for Facilities 5 MW to 100 MW
+                                        </a>
+                                    </li>
+            
+                                    <li><hr class="dropdown-divider"></li>
+                        
+                                    <li>
+                                        <a href="cpcn-100-mw.html" class="dropdown-item">
+                                            SCC CPCN for Facilities &gt100 MW 
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
+                    </div>
                 </div>
             </nav>
             `;
@@ -220,6 +225,11 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> Env. </th>
+                        <td> Environment </td>
+                    </tr>
+
+                    <tr>
                         <th scope="row"> FERC </th>
                         <td> Federal Energy Regulatory Comission </td>
                     </tr>
@@ -275,6 +285,11 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> SGF </th>
+                        <td> Small Generating Facility </td>
+                    </tr>
+
+                    <tr>
                         <th scope="row"> SGIA </th>
                         <td> Small Generator Interconnection Agreement </td>
                     </tr>
@@ -321,9 +336,127 @@ class Abbrev extends HTMLElement {
 class Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <footer class="bg-light">
+            <footer-test class="bg-light">
                 <img src="../images/VAEnergyLogo.png" class="va-energy-logo"> <img src="../images/VTLogo.png" class="vt-logo">
-            </footer>
+            </footer-test>
+        `;
+    }
+}
+
+class FederalReview extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+            <div class="modal fade" id="army-corps-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title"> United States Army Corps of Engineers </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            If the project is subject to any of the following requirements, the associated permit(s) must be obtained from the U.S. 
+                            Army Corps of Engineers (USACE), with responsibility delegated to the VA DEQ. Further information on VA DEQ responsibilities can 
+                            be found <a href="https://www.deq.virginia.gov/laws-regulations/water" target="_blank">here</a>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="section-permit-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title"> Clean Water Act, Section 404 Permit </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            Section 404 of the <a href='https://www.epa.gov/cwa-404/permit-program-under-cwa-section-404' target="_blank">Clean Water Act</a> requires that projects which are in or affect navigable bodies of water obtain a Section 404 Permit before dredged or fill material may be discharged into waters of the U.S. In Virginia, local jursidction falls under the Virginia Water Protection (VWP) permit regulations.
+                            <br> <br> According to the DEQ, "Authority to protect wetlands and streams and administer Virginia Water Protection (VWP) permit regulations is given by <a href='https://law.lis.virginia.gov/vacode/62.1-44.15:20/' target="_blank">§62.1-44.15:20</a> of the Code of Virginia. The over-arching regulation for the VWP permit program is found in <a href=' https://law.lis.virginia.gov/admincode/title9/agency25/chapter210/' target="_blank">9VAC25-210</a>.
+                            <br> <br> The associated permit is issued under 22-SPGP-RCIR. Follow the <a href='https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf' target="_blank">Joint Permit Application (JPA) Process</a>. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal
+                            wetlands, and/or dune/beach resources – including, but not limited to,
+                            construction, dredging, filling, or excavation. Contact information can be found on the linked application materials.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="certification-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title"> Clean Water Act, Section 401 Certification </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            Section 401 of the <a href='https://www.epa.gov/cwa-401/overview-cwa-section-401-certification'  target="_blank">Clean Water Act (CWA)</a> provides states and authorized tribes with an important tool to help protect the water quality of federally regulated waters within their borders, in collaboration with federal agencies. Section 401 of the CWA requires that, for any federally licensed or permitted project that may result in a discharge into waters of the United States, a water quality certification be issued to ensure that the discharge complies with the applicable water quality requirements. In Virginia, local jursidction falls under the Virginia Water Protection (VWP) permit regulations. See the VA DEQ permitting process for further requirements and notices or public hearings.
+
+                            <br><br>According to the DEQ, "Authority to protect wetlands and streams and administer Virginia Water Protection (VWP) permit regulations is given by <a href='https://law.lis.virginia.gov/vacode/62.1-44.15:20/' target="_blank">§62.1-44.15:20</a> of the Code of Virginia. The over-arching regulation for the VWP permit program is found in <a href='https://law.lis.virginia.gov/admincode/title9/agency25/chapter210/' target="_blank">9VAC25-210</a>".
+                            
+                            <br><br>The associated permit is issued under 22-SPGP-RCIR. Follow the <a href='https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf' target="_blank">Joint Permit Application (JPA) Process</a>. Contact information can be found on the linked application materials. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal
+                            wetlands, and/or dune/beach resources – including, but not limited to,
+                            construction, dredging, filling, or excavation. Contact information can be found on the linked application materials.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="fish-wildlife-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title"> United States Fish and Wildlife Service </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            If the project is subject to any of the following requirements, the associated permit(s) must be obtained from the U.S. Fish and Wildlife Service (Service), with responsibility delegated to the VA DEQ.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="habitat-conservation-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title"> Habitat Conservation Plan </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            The Endangered Species Act provides for the protection of endangered and threatened species of wildlife and plants. When non-Federal parties plan to interact with ecosystems containing such species, it is required by <a href='https://www.fws.gov/laws/endangered-species-act/section-10' target="_blank">Section 10(a)(2)(A)</a> of the Act to develop a Habitat Conservation Plan (HCP). HCPs must meet the permit issuance criteria of section <a href="https://www.fws.gov/laws/endangered-species-act/section-10" target="_blank">10(a)(2)(B)</a> of the Endangered Species Act. HCPs can also include conservation measures for vulnerable plant and animal species that are not listed federally as endangered or threatened.
+
+                            <br><br> The habitat conservation plan associated with the permit ensures that the effects of the authorized incidental take are adequately minimized and mitigated.
+                            
+                            <br><br>According to the <a href='https://www.fws.gov/service/habitat-conservation-plans' target="_blank">Service</a>:
+                            "A Habitat Conservation Plan (HCP) is a planning document designed to accommodate economic development to the extent possible by authorizing the limited and unintentional take of listed species when it occurs incidental to otherwise lawful activities. The plan is designed not only to help landowners and communities but also to provide long-term benefits to species and their habitats. HCPs describe the anticipated effects of the proposed taking, how those impacts will be minimized or mitigated, and how the conservation measures included in the plan will be funded."
+                            
+                            <br><br> <i>Before drafting the HCP, it is strongly recommended to consult with the local field office of the Service to determine whether the HCP meets the respective policy and incidental take permit issuance criteria. Find your local field office <a href='https://www.fws.gov/our-facilities?state_name=%5B%22Virginia%22%5D' target="_blank">here<a>. 
+                            Check for existing HCPs that individual landowners can join – programmatic HCPs – before drafting your own. Programmatic HCPs are often county- or even region-wide.</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="new-incidental-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title"> New Incidental Take Permit </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            An incidental take permit is required if otherwise lawful activities may unintentionally result in any "take" of endangered or threatened animal species. A completed Habitat Conservation Plan (HCP) must accompany any application for an incidental take permit. If the Service finds that an HCP meets the Endangered Species Act section <a href="https://www.fws.gov/laws/endangered-species-act/section-10" target="_blank">10(a)(1)(B)</a> incidental take permit issuance criteria, they will unlock the incidental take permit application. The applicant must then submit the completed incidental take permit (with the associated HCP) to the Service.
+
+                            <br><br>See <a href="https://www.fws.gov/service/habitat-conservation-plans" target="_blank">here</a> for further information on HCPs and associated incidental take permits.
+                        </div>
+                    </div>
+                </div>
+            </div>
         `;
     }
 }
@@ -516,14 +649,6 @@ class SwimLane extends HTMLElement {
                     </div>
                 </div>
             </div>
-        `;
-    }
-}
-
-class Title extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
-            <title> Solar Permit Map </title>
         `;
     }
 }
@@ -1245,11 +1370,12 @@ customElements.define('swim-bar', SwimLaneNavBar);
 customElements.define('abbrev-list', Abbrev);
 customElements.define('footer-', Footer);
 customElements.define('swim-lane', SwimLane);
-customElements.define('title-', Title);
 customElements.define('sister-agency', SisterAgencyModal);
 customElements.define('deq-', DEQ);
 customElements.define('inter-', Interconnections);
 customElements.define('localities-', Localities);
+customElements.define('federal-reviews', FederalReview);
+
 
 $('#myModal').on('shown.bs.modal', function() {
     $('#myInput').trigger('focus')
