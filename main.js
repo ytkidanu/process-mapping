@@ -356,8 +356,7 @@ class FederalReview extends HTMLElement {
 
                         <div class="modal-body">
                             If the project is subject to any of the following requirements, the associated permit(s) must be obtained from the U.S. 
-                            Army Corps of Engineers (USACE), with responsibility delegated to the VA DEQ. Further information on VA DEQ responsibilities can 
-                            be found <a href="https://www.deq.virginia.gov/laws-regulations/water" target="_blank">here</a>.
+                            Army Corps of Engineers (USACE).
                         </div>
                     </div>
                 </div>
